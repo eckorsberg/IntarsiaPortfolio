@@ -5,12 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intarsia Wood Art Gallery by Ed Korsberg</title>
   <style>
-    body { font-family: sans-serif; padding: 2em; background-color: #fdfdfd; }
-    h1 { font-size: 2em; }
-    .gallery { display: flex; flex-direction: column; gap: 1em; }
-    .item { background: #eee; padding: 1em; border-radius: 10px; }
-    a { font-weight: bold; text-decoration: none; color: #2c3e50; }
-    a:hover { color: #2980b9; }
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      background-color: #fdfdfd;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .item {
+      background: #eee;
+      padding: 1.5em;
+      border-radius: 10px;
+      text-align: center;
+    }
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #2c3e50;
+      font-size: 1.2em;
+    }
+    a:hover {
+      color: #2980b9;
+    }
   </style>
 </head>
 <body>
