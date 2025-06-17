@@ -2,17 +2,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ed Korsberg Woodart Portfolio</title>
-    <style>
-        body { font-family: sans-serif; padding: 20px; }
-        .gallery a {
-            display: block;
-            margin-bottom: 10px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Intarsia Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      display: block;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    .gallery-caption {
+      margin-top: 0.5rem;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
     <h1>🎨 Intarsia Portfolio</h1>
