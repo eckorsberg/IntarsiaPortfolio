@@ -4,15 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Ed Korsberg Woodart Portfolio</title>
-    <style>
-        body { font-family: sans-serif; padding: 20px; }
-        .gallery a {
-            display: block;
-            margin-bottom: 10px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-    </style>
+	<style>
+	div {text-align: center;}
+	body {
+	  font-family: sans-serif;		/* Clean, modern text */
+	  padding: 2em;					/* Space inside page */
+	  background-color: #fdfdfd;	/* Light background */
+	  margin: 0;					/* Space around page edges */
+	}
+	h1 {
+	  font-size: 2em;				/* Dark blue header */
+	  text-align: center;
+	}
+	.gallery {
+	  display: grid;				/* Grid layout for tiles */
+	  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	  gap: 1em;						/* Space between tiles */
+	  margin-top: 2em;
+	}
+	.item {
+	  background: #eee;				/* Light gray tile background */
+	  padding: 1.5em;				/* Space inside tiles */
+	  border-radius: 10px;			/* Rounded corners */
+	  text-align: center;
+	}
+	a {
+	  font-weight: bold;
+	  text-decoration: none;		/* Removes underline */
+	  color: #2c3e50;
+	  font-size: 1.2em;
+	}
+	a:hover {
+	  color: #2980b9;				/* Changes color on hover */
+	}
+	</style>
 </head>
 <body>
     <h1>🎨 Intarsia Portfolio</h1>
