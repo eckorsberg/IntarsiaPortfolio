@@ -36,11 +36,16 @@
     .gallery img:hover {
       transform: scale(1.03);
     }
-    .gallery-caption {
-      margin-top: 0.5rem;
-      text-align: center;
-      font-weight: bold;
-    }
+	.gallery-caption {
+	  margin-top: 0.5rem;
+	  text-align: center;
+	  font-weight: bold;
+	  word-wrap: break-word;
+	  overflow-wrap: break-word;
+	  white-space: normal; /* allow wrapping */
+	  padding: 0 0.5rem;   /* optional spacing to avoid edge hugging */
+	  max-width: 100%;
+	}
   </style>
 </head>
 <body>
