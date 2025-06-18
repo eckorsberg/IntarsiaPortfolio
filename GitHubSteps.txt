@@ -1,0 +1,21 @@
+https://github.com/eckorsberg/IntarsiaPortfolio
+https://github.com/eckorsberg/WordleSolver
+
+https://api.github.com/repos/eckorsberg/IntarsiaPortfolio
+https://api.github.com/repos/eckorsberg/WordleSolver
+
+
+#create a new repository on the command line
+echo "# IntarsiaPortfolio2" >> README.md
+git init
+git add README.md
+git config user.email "ed.korsberg@gmail.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/eckorsberg/IntarsiaPortfolio2.git
+git push -u origin main
+
+#push an existing repository from the command line
+git remote add origin https://github.com/eckorsberg/IntarsiaPortfolio2.git
+git branch -M main
+git push -u origin main
