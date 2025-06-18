@@ -6,7 +6,6 @@ GALLERY_JSON = os.path.join(BASE_DIR, "gallery.json")
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
 IMAGES_DIR = os.path.join(BASE_DIR, "images")
 FULL_DIR = os.path.join(BASE_DIR, "images_full")
-INDEX_HTML = os.path.join(BASE_DIR, "index.html")
 
 # Load artwork metadata
 with open(GALLERY_JSON, "r", encoding="utf-8") as f:
@@ -40,7 +39,7 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
 </html>
 '''
 
-# Generate detail pages
+# Generate detail pages only (index.html is not touched)
 for item in gallery:
     page_path = os.path.join(BASE_DIR, item["file"])
     base_key = os.path.splitext(os.path.basename(page_path))[0].lower()
@@ -60,37 +59,4 @@ for item in gallery:
     with open(page_path, "w", encoding="utf-8") as f:
         f.write(content)
 
-# Generate index.html using external style.css
-INDEX_TEMPLATE = '''<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Intarsia Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Ed Korsberg's Intarsia Portfolio</h1>
-  <div class="intro-text">
-    <p>Intarsia is a form of woodworking in which various shapes, sizes and species of wood are fitted together to create a mosaic-like picture with an illusion of depth.</p>
-  </div>
-  <div class="gallery">
-'''
-
-for item in gallery:
-    INDEX_TEMPLATE += f'''
-    <a href="{item["file"]}">
-      <img src="{item["thumbnail"]}" alt="{item["title"]}">
-      <div class="gallery-caption">{item["title"]}</div>
-    </a>'''
-
-INDEX_TEMPLATE += '''
-  </div>
-</body>
-</html>
-'''
-
-with open(INDEX_HTML, "w", encoding="utf-8") as f:
-    f.write(INDEX_TEMPLATE)
-
-print("✅ Site rebuilt: now using shared style.css for all pages.")
+print("✅ Rebuilt detail pages only. index.html was not modified.")

@@ -12,49 +12,18 @@ INDEX_HTML = os.path.join(BASE_DIR, "index.html")
 with open(GALLERY_JSON, "r", encoding="utf-8") as f:
     gallery = json.load(f)
 
-# Build maps of real filenames to preserve casing
+# Build maps of real filenames (case-sensitive matching)
 thumb_map = {os.path.splitext(f)[0].replace("-thumb", "").lower(): f for f in os.listdir(IMAGES_DIR)}
 full_map = {os.path.splitext(f)[0].lower(): f for f in os.listdir(FULL_DIR)}
 
-# Page template
+# Page template using external CSS
 PAGE_TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>{title}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {{
-      font-family: sans-serif;
-      font-size: clamp(1rem, 2.5vw, 1.2rem);
-      padding: 1em;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: auto;
-    }}
-    h1 {{
-      font-size: 1.8em;
-      color: #2c3e50;
-    }}
-    .back {{
-      margin-bottom: 1em;
-    }}
-    .back a {{
-      text-decoration: none;
-      color: #3498db;
-    }}
-    img {{
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 1em auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }}
-    p {{
-      margin: 0.5em 0;
-    }}
-  </style>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <div class="back"><a href="../index.html">← Back to Gallery</a></div>
@@ -91,58 +60,20 @@ for item in gallery:
     with open(page_path, "w", encoding="utf-8") as f:
         f.write(content)
 
-# Generate index.html
+# Generate index.html using external style.css
 INDEX_TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Intarsia Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {{
-      font-family: system-ui, sans-serif;
-      background-color: #f8f9fa;
-      margin: 0;
-      padding: 2rem;
-    }}
-    h1 {{
-      text-align: center;
-      margin-bottom: 2rem;
-    }}
-    .gallery {{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }}
-    .gallery a {{
-      text-decoration: none;
-      color: inherit;
-    }}
-    .gallery img {{
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
-      display: block;
-    }}
-    .gallery img:hover {{
-      transform: scale(1.03);
-    }}
-    .gallery-caption {{
-      margin-top: 0.5rem;
-      text-align: center;
-      font-weight: bold;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      padding: 0 0.5rem;
-      max-width: 100%;
-    }}
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Ed Korsberg's Intarsia Portfolio</h1>
+  <div class="intro-text">
+    <p>Intarsia is a form of woodworking in which various shapes, sizes and species of wood are fitted together to create a mosaic-like picture with an illusion of depth.</p>
+  </div>
   <div class="gallery">
 '''
 
@@ -162,4 +93,4 @@ INDEX_TEMPLATE += '''
 with open(INDEX_HTML, "w", encoding="utf-8") as f:
     f.write(INDEX_TEMPLATE)
 
-print("✅ Site rebuilt: index and detail pages updated.")
+print("✅ Site rebuilt: now using shared style.css for all pages.")
