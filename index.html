@@ -1,390 +1,130 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Intarsia Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      display: block;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+	.gallery-caption {
+	  margin-top: 0.5rem;
+	  text-align: center;
+	  font-weight: bold;
+	  word-wrap: break-word;
+	  overflow-wrap: break-word;
+	  white-space: normal; /* allow wrapping */
+	  padding: 0 0.5rem;   /* optional spacing to avoid edge hugging */
+	  max-width: 100%;
+	}
+	.intro-text {
+	  text-align: center;
+	  <!--max-width: 600px; -->
+	  margin: 0 auto 2rem;
+	  font-size: 1.1rem;
+	  color: #333;
+	}
+	.article-thumb {
+	  max-width: 100%;      /* never exceed the viewport or container */
+	  height: auto;         /* keep the aspect ratio */
+	  display: block;       /* removes the tiny inline gap below images */
+	  margin: 1rem auto;    /* centers the image and adds breathing room */
+	}	
+	<!--
+	.gallery-caption {
+	  margin-top: 0.5rem;
+	  text-align: center;
+	  font-weight: bold;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  padding: 0 0.5rem;
+	  max-width: 100%;
+	}	
+	-->
+  </style>
 </head>
 <body>
-  <h1>Ed Korsberg's Intarsia Portfolio</h1>
-  <div class="intro-text">
-    <p>Intarsia is a form of woodworking in which various shapes, sizes and species of wood are fitted together to create a mosaic-like picture with an illusion of depth.</p>
-  </div>
-  <div class="gallery">
+    <h1>🎨 Intarsia Portfolio</h1>
+    <p>Welcome to my collection of woodworking art.</p>
+	<p>This is a simple webpage showcasing my woodworking projects of Intarsia, cutting boards and other miscellaneous wood crafts.  <br>I am not motivated yet to make a professional modern fancy webpage that would require more work and the cost of hosting a custom website.</p>
+	<p>Here is a nice article written by the Solon Times in regard to my recent exploration into the art of Intarsia woodworking.<br>
+	<a href="https://www.chagrinvalleytoday.com/eedition/page_d8de3f4e-ca95-5e6a-a8e8-56e171db8f3b.html">
+	  <img src="articleThumbnail.png" alt="Article thumbnail" class="article-thumb"></a>
+	</p>
+	<p>I initially started turning spindles and bowls on a wood lathe but after a while it become seemingly repeatative.  Next came doing scrollsaw work and that was more varied and fulfulling.  But then I took a class at the <a href="https://www.marcadams.com">Marc Adams School of woodworking</a> on something called Intarsia and this art form really appealed to me.  It seems few people practice this form of woodworking but it seems to fit me well.</p>
+	</a>
+	<p>Here is a nice description of Intarsia</p>
+	<div class="intro-text"><b>Intarsia is a form of woodworking that
+	involves creating pictures or designs
+	by using different types of woods, each
+	with its own natural color and grain
+	pattern.<br>The individual pieces of woods
+	are carefully cut and shaped to fit together
+	like a puzzle.<br>Think of it as painting with
+	wood.</b></div>
+	
+    <div class="gallery"></div>
 
-    <a href="pages/eagle.html">
-      <img src="images/Eagle-thumb.jpg" alt="Eagle">
-      <div class="gallery-caption">Eagle</div>
-    </a>
-    <a href="pages/lionshead.html">
-      <img src="images/LionsHead-thumb.jpg" alt="LionsHead">
-      <div class="gallery-caption">LionsHead</div>
-    </a>
-    <a href="pages/lovebirds.html">
-      <img src="images/LoveBirds-thumb.jpg" alt="LoveBirds">
-      <div class="gallery-caption">LoveBirds</div>
-    </a>
-    <a href="pages/luminaire.html">
-      <img src="images/luminaire-thumb.jpg" alt="luminaire">
-      <div class="gallery-caption">luminaire</div>
-    </a>
-    <a href="pages/marquetry.html">
-      <img src="images/Marquetry-thumb.jpg" alt="Marquetry">
-      <div class="gallery-caption">Marquetry</div>
-    </a>
-    <a href="pages/motherandbabygiraffe.html">
-      <img src="images/MotherAndBabyGiraffe-thumb.jpg" alt="MotherAndBabyGiraffe">
-      <div class="gallery-caption">MotherAndBabyGiraffe</div>
-    </a>
-    <a href="pages/mrspottsandchip.html">
-      <img src="images/MrsPottsAndChip-thumb.jpg" alt="MrsPottsAndChip">
-      <div class="gallery-caption">MrsPottsAndChip</div>
-    </a>
-    <a href="pages/oranges.html">
-      <img src="images/Oranges-thumb.jpg" alt="Oranges">
-      <div class="gallery-caption">Oranges</div>
-    </a>
-    <a href="pages/oranges2.html">
-      <img src="images/Oranges2-thumb.jpg" alt="Oranges2">
-      <div class="gallery-caption">Oranges2</div>
-    </a>
-    <a href="pages/ornament1.html">
-      <img src="images/Ornament1-thumb.jpg" alt="Ornament1">
-      <div class="gallery-caption">Ornament1</div>
-    </a>
-    <a href="pages/ornament2.html">
-      <img src="images/Ornament2-thumb.jpg" alt="Ornament2">
-      <div class="gallery-caption">Ornament2</div>
-    </a>
-    <a href="pages/ornament3.html">
-      <img src="images/Ornament3-thumb.jpg" alt="Ornament3">
-      <div class="gallery-caption">Ornament3</div>
-    </a>
-    <a href="pages/ornament4.html">
-      <img src="images/Ornament4-thumb.jpg" alt="Ornament4">
-      <div class="gallery-caption">Ornament4</div>
-    </a>
-    <a href="pages/ornament5.html">
-      <img src="images/Ornament5-thumb.jpg" alt="Ornament5">
-      <div class="gallery-caption">Ornament5</div>
-    </a>
-    <a href="pages/ornament6.html">
-      <img src="images/Ornament6-thumb.jpg" alt="Ornament6">
-      <div class="gallery-caption">Ornament6</div>
-    </a>
-    <a href="pages/owlintree.html">
-      <img src="images/OwlInTree-thumb.jpg" alt="OwlInTree">
-      <div class="gallery-caption">OwlInTree</div>
-    </a>
-    <a href="pages/parrots.html">
-      <img src="images/Parrots-thumb.jpg" alt="Parrots">
-      <div class="gallery-caption">Parrots</div>
-    </a>
-    <a href="pages/peaches.html">
-      <img src="images/Peaches-thumb.jpg" alt="Peaches">
-      <div class="gallery-caption">Peaches</div>
-    </a>
-    <a href="pages/pears.html">
-      <img src="images/Pears-thumb.jpg" alt="Pears">
-      <div class="gallery-caption">Pears</div>
-    </a>
-    <a href="pages/pears2.html">
-      <img src="images/Pears2-thumb.jpg" alt="Pears2">
-      <div class="gallery-caption">Pears2</div>
-    </a>
-    <a href="pages/phoenix.html">
-      <img src="images/Phoenix-thumb.jpg" alt="Phoenix">
-      <div class="gallery-caption">Phoenix</div>
-    </a>
-    <a href="pages/pumaandcubs.html">
-      <img src="images/PumaAndCubs-thumb.jpg" alt="PumaAndCubs">
-      <div class="gallery-caption">PumaAndCubs</div>
-    </a>
-    <a href="pages/pumastare.html">
-      <img src="images/PumaStare-thumb.jpg" alt="PumaStare">
-      <div class="gallery-caption">PumaStare</div>
-    </a>
-    <a href="pages/pumatwocubs.html">
-      <img src="images/PumaTwoCubs-thumb.jpg" alt="PumaTwoCubs">
-      <div class="gallery-caption">PumaTwoCubs</div>
-    </a>
-    <a href="pages/pumpkin.html">
-      <img src="images/Pumpkin-thumb.jpg" alt="Pumpkin">
-      <div class="gallery-caption">Pumpkin</div>
-    </a>
-    <a href="pages/pumpkincrow.html">
-      <img src="images/PumpkinCrow-thumb.jpg" alt="PumpkinCrow">
-      <div class="gallery-caption">PumpkinCrow</div>
-    </a>
-    <a href="pages/redtiger.html">
-      <img src="images/Redtiger-thumb.jpg" alt="Redtiger">
-      <div class="gallery-caption">Redtiger</div>
-    </a>
-    <a href="pages/robin.html">
-      <img src="images/Robin-thumb.jpg" alt="Robin">
-      <div class="gallery-caption">Robin</div>
-    </a>
-    <a href="pages/schnauzer.html">
-      <img src="images/Schnauzer-thumb.jpg" alt="Schnauzer">
-      <div class="gallery-caption">Schnauzer</div>
-    </a>
-    <a href="pages/seaotter.html">
-      <img src="images/SeaOtter-thumb.jpg" alt="SeaOtter">
-      <div class="gallery-caption">SeaOtter</div>
-    </a>
-    <a href="pages/sewingmachine.html">
-      <img src="images/SewingMachine-thumb.jpg" alt="SewingMachine">
-      <div class="gallery-caption">SewingMachine</div>
-    </a>
-    <a href="pages/sittingcat.html">
-      <img src="images/SittingCat-thumb.jpg" alt="SittingCat">
-      <div class="gallery-caption">SittingCat</div>
-    </a>
-    <a href="pages/sleepingjaguar.html">
-      <img src="images/SleepingJaguar-thumb.jpg" alt="SleepingJaguar">
-      <div class="gallery-caption">SleepingJaguar</div>
-    </a>
-    <a href="pages/sloth.html">
-      <img src="images/Sloth-thumb.jpg" alt="Sloth">
-      <div class="gallery-caption">Sloth</div>
-    </a>
-    <a href="pages/snowleopard.html">
-      <img src="images/SnowLeopard-thumb.jpg" alt="SnowLeopard">
-      <div class="gallery-caption">SnowLeopard</div>
-    </a>
-    <a href="pages/snowman.html">
-      <img src="images/Snowman-thumb.jpg" alt="Snowman">
-      <div class="gallery-caption">Snowman</div>
-    </a>
-    <a href="pages/stairstepcuttingboard.html">
-      <img src="images/StairStepCuttingBoard-thumb.jpg" alt="StairStepCuttingBoard">
-      <div class="gallery-caption">StairStepCuttingBoard</div>
-    </a>
-    <a href="pages/standingpug.html">
-      <img src="images/StandingPug-thumb.jpg" alt="StandingPug">
-      <div class="gallery-caption">StandingPug</div>
-    </a>
-    <a href="pages/stork.html">
-      <img src="images/Stork-thumb.jpg" alt="Stork">
-      <div class="gallery-caption">Stork</div>
-    </a>
-    <a href="pages/superstitionmountain.html">
-      <img src="images/SuperstitionMountain-thumb.jpg" alt="SuperstitionMountain">
-      <div class="gallery-caption">SuperstitionMountain</div>
-    </a>
-    <a href="pages/sweetcorn.html">
-      <img src="images/SweetCorn-thumb.jpg" alt="SweetCorn">
-      <div class="gallery-caption">SweetCorn</div>
-    </a>
-    <a href="pages/tabbycat.html">
-      <img src="images/TabbyCat-thumb.jpg" alt="TabbyCat">
-      <div class="gallery-caption">TabbyCat</div>
-    </a>
-    <a href="pages/thumper.html">
-      <img src="images/Thumper-thumb.jpg" alt="Thumper">
-      <div class="gallery-caption">Thumper</div>
-    </a>
-    <a href="pages/treeoflife.html">
-      <img src="images/TreeOfLife-thumb.jpg" alt="TreeOfLife">
-      <div class="gallery-caption">TreeOfLife</div>
-    </a>
-    <a href="pages/up.html">
-      <img src="images/UP-thumb.jpg" alt="UP">
-      <div class="gallery-caption">UP</div>
-    </a>
-    <a href="pages/waffleboard.html">
-      <img src="images/WaffleBoard-thumb.jpg" alt="WaffleBoard">
-      <div class="gallery-caption">WaffleBoard</div>
-    </a>
-    <a href="pages/waffleboard1.html">
-      <img src="images/WaffleBoard1-thumb.jpg" alt="WaffleBoard1">
-      <div class="gallery-caption">WaffleBoard1</div>
-    </a>
-    <a href="pages/watermellon.html">
-      <img src="images/Watermellon-thumb.jpg" alt="Watermellon">
-      <div class="gallery-caption">Watermellon</div>
-    </a>
-    <a href="pages/wave.html">
-      <img src="images/Wave-thumb.jpg" alt="Wave">
-      <div class="gallery-caption">Wave</div>
-    </a>
-    <a href="pages/wedding.html">
-      <img src="images/Wedding-thumb.jpg" alt="Wedding">
-      <div class="gallery-caption">Wedding</div>
-    </a>
-    <a href="pages/welcome.html">
-      <img src="images/Welcome-thumb.jpg" alt="Welcome">
-      <div class="gallery-caption">Welcome</div>
-    </a>
-    <a href="pages/zebras.html">
-      <img src="images/Zebras-thumb.jpg" alt="Zebras">
-      <div class="gallery-caption">Zebras</div>
-    </a>
-    <a href="pages/zoe.html">
-      <img src="images/Zoe-thumb.jpg" alt="Zoe">
-      <div class="gallery-caption">Zoe</div>
-    </a>
-    <a href="pages/3dcuttingboard.html">
-      <img src="images/3dCuttingBoard-thumb.jpg" alt="3dCuttingBoard">
-      <div class="gallery-caption">3dCuttingBoard</div>
-    </a>
-    <a href="pages/apples.html">
-      <img src="images/Apples-thumb.jpg" alt="Apples">
-      <div class="gallery-caption">Apples</div>
-    </a>
-    <a href="pages/babydragon.html">
-      <img src="images/Babydragon-thumb.jpg" alt="Babydragon">
-      <div class="gallery-caption">Babydragon</div>
-    </a>
-    <a href="pages/babygiraffe.html">
-      <img src="images/BabyGiraffe-thumb.jpg" alt="BabyGiraffe">
-      <div class="gallery-caption">BabyGiraffe</div>
-    </a>
-    <a href="pages/bananas.html">
-      <img src="images/Bananas-thumb.jpg" alt="Bananas">
-      <div class="gallery-caption">Bananas</div>
-    </a>
-    <a href="pages/beagle.html">
-      <img src="images/Beagle-thumb.jpg" alt="Beagle">
-      <div class="gallery-caption">Beagle</div>
-    </a>
-    <a href="pages/bwdragonfull.html">
-      <img src="images/BwDragonFull-thumb.jpg" alt="BwDragonFull">
-      <div class="gallery-caption">BwDragonFull</div>
-    </a>
-    <a href="pages/calicocorgi.html">
-      <img src="images/CalicoCorgi-thumb.jpg" alt="CalicoCorgi">
-      <div class="gallery-caption">CalicoCorgi</div>
-    </a>
-    <a href="pages/calvinhobbes.html">
-      <img src="images/CalvinHobbes-thumb.jpg" alt="CalvinHobbes">
-      <div class="gallery-caption">CalvinHobbes</div>
-    </a>
-    <a href="pages/cardinalsontree.html">
-      <img src="images/CardinalsOnTree-thumb.jpg" alt="CardinalsOnTree">
-      <div class="gallery-caption">CardinalsOnTree</div>
-    </a>
-    <a href="pages/cateyeglass1.html">
-      <img src="images/CatEyeGlass1-thumb.jpg" alt="CatEyeGlass1">
-      <div class="gallery-caption">CatEyeGlass1</div>
-    </a>
-    <a href="pages/chef.html">
-      <img src="images/Chef-thumb.jpg" alt="Chef">
-      <div class="gallery-caption">Chef</div>
-    </a>
-    <a href="pages/cherries.html">
-      <img src="images/Cherries-thumb.jpg" alt="Cherries">
-      <div class="gallery-caption">Cherries</div>
-    </a>
-    <a href="pages/cogsworth.html">
-      <img src="images/Cogsworth-thumb.jpg" alt="Cogsworth">
-      <div class="gallery-caption">Cogsworth</div>
-    </a>
-    <a href="pages/corgistanding.html">
-      <img src="images/CorgiStanding-thumb.jpg" alt="CorgiStanding">
-      <div class="gallery-caption">CorgiStanding</div>
-    </a>
-    <a href="pages/dancer.html">
-      <img src="images/Dancer-thumb.jpg" alt="Dancer">
-      <div class="gallery-caption">Dancer</div>
-    </a>
-    <a href="pages/dentist.html">
-      <img src="images/Dentist-thumb.jpg" alt="Dentist">
-      <div class="gallery-caption">Dentist</div>
-    </a>
-    <a href="pages/desktop.html">
-      <img src="images/desktop-thumb.jpg" alt="desktop">
-      <div class="gallery-caption">desktop</div>
-    </a>
-    <a href="pages/elephant.html">
-      <img src="images/Elephant-thumb.jpg" alt="Elephant">
-      <div class="gallery-caption">Elephant</div>
-    </a>
-    <a href="pages/expressivecorgi.html">
-      <img src="images/ExpressiveCorgi-thumb.jpg" alt="ExpressiveCorgi">
-      <div class="gallery-caption">ExpressiveCorgi</div>
-    </a>
-    <a href="pages/fishtank.html">
-      <img src="images/FishTank-thumb.jpg" alt="FishTank">
-      <div class="gallery-caption">FishTank</div>
-    </a>
-    <a href="pages/flamencodancer.html">
-      <img src="images/FlamencoDancer-thumb.jpg" alt="FlamencoDancer">
-      <div class="gallery-caption">FlamencoDancer</div>
-    </a>
-    <a href="pages/flyingdragon.html">
-      <img src="images/Flyingdragon-thumb.jpg" alt="Flyingdragon">
-      <div class="gallery-caption">Flyingdragon</div>
-    </a>
-    <a href="pages/fruitbasket.html">
-      <img src="images/FruitBasket-thumb.jpg" alt="FruitBasket">
-      <div class="gallery-caption">FruitBasket</div>
-    </a>
-    <a href="pages/giraffeinframe.html">
-      <img src="images/GiraffeInFrame-thumb.jpg" alt="GiraffeInFrame">
-      <div class="gallery-caption">GiraffeInFrame</div>
-    </a>
-    <a href="pages/girlwithwateringcanredshoes.html">
-      <img src="images/GirlWithWateringCanRedShoes-thumb.jpg" alt="GirlWithWateringCanRedShoes">
-      <div class="gallery-caption">GirlWithWateringCanRedShoes</div>
-    </a>
-    <a href="pages/gnarlydragon.html">
-      <img src="images/GnarlyDragon-thumb.jpg" alt="GnarlyDragon">
-      <div class="gallery-caption">GnarlyDragon</div>
-    </a>
-    <a href="pages/goldfinches.html">
-      <img src="images/Goldfinches-thumb.jpg" alt="Goldfinches">
-      <div class="gallery-caption">Goldfinches</div>
-    </a>
-    <a href="pages/goofybird.html">
-      <img src="images/GoofyBird-thumb.jpg" alt="GoofyBird">
-      <div class="gallery-caption">GoofyBird</div>
-    </a>
-    <a href="pages/goofydragon.html">
-      <img src="images/GoofyDragon-thumb.jpg" alt="GoofyDragon">
-      <div class="gallery-caption">GoofyDragon</div>
-    </a>
-    <a href="pages/grapes.html">
-      <img src="images/Grapes-thumb.jpg" alt="Grapes">
-      <div class="gallery-caption">Grapes</div>
-    </a>
-    <a href="pages/guardiandragon.html">
-      <img src="images/GuardianDragon-thumb.jpg" alt="GuardianDragon">
-      <div class="gallery-caption">GuardianDragon</div>
-    </a>
-    <a href="pages/hatthedwarf.html">
-      <img src="images/HatTheDwarf-thumb.jpg" alt="HatTheDwarf">
-      <div class="gallery-caption">HatTheDwarf</div>
-    </a>
-    <a href="pages/hootowlintree.html">
-      <img src="images/HootOwlIntree-thumb.jpg" alt="HootOwlIntree">
-      <div class="gallery-caption">HootOwlIntree</div>
-    </a>
-    <a href="pages/hootowlpineapply.html">
-      <img src="images/HootOwlPineapply-thumb.jpg" alt="HootOwlPineapply">
-      <div class="gallery-caption">HootOwlPineapply</div>
-    </a>
-    <a href="pages/horsehead.html">
-      <img src="images/HorseHead-thumb.jpg" alt="HorseHead">
-      <div class="gallery-caption">HorseHead</div>
-    </a>
-    <a href="pages/hummingbird.html">
-      <img src="images/HummingBird-thumb.jpg" alt="HummingBird">
-      <div class="gallery-caption">HummingBird</div>
-    </a>
-    <a href="pages/impossibletriangle.html">
-      <img src="images/ImpossibleTriangle-thumb.jpg" alt="ImpossibleTriangle">
-      <div class="gallery-caption">ImpossibleTriangle</div>
-    </a>
-    <a href="pages/jaguarinlay.html">
-      <img src="images/JaguarInlay-thumb.jpg" alt="JaguarInlay">
-      <div class="gallery-caption">JaguarInlay</div>
-    </a>
-    <a href="pages/krestel.html">
-      <img src="images/Krestel-thumb.jpg" alt="Krestel">
-      <div class="gallery-caption">Krestel</div>
-    </a>
-  </div>
+    <script>
+        fetch("gallery.json")
+            .then(response => response.json())
+            .then(data => {
+                const container = document.querySelector('.gallery');
+                data.forEach(item => {
+                    const link = document.createElement('a');
+                    link.href = item.file;
+                    link.style.display = "flex";
+                    link.style.alignItems = "center";
+                    link.style.gap = "10px";
+                    link.style.marginBottom = "15px";
+                    link.style.textDecoration = "none";
+
+                    const img = document.createElement('img');
+                    img.src = item.thumbnail;
+                    img.alt = item.title;
+                    img.width = 100;
+                    img.style.border = "1px solid #ccc";
+                    img.style.borderRadius = "8px";
+
+                    const title = document.createElement('span');
+                    title.innerText = item.title;
+                    title.style.fontSize = "1.1em";
+
+                    link.appendChild(img);
+                    link.appendChild(title);
+                    container.appendChild(link);
+                });
+            });
+</script>
 </body>
 </html>
