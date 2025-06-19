@@ -1,56 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Ed Korsberg Intarsia Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
 </head>
 <body>
-    <h1>🎨 Intarsia Portfolio</h1>
-	<!--
-	<nav style="text-align: center; margin-bottom: 1rem;">
-	  <a href="index.html">Home</a> |
-	  <a href="about.html">About</a>
-	</nav> -->
-	
+  <h1>🎨 Intarsia Portfolio</h1>
+
+  <!-- Optional navigation block (currently commented out) -->
+  <!--
+  <nav style="text-align: center; margin-bottom: 1rem;">
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a>
+  </nav>
+  -->
+
+  <!-- Intro section with project description -->
   <div class="intro">
     <p>Welcome to my collection of handcrafted woodworking art: Intarsia, cutting boards, and miscellaneous wood crafts.</p>
     <p><a href="about.html" class="btn">Learn More About This Project</a></p>
   </div>
-  	
 
-	<!-- Filter Controls -->
-	<div class="filter-group">
-	  <div>
-		<label for="searchBox"><strong>Search Title:</strong></label>
-		<input type="text" id="searchBox" placeholder="Type to filter...">
-	  </div>
+  <!-- Filter controls for search and dropdown filters -->
+  <div class="filter-group">
+    <div>
+      <label for="searchBox"><strong>Search Title:</strong></label>
+      <input type="text" id="searchBox" placeholder="Type to filter...">
+    </div>
 
-	  <div>
-		<label for="artistFilter">Artist:</label>
-		<select id="artistFilter"></select>
-	  </div>
+    <div>
+      <label for="artistFilter">Artist:</label>
+      <select id="artistFilter"></select>
+    </div>
 
-	  <div>
-		<label for="themeFilter">Theme:</label>
-		<select id="themeFilter"></select>
-	  </div>
+    <div>
+      <label for="themeFilter">Theme:</label>
+      <select id="themeFilter"></select>
+    </div>
 
-	  <div>
-		<label for="typeFilter">Type:</label>
-		<select id="typeFilter"></select>
-	  </div>
-	</div>
+    <div>
+      <label for="typeFilter">Type:</label>
+      <select id="typeFilter"></select>
+    </div>
+  </div>
 
+  <!-- Gallery output area, populated dynamically -->
+  <div class="gallery"></div>
 
-	<!-- Gallery Container -->
-	<div class="gallery"></div>
-
-	<!-- Filtering Logic -->
-	<script src="js/gallery-filter.js?v=5"></script>
-
+  <!-- JavaScript that handles gallery loading and filtering -->
+  <script src="js/gallery-filter.js?v=5"></script>
 </body>
 </html>
