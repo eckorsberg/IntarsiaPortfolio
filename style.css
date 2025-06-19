@@ -116,36 +116,36 @@ p {
   margin: 1rem auto;                                 /* Center and space vertically */
 }
 
-/* Layout for filter controls */
+/* Layout container for all filter controls (search + dropdowns) */
 .filter-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
+  display: flex;                  /* Arrange filter elements in a row (or column on mobile) */
+  flex-wrap: wrap;               /* Allow wrapping to next line if not enough horizontal space */
+  gap: 1rem;                     /* Space between filter blocks */
+  justify-content: center;       /* Center the entire filter group horizontally */
+  align-items: flex-start;       /* Align filter blocks to the top of the row */
+  margin-bottom: 1.5rem;         /* Space below the filters and above the gallery */
 }
 
-
-
+/* Style for each filter block (label + input/select) */
 .filter-group > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: flex;                 /* Stack label and input vertically */
+  flex-direction: column;       
+  align-items: flex-start;       /* Align text to the left within each block */
 }
 
-/* Stack vertically on smaller screens */
+/* Responsive behavior: stack filters vertically on narrow screens */
 @media (max-width: 600px) {
   .filter-group {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;     /* Switch from row to column layout */
+    align-items: center;        /* Center each filter block */
   }
 
   .filter-group > div {
-    width: 100%;
-    max-width: 300px;
+    width: 100%;                /* Take full width on small screens */
+    max-width: 300px;           /* Limit to a reasonable size */
   }
 }
+
 
 @media (min-width: 1200px) {
   .article-thumb {
