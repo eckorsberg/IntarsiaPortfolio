@@ -26,6 +26,7 @@ fetch("gallery.json")
     // Function to apply active filters and rebuild the gallery
     function applyFilters() {
       galleryContainer.innerHTML = "";                    // Clear existing gallery items
+	  const searchTerm = document.getElementById("searchBox").value.trim().toLowerCase();  //reference to search box
       galleryContainer.className = "gallery";             // Ensure container retains grid styling
 
       // Collect selected filter values
@@ -41,7 +42,8 @@ fetch("gallery.json")
         const match =
           (!selected.artist || item.artist === selected.artist) &&
           (!selected.theme || item.theme === selected.theme) &&
-          (!selected.type || item.type === selected.type);
+          (!selected.type || item.type === selected.type) &&
+		  (!searchTerm || item.title.toLowerCase().includes(searchTerm));
 
         if (match) {
           // Create a link that wraps the image and caption
@@ -70,6 +72,10 @@ fetch("gallery.json")
           galleryContainer.appendChild(link);
         }
       });
+	  
+	// Attach input listener to search box
+	document.getElementById("searchBox").addEventListener("input", applyFilters);
+	  
     }
 
     // Attach change listeners to all dropdowns to reapply filters on change
