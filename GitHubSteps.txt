@@ -47,6 +47,8 @@ make thumbnails
 pip install pillow
 python generate_thumbnails.py
 
+on how to do domain
+https://chatgpt.com/share/68546b13-a128-800f-b74e-7dcf9b8cdca2
 
 
 
