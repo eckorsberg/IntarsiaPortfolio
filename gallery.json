@@ -1,33 +1,8 @@
 [
   {
-    "file": "pages/eagle.html",
-    "title": "Eagle",
-    "thumbnail": "images/Eagle-thumb.jpg"
-  },
-  {
-    "file": "pages/lionshead.html",
-    "title": "LionsHead",
-    "thumbnail": "images/LionsHead-thumb.jpg"
-  },
-  {
-    "file": "pages/lovebirds.html",
-    "title": "LoveBirds",
-    "thumbnail": "images/LoveBirds-thumb.jpg"
-  },
-  {
-    "file": "pages/luminaire.html",
-    "title": "luminaire",
-    "thumbnail": "images/luminaire-thumb.jpg"
-  },
-  {
-    "file": "pages/marquetry.html",
-    "title": "Marquetry",
-    "thumbnail": "images/Marquetry-thumb.jpg"
-  },
-  {
-    "file": "pages/motherandbabygiraffe.html",
-    "title": "MotherAndBabyGiraffe",
-    "thumbnail": "images/MotherAndBabyGiraffe-thumb.jpg"
+    "file": "pages/cogsworth.html",
+    "title": "Cogsworth",
+    "thumbnail": "images/Cogsworth-thumb.jpg"
   },
   {
     "file": "pages/mrspottsandchip.html",
@@ -35,14 +10,139 @@
     "thumbnail": "images/MrsPottsAndChip-thumb.jpg"
   },
   {
-    "file": "pages/oranges.html",
-    "title": "Oranges",
-    "thumbnail": "images/Oranges-thumb.jpg"
+    "file": "pages/luminaire.html",
+    "title": "luminaire",
+    "thumbnail": "images/luminaire-thumb.jpg"
   },
   {
-    "file": "pages/oranges2.html",
-    "title": "Oranges2",
-    "thumbnail": "images/Oranges2-thumb.jpg"
+    "file": "pages/goofybird.html",
+    "title": "GoofyBird",
+    "thumbnail": "images/GoofyBird-thumb.jpg"
+  },
+  {
+    "file": "pages/tabbycat.html",
+    "title": "TabbyCat",
+    "thumbnail": "images/TabbyCat-thumb.jpg"
+  },
+  {
+    "file": "pages/snowleopard.html",
+    "title": "SnowLeopard",
+    "thumbnail": "images/SnowLeopard-thumb.jpg"
+  },
+  {
+    "file": "pages/thumper.html",
+    "title": "Thumper",
+    "thumbnail": "images/Thumper-thumb.jpg"
+  },
+  {
+    "file": "pages/motherandbabygiraffe.html",
+    "title": "MotherAndBabyGiraffe",
+    "thumbnail": "images/MotherAndBabyGiraffe-thumb.jpg"
+  },
+  {
+    "file": "pages/welcome.html",
+    "title": "Welcome",
+    "thumbnail": "images/Welcome-thumb.jpg"
+  },
+  {
+    "file": "pages/3dcuttingboard.html",
+    "title": "3dCuttingBoard",
+    "thumbnail": "images/3dCuttingBoard-thumb.jpg"
+  },
+  {
+    "file": "pages/stairstepcuttingboard.html",
+    "title": "StairStepCuttingBoard",
+    "thumbnail": "images/StairStepCuttingBoard-thumb.jpg"
+  },
+  {
+    "file": "pages/giraffeinframe.html",
+    "title": "GiraffeInFrame",
+    "thumbnail": "images/GiraffeInFrame-thumb.jpg"
+  },
+  {
+    "file": "pages/calicocorgi.html",
+    "title": "CalicoCorgi",
+    "thumbnail": "images/CalicoCorgi-thumb.jpg"
+  },
+  {
+    "file": "pages/sweetcorn.html",
+    "title": "SweetCorn",
+    "thumbnail": "images/SweetCorn-thumb.jpg"
+  },
+  {
+    "file": "pages/girlwithwateringcanredshoes.html",
+    "title": "GirlWithWateringCanRedShoes",
+    "thumbnail": "images/GirlWithWateringCanRedShoes-thumb.jpg"
+  },
+  {
+    "file": "pages/flamencodancer.html",
+    "title": "FlamencoDancer",
+    "thumbnail": "images/FlamencoDancer-thumb.jpg"
+  },
+  {
+    "file": "pages/zebras.html",
+    "title": "Zebras",
+    "thumbnail": "images/Zebras-thumb.jpg"
+  },
+  {
+    "file": "pages/elephant.html",
+    "title": "Elephant",
+    "thumbnail": "images/Elephant-thumb.jpg"
+  },
+  {
+    "file": "pages/expressivecorgi.html",
+    "title": "ExpressiveCorgi",
+    "thumbnail": "images/ExpressiveCorgi-thumb.jpg"
+  },
+  {
+    "file": "pages/hootowlpineapply.html",
+    "title": "HootOwlPineapply",
+    "thumbnail": "images/HootOwlPineapply-thumb.jpg"
+  },
+  {
+    "file": "pages/wave.html",
+    "title": "Wave",
+    "thumbnail": "images/Wave-thumb.jpg"
+  },
+  {
+    "file": "pages/sloth.html",
+    "title": "Sloth",
+    "thumbnail": "images/Sloth-thumb.jpg"
+  },
+  {
+    "file": "pages/eagle.html",
+    "title": "Eagle",
+    "thumbnail": "images/Eagle-thumb.jpg"
+  },
+  {
+    "file": "pages/marquetry.html",
+    "title": "Marquetry",
+    "thumbnail": "images/Marquetry-thumb.jpg"
+  },
+  {
+    "file": "pages/chef.html",
+    "title": "Chef",
+    "thumbnail": "images/Chef-thumb.jpg"
+  },
+  {
+    "file": "pages/impossibletriangle.html",
+    "title": "ImpossibleTriangle",
+    "thumbnail": "images/ImpossibleTriangle-thumb.jpg"
+  },
+  {
+    "file": "pages/fishtank.html",
+    "title": "FishTank",
+    "thumbnail": "images/FishTank-thumb.jpg"
+  },
+  {
+    "file": "pages/guardiandragon.html",
+    "title": "GuardianDragon",
+    "thumbnail": "images/GuardianDragon-thumb.jpg"
+  },
+  {
+    "file": "pages/hatthedwarf.html",
+    "title": "HatTheDwarf",
+    "thumbnail": "images/HatTheDwarf-thumb.jpg"
   },
   {
     "file": "pages/ornament1.html",
@@ -75,14 +175,179 @@
     "thumbnail": "images/Ornament6-thumb.jpg"
   },
   {
-    "file": "pages/owlintree.html",
-    "title": "OwlInTree",
-    "thumbnail": "images/OwlInTree-thumb.jpg"
+    "file": "pages/pumatwocubs.html",
+    "title": "PumaTwoCubs",
+    "thumbnail": "images/PumaTwoCubs-thumb.jpg"
+  },
+  {
+    "file": "pages/cardinalsontree.html",
+    "title": "CardinalsOnTree",
+    "thumbnail": "images/CardinalsOnTree-thumb.jpg"
+  },
+  {
+    "file": "pages/pumpkincrow.html",
+    "title": "PumpkinCrow",
+    "thumbnail": "images/PumpkinCrow-thumb.jpg"
+  },
+  {
+    "file": "pages/babygiraffe.html",
+    "title": "BabyGiraffe",
+    "thumbnail": "images/BabyGiraffe-thumb.jpg"
+  },
+  {
+    "file": "pages/goofydragon.html",
+    "title": "GoofyDragon",
+    "thumbnail": "images/GoofyDragon-thumb.jpg"
+  },
+  {
+    "file": "pages/calvinhobbes.html",
+    "title": "CalvinHobbes",
+    "thumbnail": "images/CalvinHobbes-thumb.jpg"
+  },
+  {
+    "file": "pages/up.html",
+    "title": "UP",
+    "thumbnail": "images/UP-thumb.jpg"
+  },
+  {
+    "file": "pages/dancer.html",
+    "title": "Dancer",
+    "thumbnail": "images/Dancer-thumb.jpg"
+  },
+  {
+    "file": "pages/sleepingjaguar.html",
+    "title": "SleepingJaguar",
+    "thumbnail": "images/SleepingJaguar-thumb.jpg"
+  },
+  {
+    "file": "pages/corgistanding.html",
+    "title": "CorgiStanding",
+    "thumbnail": "images/CorgiStanding-thumb.jpg"
+  },
+  {
+    "file": "pages/jaguarinlay.html",
+    "title": "JaguarInlay",
+    "thumbnail": "images/JaguarInlay-thumb.jpg"
+  },
+  {
+    "file": "pages/babydragon.html",
+    "title": "Babydragon",
+    "thumbnail": "images/Babydragon-thumb.jpg"
+  },
+  {
+    "file": "pages/hootowlintree.html",
+    "title": "HootOwlIntree",
+    "thumbnail": "images/HootOwlIntree-thumb.jpg"
   },
   {
     "file": "pages/parrots.html",
     "title": "Parrots",
     "thumbnail": "images/Parrots-thumb.jpg"
+  },
+  {
+    "file": "pages/superstitionmountain.html",
+    "title": "SuperstitionMountain",
+    "thumbnail": "images/SuperstitionMountain-thumb.jpg"
+  },
+  {
+    "file": "pages/lionshead.html",
+    "title": "LionsHead",
+    "thumbnail": "images/LionsHead-thumb.jpg"
+  },
+  {
+    "file": "pages/redtiger.html",
+    "title": "Redtiger",
+    "thumbnail": "images/Redtiger-thumb.jpg"
+  },
+  {
+    "file": "pages/fruitbasket.html",
+    "title": "FruitBasket",
+    "thumbnail": "images/FruitBasket-thumb.jpg"
+  },
+  {
+    "file": "pages/stork.html",
+    "title": "Stork",
+    "thumbnail": "images/Stork-thumb.jpg"
+  },
+  {
+    "file": "pages/phoenix.html",
+    "title": "Phoenix",
+    "thumbnail": "images/Phoenix-thumb.jpg"
+  },
+  {
+    "file": "pages/treeoflife.html",
+    "title": "TreeOfLife",
+    "thumbnail": "images/TreeOfLife-thumb.jpg"
+  },
+  {
+    "file": "pages/goldfinches.html",
+    "title": "Goldfinches",
+    "thumbnail": "images/Goldfinches-thumb.jpg"
+  },
+  {
+    "file": "pages/owlintree.html",
+    "title": "OwlInTree",
+    "thumbnail": "images/OwlInTree-thumb.jpg"
+  },
+  {
+    "file": "pages/sewingmachine.html",
+    "title": "SewingMachine",
+    "thumbnail": "images/SewingMachine-thumb.jpg"
+  },
+  {
+    "file": "pages/flyingdragon.html",
+    "title": "Flyingdragon",
+    "thumbnail": "images/Flyingdragon-thumb.jpg"
+  },
+  {
+    "file": "pages/hummingbird.html",
+    "title": "HummingBird",
+    "thumbnail": "images/HummingBird-thumb.jpg"
+  },
+  {
+    "file": "pages/krestel.html",
+    "title": "Krestel",
+    "thumbnail": "images/Krestel-thumb.jpg"
+  },
+  {
+    "file": "pages/wedding.html",
+    "title": "Wedding",
+    "thumbnail": "images/Wedding-thumb.jpg"
+  },
+  {
+    "file": "pages/pumaandcubs.html",
+    "title": "PumaAndCubs",
+    "thumbnail": "images/PumaAndCubs-thumb.jpg"
+  },
+  {
+    "file": "pages/gnarlydragon.html",
+    "title": "GnarlyDragon",
+    "thumbnail": "images/GnarlyDragon-thumb.jpg"
+  },
+  {
+    "file": "pages/beagle.html",
+    "title": "Beagle",
+    "thumbnail": "images/Beagle-thumb.jpg"
+  },
+  {
+    "file": "pages/dentist.html",
+    "title": "Dentist",
+    "thumbnail": "images/Dentist-thumb.jpg"
+  },
+  {
+    "file": "pages/lovebirds.html",
+    "title": "LoveBirds",
+    "thumbnail": "images/LoveBirds-thumb.jpg"
+  },
+  {
+    "file": "pages/oranges.html",
+    "title": "Oranges",
+    "thumbnail": "images/Oranges-thumb.jpg"
+  },
+  {
+    "file": "pages/oranges2.html",
+    "title": "Oranges2",
+    "thumbnail": "images/Oranges2-thumb.jpg"
   },
   {
     "file": "pages/peaches.html",
@@ -100,39 +365,14 @@
     "thumbnail": "images/Pears2-thumb.jpg"
   },
   {
-    "file": "pages/phoenix.html",
-    "title": "Phoenix",
-    "thumbnail": "images/Phoenix-thumb.jpg"
-  },
-  {
-    "file": "pages/pumaandcubs.html",
-    "title": "PumaAndCubs",
-    "thumbnail": "images/PumaAndCubs-thumb.jpg"
-  },
-  {
     "file": "pages/pumastare.html",
     "title": "PumaStare",
     "thumbnail": "images/PumaStare-thumb.jpg"
   },
   {
-    "file": "pages/pumatwocubs.html",
-    "title": "PumaTwoCubs",
-    "thumbnail": "images/PumaTwoCubs-thumb.jpg"
-  },
-  {
     "file": "pages/pumpkin.html",
     "title": "Pumpkin",
     "thumbnail": "images/Pumpkin-thumb.jpg"
-  },
-  {
-    "file": "pages/pumpkincrow.html",
-    "title": "PumpkinCrow",
-    "thumbnail": "images/PumpkinCrow-thumb.jpg"
-  },
-  {
-    "file": "pages/redtiger.html",
-    "title": "Redtiger",
-    "thumbnail": "images/Redtiger-thumb.jpg"
   },
   {
     "file": "pages/robin.html",
@@ -150,29 +390,9 @@
     "thumbnail": "images/SeaOtter-thumb.jpg"
   },
   {
-    "file": "pages/sewingmachine.html",
-    "title": "SewingMachine",
-    "thumbnail": "images/SewingMachine-thumb.jpg"
-  },
-  {
     "file": "pages/sittingcat.html",
     "title": "SittingCat",
     "thumbnail": "images/SittingCat-thumb.jpg"
-  },
-  {
-    "file": "pages/sleepingjaguar.html",
-    "title": "SleepingJaguar",
-    "thumbnail": "images/SleepingJaguar-thumb.jpg"
-  },
-  {
-    "file": "pages/sloth.html",
-    "title": "Sloth",
-    "thumbnail": "images/Sloth-thumb.jpg"
-  },
-  {
-    "file": "pages/snowleopard.html",
-    "title": "SnowLeopard",
-    "thumbnail": "images/SnowLeopard-thumb.jpg"
   },
   {
     "file": "pages/snowman.html",
@@ -180,49 +400,9 @@
     "thumbnail": "images/Snowman-thumb.jpg"
   },
   {
-    "file": "pages/stairstepcuttingboard.html",
-    "title": "StairStepCuttingBoard",
-    "thumbnail": "images/StairStepCuttingBoard-thumb.jpg"
-  },
-  {
     "file": "pages/standingpug.html",
     "title": "StandingPug",
     "thumbnail": "images/StandingPug-thumb.jpg"
-  },
-  {
-    "file": "pages/stork.html",
-    "title": "Stork",
-    "thumbnail": "images/Stork-thumb.jpg"
-  },
-  {
-    "file": "pages/superstitionmountain.html",
-    "title": "SuperstitionMountain",
-    "thumbnail": "images/SuperstitionMountain-thumb.jpg"
-  },
-  {
-    "file": "pages/sweetcorn.html",
-    "title": "SweetCorn",
-    "thumbnail": "images/SweetCorn-thumb.jpg"
-  },
-  {
-    "file": "pages/tabbycat.html",
-    "title": "TabbyCat",
-    "thumbnail": "images/TabbyCat-thumb.jpg"
-  },
-  {
-    "file": "pages/thumper.html",
-    "title": "Thumper",
-    "thumbnail": "images/Thumper-thumb.jpg"
-  },
-  {
-    "file": "pages/treeoflife.html",
-    "title": "TreeOfLife",
-    "thumbnail": "images/TreeOfLife-thumb.jpg"
-  },
-  {
-    "file": "pages/up.html",
-    "title": "UP",
-    "thumbnail": "images/UP-thumb.jpg"
   },
   {
     "file": "pages/waffleboard.html",
@@ -240,34 +420,9 @@
     "thumbnail": "images/Watermellon-thumb.jpg"
   },
   {
-    "file": "pages/wave.html",
-    "title": "Wave",
-    "thumbnail": "images/Wave-thumb.jpg"
-  },
-  {
-    "file": "pages/wedding.html",
-    "title": "Wedding",
-    "thumbnail": "images/Wedding-thumb.jpg"
-  },
-  {
-    "file": "pages/welcome.html",
-    "title": "Welcome",
-    "thumbnail": "images/Welcome-thumb.jpg"
-  },
-  {
-    "file": "pages/zebras.html",
-    "title": "Zebras",
-    "thumbnail": "images/Zebras-thumb.jpg"
-  },
-  {
     "file": "pages/zoe.html",
     "title": "Zoe",
     "thumbnail": "images/Zoe-thumb.jpg"
-  },
-  {
-    "file": "pages/3dcuttingboard.html",
-    "title": "3dCuttingBoard",
-    "thumbnail": "images/3dCuttingBoard-thumb.jpg"
   },
   {
     "file": "pages/apples.html",
@@ -275,24 +430,9 @@
     "thumbnail": "images/Apples-thumb.jpg"
   },
   {
-    "file": "pages/babydragon.html",
-    "title": "Babydragon",
-    "thumbnail": "images/Babydragon-thumb.jpg"
-  },
-  {
-    "file": "pages/babygiraffe.html",
-    "title": "BabyGiraffe",
-    "thumbnail": "images/BabyGiraffe-thumb.jpg"
-  },
-  {
     "file": "pages/bananas.html",
     "title": "Bananas",
     "thumbnail": "images/Bananas-thumb.jpg"
-  },
-  {
-    "file": "pages/beagle.html",
-    "title": "Beagle",
-    "thumbnail": "images/Beagle-thumb.jpg"
   },
   {
     "file": "pages/bwdragonfull.html",
@@ -300,29 +440,9 @@
     "thumbnail": "images/BwDragonFull-thumb.jpg"
   },
   {
-    "file": "pages/calicocorgi.html",
-    "title": "CalicoCorgi",
-    "thumbnail": "images/CalicoCorgi-thumb.jpg"
-  },
-  {
-    "file": "pages/calvinhobbes.html",
-    "title": "CalvinHobbes",
-    "thumbnail": "images/CalvinHobbes-thumb.jpg"
-  },
-  {
-    "file": "pages/cardinalsontree.html",
-    "title": "CardinalsOnTree",
-    "thumbnail": "images/CardinalsOnTree-thumb.jpg"
-  },
-  {
     "file": "pages/cateyeglass1.html",
     "title": "CatEyeGlass1",
     "thumbnail": "images/CatEyeGlass1-thumb.jpg"
-  },
-  {
-    "file": "pages/chef.html",
-    "title": "Chef",
-    "thumbnail": "images/Chef-thumb.jpg"
   },
   {
     "file": "pages/cherries.html",
@@ -330,138 +450,13 @@
     "thumbnail": "images/Cherries-thumb.jpg"
   },
   {
-    "file": "pages/cogsworth.html",
-    "title": "Cogsworth",
-    "thumbnail": "images/Cogsworth-thumb.jpg"
-  },
-  {
-    "file": "pages/corgistanding.html",
-    "title": "CorgiStanding",
-    "thumbnail": "images/CorgiStanding-thumb.jpg"
-  },
-  {
-    "file": "pages/dancer.html",
-    "title": "Dancer",
-    "thumbnail": "images/Dancer-thumb.jpg"
-  },
-  {
-    "file": "pages/dentist.html",
-    "title": "Dentist",
-    "thumbnail": "images/Dentist-thumb.jpg"
-  },
-  {
-    "file": "pages/desktop.html",
-    "title": "desktop",
-    "thumbnail": "images/desktop-thumb.jpg"
-  },
-  {
-    "file": "pages/elephant.html",
-    "title": "Elephant",
-    "thumbnail": "images/Elephant-thumb.jpg"
-  },
-  {
-    "file": "pages/expressivecorgi.html",
-    "title": "ExpressiveCorgi",
-    "thumbnail": "images/ExpressiveCorgi-thumb.jpg"
-  },
-  {
-    "file": "pages/fishtank.html",
-    "title": "FishTank",
-    "thumbnail": "images/FishTank-thumb.jpg"
-  },
-  {
-    "file": "pages/flamencodancer.html",
-    "title": "FlamencoDancer",
-    "thumbnail": "images/FlamencoDancer-thumb.jpg"
-  },
-  {
-    "file": "pages/flyingdragon.html",
-    "title": "Flyingdragon",
-    "thumbnail": "images/Flyingdragon-thumb.jpg"
-  },
-  {
-    "file": "pages/fruitbasket.html",
-    "title": "FruitBasket",
-    "thumbnail": "images/FruitBasket-thumb.jpg"
-  },
-  {
-    "file": "pages/giraffeinframe.html",
-    "title": "GiraffeInFrame",
-    "thumbnail": "images/GiraffeInFrame-thumb.jpg"
-  },
-  {
-    "file": "pages/girlwithwateringcanredshoes.html",
-    "title": "GirlWithWateringCanRedShoes",
-    "thumbnail": "images/GirlWithWateringCanRedShoes-thumb.jpg"
-  },
-  {
-    "file": "pages/gnarlydragon.html",
-    "title": "GnarlyDragon",
-    "thumbnail": "images/GnarlyDragon-thumb.jpg"
-  },
-  {
-    "file": "pages/goldfinches.html",
-    "title": "Goldfinches",
-    "thumbnail": "images/Goldfinches-thumb.jpg"
-  },
-  {
-    "file": "pages/goofybird.html",
-    "title": "GoofyBird",
-    "thumbnail": "images/GoofyBird-thumb.jpg"
-  },
-  {
-    "file": "pages/goofydragon.html",
-    "title": "GoofyDragon",
-    "thumbnail": "images/GoofyDragon-thumb.jpg"
-  },
-  {
     "file": "pages/grapes.html",
     "title": "Grapes",
     "thumbnail": "images/Grapes-thumb.jpg"
   },
   {
-    "file": "pages/guardiandragon.html",
-    "title": "GuardianDragon",
-    "thumbnail": "images/GuardianDragon-thumb.jpg"
-  },
-  {
-    "file": "pages/hatthedwarf.html",
-    "title": "HatTheDwarf",
-    "thumbnail": "images/HatTheDwarf-thumb.jpg"
-  },
-  {
-    "file": "pages/hootowlintree.html",
-    "title": "HootOwlIntree",
-    "thumbnail": "images/HootOwlIntree-thumb.jpg"
-  },
-  {
-    "file": "pages/hootowlpineapply.html",
-    "title": "HootOwlPineapply",
-    "thumbnail": "images/HootOwlPineapply-thumb.jpg"
-  },
-  {
     "file": "pages/horsehead.html",
     "title": "HorseHead",
     "thumbnail": "images/HorseHead-thumb.jpg"
-  },
-  {
-    "file": "pages/hummingbird.html",
-    "title": "HummingBird",
-    "thumbnail": "images/HummingBird-thumb.jpg"
-  },
-  {
-    "file": "pages/impossibletriangle.html",
-    "title": "ImpossibleTriangle",
-    "thumbnail": "images/ImpossibleTriangle-thumb.jpg"
-  },
-  {
-    "file": "pages/jaguarinlay.html",
-    "title": "JaguarInlay",
-    "thumbnail": "images/JaguarInlay-thumb.jpg"
-  },
-  {
-    "file": "pages/krestel.html",
-    "title": "Krestel",
-    "thumbnail": "images/Krestel-thumb.jpg"
   }
 ]
