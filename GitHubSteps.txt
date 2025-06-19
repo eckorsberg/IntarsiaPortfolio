@@ -23,3 +23,5 @@ git push -u origin main
 #make a new branch for filtered-gallery
 #also have to got to git hub to use Folder: /root and Source: filtered-gallery
 “Let’s pick up the gallery filters with Artist, Theme, and Type.”
+
+Artist, Theme(e.g Intarsia, cutting board, scrollsaw, bowls), Type(e.g Dragon, cats, dogs, whimsical, other.
