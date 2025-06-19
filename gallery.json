@@ -9,7 +9,7 @@
   },
   {
     "file": "pages/mrspottsandchip.html",
-    "title": "MrsPottsAndChip",
+    "title": "Mrs Potts And Chip",
     "thumbnail": "images/MrsPottsAndChip-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -17,7 +17,7 @@
   },
   {
     "file": "pages/luminaire.html",
-    "title": "luminaire",
+    "title": "Lumière",
     "thumbnail": "images/luminaire-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -25,7 +25,7 @@
   },
   {
     "file": "pages/goofybird.html",
-    "title": "GoofyBird",
+    "title": "Goofy Bird",
     "thumbnail": "images/GoofyBird-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -33,7 +33,7 @@
   },
   {
     "file": "pages/tabbycat.html",
-    "title": "TabbyCat",
+    "title": "Tabby Cat",
     "thumbnail": "images/TabbyCat-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -41,7 +41,7 @@
   },
   {
     "file": "pages/snowleopard.html",
-    "title": "SnowLeopard",
+    "title": "Snow Leopard",
     "thumbnail": "images/SnowLeopard-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -57,7 +57,7 @@
   },
   {
     "file": "pages/motherandbabygiraffe.html",
-    "title": "MotherAndBabyGiraffe",
+    "title": "Mother and Baby Giraffe",
     "thumbnail": "images/MotherAndBabyGiraffe-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -65,7 +65,7 @@
   },
   {
     "file": "pages/welcome.html",
-    "title": "Welcome",
+    "title": "Welcome plaque",
     "thumbnail": "images/Welcome-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -73,7 +73,7 @@
   },
   {
     "file": "pages/3dcuttingboard.html",
-    "title": "3dCuttingBoard",
+    "title": "3d Cutting Board",
     "thumbnail": "images/3dCuttingBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
@@ -81,7 +81,7 @@
   },
   {
     "file": "pages/stairstepcuttingboard.html",
-    "title": "StairStepCuttingBoard",
+    "title": "Stairstep Cutting Board",
     "thumbnail": "images/StairStepCuttingBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
@@ -89,7 +89,7 @@
   },
   {
     "file": "pages/giraffeinframe.html",
-    "title": "GiraffeInFrame",
+    "title": "Giraffe in Frame",
     "thumbnail": "images/GiraffeInFrame-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -97,7 +97,7 @@
   },
   {
     "file": "pages/calicocorgi.html",
-    "title": "CalicoCorgi",
+    "title": "Calico Corgi",
     "thumbnail": "images/CalicoCorgi-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -113,7 +113,7 @@
   },
   {
     "file": "pages/girlwithwateringcanredshoes.html",
-    "title": "GirlWithWateringCanRedShoes",
+    "title": "Girl With Watering",
     "thumbnail": "images/GirlWithWateringCanRedShoes-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -121,7 +121,7 @@
   },
   {
     "file": "pages/flamencodancer.html",
-    "title": "FlamencoDancer",
+    "title": "Flamenco Dancer",
     "thumbnail": "images/FlamencoDancer-thumb.jpg",
     "artist": "Unknown",
     "theme": "Intarsia",
@@ -129,7 +129,7 @@
   },
   {
     "file": "pages/zebras.html",
-    "title": "Zebras",
+    "title": "Zebras at River",
     "thumbnail": "images/Zebras-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -145,7 +145,7 @@
   },
   {
     "file": "pages/expressivecorgi.html",
-    "title": "ExpressiveCorgi",
+    "title": "Expressive Corgi",
     "thumbnail": "images/ExpressiveCorgi-thumb.jpg",
     "artist": "Janette Square",
     "theme": "Intarsia",
@@ -153,7 +153,7 @@
   },
   {
     "file": "pages/hootowlpineapply.html",
-    "title": "HootOwlPineapply",
+    "title": "HootOwl in Pineapple",
     "thumbnail": "images/HootOwlPineapply-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -177,7 +177,7 @@
   },
   {
     "file": "pages/eagle.html",
-    "title": "Eagle",
+    "title": "Eagle Head",
     "thumbnail": "images/Eagle-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -201,7 +201,7 @@
   },
   {
     "file": "pages/impossibletriangle.html",
-    "title": "ImpossibleTriangle",
+    "title": "Impossible Triangle",
     "thumbnail": "images/ImpossibleTriangle-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -209,7 +209,7 @@
   },
   {
     "file": "pages/fishtank.html",
-    "title": "FishTank",
+    "title": "Fish Tank",
     "thumbnail": "images/FishTank-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -217,7 +217,7 @@
   },
   {
     "file": "pages/guardiandragon.html",
-    "title": "GuardianDragon",
+    "title": "Guardian Dragon",
     "thumbnail": "images/GuardianDragon-thumb.jpg",
     "artist": "Unknown",
     "theme": "Intarsia",
@@ -225,7 +225,7 @@
   },
   {
     "file": "pages/hatthedwarf.html",
-    "title": "HatTheDwarf",
+    "title": "Hat the Dwarf",
     "thumbnail": "images/HatTheDwarf-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -233,7 +233,7 @@
   },
   {
     "file": "pages/ornament1.html",
-    "title": "Ornament1",
+    "title": "Hoot Owl Ornament",
     "thumbnail": "images/Ornament1-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -241,7 +241,7 @@
   },
   {
     "file": "pages/ornament2.html",
-    "title": "Ornament2",
+    "title": "Screech Owl Ornament",
     "thumbnail": "images/Ornament2-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -249,7 +249,7 @@
   },
   {
     "file": "pages/ornament3.html",
-    "title": "Ornament3",
+    "title": "Saw-whet Ornament",
     "thumbnail": "images/Ornament3-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -257,7 +257,7 @@
   },
   {
     "file": "pages/ornament4.html",
-    "title": "Ornament4",
+    "title": "Raccoon Ornament",
     "thumbnail": "images/Ornament4-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -265,7 +265,7 @@
   },
   {
     "file": "pages/ornament5.html",
-    "title": "Ornament5",
+    "title": "Squirrel Ornament",
     "thumbnail": "images/Ornament5-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -273,7 +273,7 @@
   },
   {
     "file": "pages/ornament6.html",
-    "title": "Ornament6",
+    "title": "Red Fox Ornament",
     "thumbnail": "images/Ornament6-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -281,7 +281,7 @@
   },
   {
     "file": "pages/pumatwocubs.html",
-    "title": "PumaTwoCubs",
+    "title": "Puma with Cubs",
     "thumbnail": "images/PumaTwoCubs-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -289,7 +289,7 @@
   },
   {
     "file": "pages/cardinalsontree.html",
-    "title": "CardinalsOnTree",
+    "title": "Cardinals on Tree",
     "thumbnail": "images/CardinalsOnTree-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -297,7 +297,7 @@
   },
   {
     "file": "pages/pumpkincrow.html",
-    "title": "PumpkinCrow",
+    "title": "Pumpkin and Crow",
     "thumbnail": "images/PumpkinCrow-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -305,7 +305,7 @@
   },
   {
     "file": "pages/babygiraffe.html",
-    "title": "BabyGiraffe",
+    "title": "Baby Giraffe",
     "thumbnail": "images/BabyGiraffe-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -313,7 +313,7 @@
   },
   {
     "file": "pages/goofydragon.html",
-    "title": "GoofyDragon",
+    "title": "Goofy Dragon",
     "thumbnail": "images/GoofyDragon-thumb.jpg",
     "artist": "Unknown",
     "theme": "Intarsia",
@@ -321,7 +321,7 @@
   },
   {
     "file": "pages/calvinhobbes.html",
-    "title": "CalvinHobbes",
+    "title": "Calvin and Hobbes",
     "thumbnail": "images/CalvinHobbes-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -329,7 +329,7 @@
   },
   {
     "file": "pages/up.html",
-    "title": "UP",
+    "title": "Ellie and Carl",
     "thumbnail": "images/UP-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -337,7 +337,7 @@
   },
   {
     "file": "pages/dancer.html",
-    "title": "Dancer",
+    "title": "Urban Dancer",
     "thumbnail": "images/Dancer-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
@@ -345,7 +345,7 @@
   },
   {
     "file": "pages/sleepingjaguar.html",
-    "title": "SleepingJaguar",
+    "title": "Sleeping Jaguar",
     "thumbnail": "images/SleepingJaguar-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -353,7 +353,7 @@
   },
   {
     "file": "pages/corgistanding.html",
-    "title": "CorgiStanding",
+    "title": "Corgi Standing",
     "thumbnail": "images/CorgiStanding-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -361,7 +361,7 @@
   },
   {
     "file": "pages/jaguarinlay.html",
-    "title": "JaguarInlay",
+    "title": "Jaguar Head",
     "thumbnail": "images/JaguarInlay-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -369,7 +369,7 @@
   },
   {
     "file": "pages/babydragon.html",
-    "title": "Babydragon",
+    "title": "Baby Dragon",
     "thumbnail": "images/Babydragon-thumb.jpg",
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
@@ -377,7 +377,7 @@
   },
   {
     "file": "pages/hootowlintree.html",
-    "title": "HootOwlIntree",
+    "title": "HootOw in Tree",
     "thumbnail": "images/HootOwlIntree-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -393,7 +393,7 @@
   },
   {
     "file": "pages/superstitionmountain.html",
-    "title": "SuperstitionMountain",
+    "title": "Superstition Mountain",
     "thumbnail": "images/SuperstitionMountain-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -401,7 +401,7 @@
   },
   {
     "file": "pages/lionshead.html",
-    "title": "LionsHead",
+    "title": "Lions Head",
     "thumbnail": "images/LionsHead-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -409,7 +409,7 @@
   },
   {
     "file": "pages/redtiger.html",
-    "title": "Redtiger",
+    "title": "Red Tiger",
     "thumbnail": "images/Redtiger-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -417,7 +417,7 @@
   },
   {
     "file": "pages/fruitbasket.html",
-    "title": "FruitBasket",
+    "title": "Fruit Basket",
     "thumbnail": "images/FruitBasket-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -441,7 +441,7 @@
   },
   {
     "file": "pages/treeoflife.html",
-    "title": "TreeOfLife",
+    "title": "Tree of Life",
     "thumbnail": "images/TreeOfLife-thumb.jpg",
     "artist": "John Rigsby",
     "theme": "Intarsia",
@@ -457,7 +457,7 @@
   },
   {
     "file": "pages/owlintree.html",
-    "title": "OwlInTree",
+    "title": "Owl in Tree",
     "thumbnail": "images/OwlInTree-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -465,7 +465,7 @@
   },
   {
     "file": "pages/sewingmachine.html",
-    "title": "SewingMachine",
+    "title": "Sewing Machine",
     "thumbnail": "images/SewingMachine-thumb.jpg",
     "artist": "Garnet Hall",
     "theme": "Intarsia",
@@ -473,7 +473,7 @@
   },
   {
     "file": "pages/flyingdragon.html",
-    "title": "Flyingdragon",
+    "title": "Flying Dragon",
     "thumbnail": "images/Flyingdragon-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -505,7 +505,7 @@
   },
   {
     "file": "pages/pumaandcubs.html",
-    "title": "PumaAndCubs",
+    "title": "Puma with Cubs",
     "thumbnail": "images/PumaAndCubs-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -513,7 +513,7 @@
   },
   {
     "file": "pages/gnarlydragon.html",
-    "title": "GnarlyDragon",
+    "title": "Gnarly Dragon",
     "thumbnail": "images/GnarlyDragon-thumb.jpg",
     "artist": "Unknown",
     "theme": "Intarsia",
@@ -553,7 +553,7 @@
   },
   {
     "file": "pages/oranges2.html",
-    "title": "Oranges2",
+    "title": "Oranges",
     "thumbnail": "images/Oranges2-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -577,7 +577,7 @@
   },
   {
     "file": "pages/pears2.html",
-    "title": "Pears2",
+    "title": "Pears",
     "thumbnail": "images/Pears2-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -585,7 +585,7 @@
   },
   {
     "file": "pages/pumastare.html",
-    "title": "PumaStare",
+    "title": "Puma Staring",
     "thumbnail": "images/PumaStare-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -617,7 +617,7 @@
   },
   {
     "file": "pages/seaotter.html",
-    "title": "SeaOtter",
+    "title": "Sea Otter",
     "thumbnail": "images/SeaOtter-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -625,7 +625,7 @@
   },
   {
     "file": "pages/sittingcat.html",
-    "title": "SittingCat",
+    "title": "Sitting Cat",
     "thumbnail": "images/SittingCat-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -641,7 +641,7 @@
   },
   {
     "file": "pages/standingpug.html",
-    "title": "StandingPug",
+    "title": "Standing Pug",
     "thumbnail": "images/StandingPug-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
@@ -649,7 +649,7 @@
   },
   {
     "file": "pages/waffleboard.html",
-    "title": "WaffleBoard",
+    "title": "Waffle Board",
     "thumbnail": "images/WaffleBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
@@ -657,7 +657,7 @@
   },
   {
     "file": "pages/waffleboard1.html",
-    "title": "WaffleBoard1",
+    "title": "Waffle Board1",
     "thumbnail": "images/WaffleBoard1-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
@@ -697,7 +697,7 @@
   },
   {
     "file": "pages/bwdragonfull.html",
-    "title": "BwDragonFull",
+    "title": "Imposing Dragon",
     "thumbnail": "images/BwDragonFull-thumb.jpg",
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
@@ -705,7 +705,7 @@
   },
   {
     "file": "pages/cateyeglass1.html",
-    "title": "CatEyeGlass1",
+    "title": "Cat Eyelass Holder",
     "thumbnail": "images/CatEyeGlass1-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
@@ -729,7 +729,7 @@
   },
   {
     "file": "pages/horsehead.html",
-    "title": "HorseHead",
+    "title": "Horse Head",
     "thumbnail": "images/HorseHead-thumb.jpg",
     "artist": "Kathy Wise",
     "theme": "Intarsia",
