@@ -119,11 +119,13 @@ p {
 /* Layout for filter controls */
 .filter-group {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 1rem;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   margin-bottom: 1.5rem;
 }
+
 
 
 .filter-group > div {
