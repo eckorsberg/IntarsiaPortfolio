@@ -19,3 +19,7 @@ git push -u origin main
 git remote add origin https://github.com/eckorsberg/IntarsiaPortfolio2.git
 git branch -M main
 git push -u origin main
+
+#make a new branch for filtered-gallery
+#also have to got to git hub to use Folder: /root and Source: filtered-gallery
+“Let’s pick up the gallery filters with Artist, Theme, and Type.”
