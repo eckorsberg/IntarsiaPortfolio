@@ -15,19 +15,27 @@ fetch("gallery.json")
     // Populate each filter dropdown with unique sorted values from data
     Object.keys(filters).forEach(key => {
       const uniqueValues = [...new Set(data.map(item => item[key]).filter(Boolean))].sort();
+
+      // Add an "All" option first
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "";
+      defaultOption.textContent = "All";
+      filters[key].appendChild(defaultOption);
+
+      // Add real values
       uniqueValues.forEach(value => {
-        const option = document.createElement("option");  // Create <option> element
-        option.value = value;                             // Set the value attribute
-        option.textContent = value;                       // Set the text shown in dropdown
-        filters[key].appendChild(option);                 // Add option to the corresponding <select>
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        filters[key].appendChild(option);
       });
     });
 
     // Function to apply active filters and rebuild the gallery
     function applyFilters() {
-      galleryContainer.innerHTML = "";                    // Clear existing gallery items
-	  const searchTerm = document.getElementById("searchBox").value.trim().toLowerCase();  //reference to search box
-      galleryContainer.className = "gallery";             // Ensure container retains grid styling
+      galleryContainer.innerHTML = ""; // Clear existing gallery items
+      const searchTerm = document.getElementById("searchBox").value.trim().toLowerCase();
+      galleryContainer.className = "gallery"; // Ensure container retains grid styling
 
       // Collect selected filter values
       const selected = {
@@ -36,52 +44,47 @@ fetch("gallery.json")
         type: filters.type.value,
       };
 
-      // Loop through all items in the dataset
+      let matchedCount = 0;
+
       data.forEach(item => {
-        // Determine if item matches selected filters
         const match =
           (!selected.artist || item.artist === selected.artist) &&
           (!selected.theme || item.theme === selected.theme) &&
           (!selected.type || item.type === selected.type) &&
-		  (!searchTerm || item.title.toLowerCase().includes(searchTerm));
+          (!searchTerm || item.title.toLowerCase().includes(searchTerm));
 
         if (match) {
-          // Create a link that wraps the image and caption
+          matchedCount++;
           const link = document.createElement("a");
           link.href = item.file;
-          //link.target = "_blank";                         // Open in new tab
           link.className = "gallery-link";
 
-          // Create the image element
           const img = document.createElement("img");
-          img.src = item.thumbnail;                       // Set image source
-          img.alt = item.title;                           // Set alt text
-          img.classList.add("gallery-img");               // Add styling class
-          console.log("Added class:", img.className, "to", img.src);  // Debug log
+          img.src = item.thumbnail;
+          img.alt = item.title;
+          img.classList.add("gallery-img");
 
-          // Create caption element
           const caption = document.createElement("p");
           caption.className = "gallery-caption";
           caption.innerText = item.title;
 
-          // Append image and caption to the link
           link.appendChild(img);
           link.appendChild(caption);
-
-          // Add the link to the gallery container
           galleryContainer.appendChild(link);
         }
       });
-	  
-	// Attach input listener to search box
-	document.getElementById("searchBox").addEventListener("input", applyFilters);
-	  
+
+      if (matchedCount === 0) {
+        galleryContainer.innerHTML = "<p style='text-align:center;'>No items match the selected filters.</p>";
+      }
     }
 
-    // Attach change listeners to all dropdowns to reapply filters on change
+    // Attach listeners
     Object.values(filters).forEach(select => {
       select.addEventListener("change", applyFilters);
     });
 
-    applyFilters(); // Initial rendering on page load
+    document.getElementById("searchBox").addEventListener("input", applyFilters);
+
+    applyFilters(); // Initial render
   });

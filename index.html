@@ -21,23 +21,30 @@
     <p><a href="about.html" class="btn">Learn More About This Project</a></p>
   </div>
   	
-	<!-- Search Filter -->
-	<div id="searchContainer" style="margin-bottom: 1rem; text-align: center;">
-	  <label for="searchBox"><strong>Search Title:</strong></label>
-	  <input type="text" id="searchBox" placeholder="Type to filter..." style="margin-left: 0.5rem; padding: 0.3em; width: 200px;">
-	</div>
-	
+
 	<!-- Filter Controls -->
-	<div id="filters" style="margin-bottom: 20px; text-align: center;">
-	  <label for="artistFilter">Artist:</label>
-	  <select id="artistFilter"><option value="">All</option></select>
+	<div class="filter-group">
+	  <div>
+		<label for="searchBox"><strong>Search Title:</strong></label>
+		<input type="text" id="searchBox" placeholder="Type to filter...">
+	  </div>
 
-	  <label for="themeFilter" style="margin-left: 1rem;">Theme:</label>
-	  <select id="themeFilter"><option value="">All</option></select>
+	  <div>
+		<label for="artistFilter">Artist:</label>
+		<select id="artistFilter"></select>
+	  </div>
 
-	  <label for="typeFilter" style="margin-left: 1rem;">Type:</label>
-	  <select id="typeFilter"><option value="">All</option></select>
+	  <div>
+		<label for="themeFilter">Theme:</label>
+		<select id="themeFilter"></select>
+	  </div>
+
+	  <div>
+		<label for="typeFilter">Type:</label>
+		<select id="typeFilter"></select>
+	  </div>
 	</div>
+
 
 	<!-- Gallery Container -->
 	<div class="gallery"></div>
