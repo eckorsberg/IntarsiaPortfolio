@@ -25,3 +25,14 @@ git push -u origin main
 “Let’s pick up the gallery filters with Artist, Theme, and Type.”
 
 Artist, Theme(e.g Intarsia, cutting board, scrollsaw, bowls), Type(e.g Dragon, cats, dogs, whimsical, other.
+
+option 1, start over from tag and create a new branch from it (not what I want)
+git checkout FirstFilter              # puts you in a "detached HEAD" state
+git checkout -b reset-clean-slate     # creates a new branch from that tag
+
+option 2, reset main to that tag
+git checkout main
+git reset --hard FirstFilter
+git push origin main --force
+
+

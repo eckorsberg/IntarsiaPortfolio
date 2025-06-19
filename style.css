@@ -1,120 +1,123 @@
+
 /* Shared site-wide CSS for Intarsia Portfolio */
 
 body {
-  font-family: sans-serif;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  padding: 1em;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #222;
+  font-family: sans-serif;                          /* Use a clean sans-serif font */
+  font-size: clamp(1rem, 2.5vw, 1.2rem);             /* Responsive font size between 1rem and 1.2rem */
+  padding: 1em;                                      /* Add spacing inside the body */
+  line-height: 1.6;                                  /* Increase line spacing for readability */
+  background-color: #fff;                            /* Set page background to white */
+  color: #222;                                       /* Use dark gray text for contrast */
 }
 
-
 h1 {
-  font-size: 1.8em;
-  color: #2c3e50;
+  font-size: 1.8em;                                  /* Larger font size for main headings */
+  color: #2c3e50;                                    /* Deep blue-gray for visual strength */
 }
 
 .back {
-  margin-bottom: 1em;
+  margin: 1em 0;                   /* Add top and bottom margin for balance */
+  font-size: 0.9rem;               /* Slightly smaller than body text */
+  text-align: left;               /* Optional: align left if centered by default */
 }
 
 .back a {
-  text-decoration: none;
-  color: #3498db;
+  text-decoration: none;          /* No underline */
+  color: #3498db;                 /* Soft blue matches rest of design */
+  transition: color 0.2s ease;    /* Smooth color change on hover */
+}
+
+.back a:hover {
+  text-decoration: underline;     /* Underline on hover for clarity */
+  color: #2a7ab9;                 /* Slightly darker blue on hover */
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1em auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 100%;                                   /* Ensure images don’t exceed container width */
+  height: auto;                                      /* Keep aspect ratio intact */
+  display: block;                                    /* Eliminate extra space below images */
+  margin: 1em auto;                                  /* Center images with vertical margin */
+  border-radius: 8px;                                /* Rounded corners on all images */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);            /* Soft drop shadow for depth */
 }
 
 p {
-  margin: 0.5em 0;
+  margin: 0.5em 0;                                   /* Vertical spacing between paragraphs */
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  display: grid;                                     /* Use CSS grid layout for gallery */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Responsive columns that shrink to 250px */
+  gap: 1.5rem;                                       /* Spacing between grid items */
 }
 
 .gallery a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none;                             /* Remove underlines from gallery links */
+  color: inherit;                                    /* Inherit text color from parent */
 }
 
 .gallery-caption {
-  margin-top: 0.5rem;
-  text-align: center;
-  font-weight: bold;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal; /* allow wrapping */
-  padding: 0 0.5rem;
-  max-width: 100%;
+  margin-top: 0.5rem;                                /* Space between image and caption */
+  text-align: center;                                /* Center-align caption text */
+  font-weight: bold;                                 /* Make caption text bold */
+  word-wrap: break-word;                             /* Break long words to prevent overflow */
+  overflow-wrap: break-word;                         /* Also break words on modern browsers */
+  white-space: normal;                               /* Allow line breaks in text */
+  padding: 0 0.5rem;                                 /* Add horizontal padding */
+  max-width: 100%;                                   /* Prevent caption from exceeding container */
 }
-
 
 .gallery-img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;           /* ✅ Show full image without cropping */
-  background-color: #f8f8f8;     /* Optional: fills behind letterboxed areas */
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  width: 100%;                                       /* Stretch image to fill container width */
+  height: 200px;                                     /* Fixed height for consistency */
+  object-fit: contain;                               /* Show full image without cropping */
+  background-color: #f8f8f8;                         /* Fill background behind transparent or smaller images */
+  display: block;                                    /* Block display to remove extra space */
+  border-radius: 8px;                                /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);          /* Subtle shadow for depth */
+  transition: transform 0.2s ease;                   /* Smooth hover scaling animation */
 }
 
-
-
 .gallery-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.03);                            /* Slight zoom on hover for effect */
 }
 
 .gallery-thumb {
-  width: 100px;
-  height: auto;
-  max-width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  object-fit: cover;
+  width: 100px;                                      /* Fixed width for small thumbnails */
+  height: auto;                                      /* Maintain image aspect ratio */
+  max-width: 100%;                                   /* Prevent overflow in smaller containers */
+  border: 1px solid #ccc;                            /* Light gray border */
+  border-radius: 8px;                                /* Rounded corners */
+  object-fit: cover;                                 /* Crop to fill thumbnail space */
 }
 
 .gallery-link {
-  display: block;
-  margin-bottom: 15px;
-  text-decoration: none;
-  color: inherit;
+  display: block;                                    /* Make link span full width */
+  margin-bottom: 15px;                               /* Space below each link */
+  text-decoration: none;                             /* Remove underline */
+  color: inherit;                                    /* Use parent’s text color */
 }
-
 
 .gallery-title {
-  font-size: 1.1em;
+  font-size: 1.1em;                                  /* Slightly larger title font */
 }
-
 
 /* Intro paragraph on index */
 .intro-text {
-  text-align: center;
-  margin-bottom: 2rem;
+  text-align: center;                                /* Center text block */
+  margin-bottom: 2rem;                               /* Add space below intro */
 }
 
 /* Article thumbnail image */
 .article-thumb {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
+  max-width: 100%;                                   /* Limit width to container */
+  height: auto;                                      /* Maintain aspect ratio */
+  display: block;                                    /* Eliminate extra space */
+  margin: 1rem auto;                                 /* Center and space vertically */
 }
 
 @media (min-width: 1200px) {
   .article-thumb {
-    max-width: 600px;
+    max-width: 600px;                                /* Restrict width on large screens */
   }
 }
