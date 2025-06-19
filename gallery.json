@@ -32,6 +32,14 @@
     "type": "Whimsical"
   },
   {
+    "file": "pages/girlwithumbrella.html",
+    "title": "Girl with Umbrella",
+    "thumbnail": "images/girlwithumbrella-thumb.jpg",
+    "artist": "Unknown",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
     "file": "pages/tabbycat.html",
     "title": "Tabby Cat",
     "thumbnail": "images/TabbyCat-thumb.jpg",
@@ -75,6 +83,14 @@
     "file": "pages/3dcuttingboard.html",
     "title": "3d Cutting Board",
     "thumbnail": "images/3dCuttingBoard-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Other"
+  },
+  {
+    "file": "pages/checkeredboard.html",
+    "title": "Checkered Cutting Board",
+    "thumbnail": "images/checkeredboard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Other"
@@ -707,6 +723,14 @@
     "file": "pages/cateyeglass1.html",
     "title": "Cat Eyelass Holder",
     "thumbnail": "images/CatEyeGlass1-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/owleyeglass.html",
+    "title": "Owl Eyelass Holder",
+    "thumbnail": "images/owleyeglass-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical"
