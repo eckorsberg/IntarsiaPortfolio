@@ -376,6 +376,14 @@
     "type": "Dogs"
   },
   {
+    "file": "pages/airedale.html",
+    "title": "Airedale",
+    "thumbnail": "images/airedale-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Dogs"
+  },
+  {
     "file": "pages/jaguarinlay.html",
     "title": "Jaguar Head",
     "thumbnail": "images/JaguarInlay-thumb.jpg",
@@ -750,6 +758,38 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Other"
+  },
+  {
+    "file": "pages/bowllayer.html",
+    "title": "Scrollsaw Bowl",
+    "thumbnail": "images/bowllayer-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Bowls"
+  },
+  {
+    "file": "pages/bowl1.html",
+    "title": "Bowl",
+    "thumbnail": "images/bowl1-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Bowls"
+  },
+  {
+    "file": "pages/bowl2.html",
+    "title": "Bowl",
+    "thumbnail": "images/bowl2-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Bowls"
+  },
+  {
+    "file": "pages/bowl3.html",
+    "title": "Bowl",
+    "thumbnail": "images/bowl3-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Bowls"
   },
   {
     "file": "pages/horsehead.html",
