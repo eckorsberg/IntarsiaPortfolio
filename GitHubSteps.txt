@@ -43,6 +43,10 @@ git commit -m "Add search box UI and responsive filter layout"
 
 git push -u origin search-box
 
+make thumbnails
+pip install pillow
+python generate_thumbnails.py
+
 
 
 
