@@ -3,6 +3,9 @@ from PIL import Image
 import os
 
 # Adjust these paths if needed
+#usage
+#python generate_thumbnails.py
+
 SOURCE_DIR = "images_full"
 DEST_DIR = "images"
 THUMBNAIL_HEIGHT = 200  # Adjust height as desired
