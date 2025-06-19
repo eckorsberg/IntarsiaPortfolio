@@ -35,4 +35,15 @@ git checkout main
 git reset --hard FirstFilter
 git push origin main --force
 
+make a dev branch
+git checkout -b search-box
+
+git add .
+git commit -m "Add search box UI and responsive filter layout"
+
+git push -u origin search-box
+
+
+
+
 
