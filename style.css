@@ -151,29 +151,24 @@ img {
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fefefe;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .filter-group > div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  background-color: #fafafa;
 }
 
 /* === Responsive Design === */
-/*
-@media (max-width: 600px) {
-  .filter-group {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .filter-group > div {
-    width: 100%;
-    max-width: 300px;
-  }
-}
-*/
-
 @media (max-width: 600px) {
   .filter-group {
     display: grid;
