@@ -58,18 +58,31 @@
 <script>
   function toggleFilters() {
     const group = document.querySelector('.filter-group');
-    group.classList.toggle('collapsed');
-
     const button = document.querySelector('.filter-toggle');
-    button.textContent = group.classList.contains('collapsed') ? 'Show Filters' : 'Hide Filters';
+
+    const isCollapsed = group.classList.toggle('collapsed');
+    button.textContent = isCollapsed ? 'Show Filters' : 'Hide Filters';
   }
 
-  window.addEventListener('DOMContentLoaded', () => {
+  function adjustFilterVisibility() {
+    const group = document.querySelector('.filter-group');
+    const button = document.querySelector('.filter-toggle');
+
     if (window.innerWidth <= 600) {
-      document.querySelector('.filter-group')?.classList.add('collapsed');
+      group.classList.add('collapsed');
+      button.style.display = 'block';
+      button.textContent = 'Show Filters';
+    } else {
+      group.classList.remove('collapsed');
+      button.style.display = 'none';
     }
-  });
+  }
+
+  window.addEventListener('DOMContentLoaded', adjustFilterVisibility);
+  window.addEventListener('resize', adjustFilterVisibility); // make it responsive to resizing
 </script>
+
+
 
 
 
