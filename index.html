@@ -56,31 +56,37 @@
   <script src="js/gallery-filter.js?v=5"></script>
   
 <script>
+  // Toggles the visibility of the filter controls when the toggle button is clicked
   function toggleFilters() {
-    const group = document.querySelector('.filter-group');
-    const button = document.querySelector('.filter-toggle');
+    const group = document.querySelector('.filter-group');       // Selects the container holding the filter controls
+    const button = document.querySelector('.filter-toggle');     // Selects the toggle button
 
-    const isCollapsed = group.classList.toggle('collapsed');
-    button.textContent = isCollapsed ? 'Show Filters' : 'Hide Filters';
+    const isCollapsed = group.classList.toggle('collapsed');     // Toggles the 'collapsed' class on the filter group
+    button.textContent = isCollapsed ? 'Show Filters' : 'Hide Filters'; // Updates button text based on state
   }
 
+  // Sets initial visibility of the filter controls based on screen width
   function adjustFilterVisibility() {
-    const group = document.querySelector('.filter-group');
-    const button = document.querySelector('.filter-toggle');
+    const group = document.querySelector('.filter-group');       // Selects the filter controls container
+    const button = document.querySelector('.filter-toggle');     // Selects the toggle button
 
-    if (window.innerWidth <= 600) {
-      group.classList.add('collapsed');
-      button.style.display = 'block';
-      button.textContent = 'Show Filters';
-    } else {
-      group.classList.remove('collapsed');
-      button.style.display = 'none';
+    if (window.innerWidth <= 600) {                              // On small screens (<= 600px)
+      group.classList.add('collapsed');                          // Collapse filters
+      button.style.display = 'block';                            // Show the toggle button
+      button.textContent = 'Show Filters';                       // Set button text
+    } else {                                                     // On larger screens
+      group.classList.remove('collapsed');                       // Expand filters
+      button.style.display = 'none';                             // Hide the toggle button
     }
   }
 
+  // Run the adjustment logic when the page is loaded
   window.addEventListener('DOMContentLoaded', adjustFilterVisibility);
-  window.addEventListener('resize', adjustFilterVisibility); // make it responsive to resizing
+
+  // Also run the logic whenever the window is resized
+  window.addEventListener('resize', adjustFilterVisibility); // Ensures filters adapt to screen size changes
 </script>
+
 
 
 
