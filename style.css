@@ -23,6 +23,9 @@
   7. Responsive Design
      - @media (max-width: 600px)
      - @media (min-width: 1200px)
+  8. Mobile Filter Toggle
+     - .filter-toggle
+     - .filter-group.collapsed
 */
 
 /* === Global Styles === */
@@ -156,6 +159,15 @@ img {
   padding: 1rem;
   background-color: #fefefe;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.filter-group.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
 }
 
 .filter-group > div {
@@ -168,8 +180,25 @@ img {
   background-color: #fafafa;
 }
 
+/* === Mobile Filter Toggle === */
+.filter-toggle {
+  display: none;
+  background: #2c3e50;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 /* === Responsive Design === */
 @media (max-width: 600px) {
+  .filter-toggle {
+    display: block;
+  }
+
   .filter-group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
