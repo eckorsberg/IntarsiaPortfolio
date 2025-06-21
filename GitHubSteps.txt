@@ -50,6 +50,31 @@ python generate_thumbnails.py
 on how to do domain
 https://chatgpt.com/share/68546b13-a128-800f-b74e-7dcf9b8cdca2
 
+@prepare to move to sub folder
+shopt -s extglob  # Enables extended globbing
+mv !(ed|jane|.git) ed/
+
+
+!(pattern) – everything except pattern
+*(pattern) – zero or more matches
+?(pattern) – zero or one match
++(pattern) – one or more matches
+@(pattern) – exactly one match
+
+#redirect
+<meta http-equiv="refresh" content="0; url='https://www.korsbergcrafts.com/ed/'" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="0; url='./ed/'" />
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>If you are not redirected, <a href="./ed/">click here</a>.</p>
+</body>
+</html>
+
 
 
 

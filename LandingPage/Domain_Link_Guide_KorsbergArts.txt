@@ -1,0 +1,48 @@
+Domain Linking Checklist: KorsbergArts.com → GitHub Pages
+==========================================================
+
+GitHub Setup
+------------
+[ ] Create a CNAME file in the root of your GitHub repo (e.g., IntarsiaPortfolio):
+    Content:
+    www.korsbergcrafts.com
+
+[ ] Commit & push the file:
+    echo "www.korsbergcrafts.com" > CNAME
+    git add CNAME
+    git commit -m "Add custom domain"
+    git push
+
+Namecheap DNS Setup
+--------------------
+1. Log in to https://www.namecheap.com
+2. Go to Dashboard → Domain → Manage
+3. Open the Advanced DNS tab
+
+A Records (for root domain korsbergcrafts.com):
+    Type | Host | Value             | TTL
+    -----|------|-------------------|----------
+    A    | @    | 185.199.108.153   | Automatic
+    A    | @    | 185.199.109.153   | Automatic
+    A    | @    | 185.199.110.153   | Automatic
+    A    | @    | 185.199.111.153   | Automatic
+
+CNAME Record (for www.korsbergcrafts.com):
+    Type  | Host | Value                  | TTL
+    ------|------|------------------------|----------
+    CNAME | www  | eckorsberg.github.io.  | Automatic
+
+DNS Propagation
+---------------
+[ ] Wait for DNS propagation (can take up to 24 hours)
+[ ] Monitor using https://www.whatsmydns.net
+
+Final GitHub Pages Config
+--------------------------
+[ ] Go to GitHub Repo → Settings → Pages
+[ ] Confirm custom domain: www.korsbergcrafts.com
+[ ] Enable "Enforce HTTPS"
+
+Done!
+-----
+Your site will load at: https://www.korsbergcrafts.com
