@@ -11,6 +11,20 @@ fetch("gallery.json")
       type: document.getElementById("typeFilter"),
     };
 
+    // Restore filters from sessionStorage
+    Object.keys(filters).forEach(key => {
+      const saved = sessionStorage.getItem(`filter-${key}`);
+      if (saved && filters[key]) {
+        filters[key].value = saved;
+      }
+    });
+
+    const searchBox = document.getElementById("searchBox");
+    const savedSearch = sessionStorage.getItem("searchTerm");
+    if (savedSearch) {
+      searchBox.value = savedSearch;
+    }
+
     // Populate dropdowns with unique values from the dataset
     Object.keys(filters).forEach(key => {
       const uniqueValues = [...new Set(data.map(item => item[key]).filter(Boolean))].sort();
@@ -35,7 +49,7 @@ fetch("gallery.json")
       galleryContainer.innerHTML = ""; // Clear gallery
       galleryContainer.className = "gallery"; // Ensure class remains for layout
 
-      const searchTerm = document.getElementById("searchBox").value.trim().toLowerCase();
+      const searchTerm = searchBox.value.trim().toLowerCase();
 
       // Get selected filter values
       const selected = {
@@ -87,12 +101,18 @@ fetch("gallery.json")
     }
 
     // Attach change listeners to all filters
-    Object.values(filters).forEach(select => {
-      select.addEventListener("change", applyFilters);
+    Object.entries(filters).forEach(([key, select]) => {
+      select.addEventListener("change", () => {
+        sessionStorage.setItem(`filter-${key}`, select.value);
+        applyFilters();
+      });
     });
 
     // Text input listener
-    document.getElementById("searchBox").addEventListener("input", applyFilters);
+    searchBox.addEventListener("input", () => {
+      sessionStorage.setItem("searchTerm", searchBox.value);
+      applyFilters();
+    });
 
     applyFilters(); // Initial rendering of gallery
   });
