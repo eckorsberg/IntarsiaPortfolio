@@ -11,7 +11,19 @@ fetch("gallery.json")
       type: document.getElementById("typeFilter"),
     };
 
+    // Restore filters from sessionStorage
+    Object.keys(filters).forEach(key => {
+      const saved = sessionStorage.getItem(`filter-${key}`);
+      if (saved && filters[key]) {
+        filters[key].value = saved;
+      }
+    });
+
     const searchBox = document.getElementById("searchBox");
+    const savedSearch = sessionStorage.getItem("searchTerm");
+    if (savedSearch) {
+      searchBox.value = savedSearch;
+    }
 
     // Populate dropdowns with unique values from the dataset
     Object.keys(filters).forEach(key => {
@@ -31,19 +43,6 @@ fetch("gallery.json")
         filters[key].appendChild(option);
       });
     });
-
-    // Now that options exist, restore session values
-    Object.keys(filters).forEach(key => {
-      const saved = sessionStorage.getItem(`filter-${key}`);
-      if (saved && filters[key]) {
-        filters[key].value = saved;
-      }
-    });
-
-    const savedSearch = sessionStorage.getItem("searchTerm");
-    if (savedSearch) {
-      searchBox.value = savedSearch;
-    }
 
     // Render gallery based on current filters and search term
     function applyFilters() {
