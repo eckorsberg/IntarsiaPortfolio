@@ -85,7 +85,7 @@
     "thumbnail": "images/3dCuttingBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
-    "type": "Other"
+    "type": "Functional"
   },
   {
     "file": "pages/checkeredboard.html",
@@ -93,7 +93,7 @@
     "thumbnail": "images/checkeredboard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
-    "type": "Other"
+    "type": "Functional"
   },
   {
     "file": "pages/stairstepcuttingboard.html",
@@ -101,7 +101,7 @@
     "thumbnail": "images/StairStepCuttingBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
-    "type": "Other"
+    "type": "Functional"
   },
   {
     "file": "pages/giraffeinframe.html",
@@ -677,7 +677,7 @@
     "thumbnail": "images/WaffleBoard-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
-    "type": "Other"
+    "type": "Functional"
   },
   {
     "file": "pages/waffleboard1.html",
@@ -685,7 +685,7 @@
     "thumbnail": "images/WaffleBoard1-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
-    "type": "Other"
+    "type": "Functional"
   },
   {
     "file": "pages/watermellon.html",
