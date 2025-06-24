@@ -1,24 +1,25 @@
 // pattern-designer-loader.js
-// Automatically inserts the pattern designer name based on current page
 
-document.addEventListener("DOMContentLoaded", () => {
-  const fileName = location.pathname.split("/").pop(); // e.g., "standingpug.html"
+// Extract the current page path in lowercase (without leading slash)
+const currentPage = window.location.pathname.toLowerCase().replace(/^\//, "");
 
-  fetch("/gallery.json")
-    .then(res => res.json())
-    .then(data => {
-      const match = data.find(item => item.file.includes(fileName));
-      const target = document.getElementById("patternDesigner");
-      if (target) {
-        if (match && match.artist) {
-          target.textContent = match.artist;
-        } else {
-          target.textContent = "(unknown)";
-        }
-      }
-    })
-    .catch(() => {
-      const target = document.getElementById("patternDesigner");
-      if (target) target.textContent = "(error)";
-    });
-});
+// Fetch gallery metadata
+fetch("/gallery.json")
+  .then((response) => response.json())
+  .then((data) => {
+    // Find matching entry (case-insensitive match)
+    const entry = data.find(
+      (item) => item.file.toLowerCase() === currentPage
+    );
+
+    // Set designer name or fallback to 'Unknown'
+    const designerElement = document.getElementById("patternDesigner");
+    if (entry && entry.artist && designerElement) {
+      designerElement.textContent = entry.artist;
+    } else if (designerElement) {
+      designerElement.textContent = "Unknown";
+    }
+  })
+  .catch((error) => {
+    console.error("Error loading gallery.json:", error);
+  });
