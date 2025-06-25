@@ -792,6 +792,22 @@
     "type": "Bowls"
   },
   {
+    "file": "pages/rickvicki.html",
+    "title": "Bowl",
+    "thumbnail": "images/rickvicki-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Memorial"
+  },
+  {
+    "file": "pages/guolihuan.html",
+    "title": "Bowl",
+    "thumbnail": "images/guolihuan-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Memorial"
+  },
+  {
     "file": "pages/horsehead.html",
     "title": "Horse Head",
     "thumbnail": "images/HorseHead-thumb.jpg",
