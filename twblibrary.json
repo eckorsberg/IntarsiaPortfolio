@@ -64,14 +64,6 @@
     "type": "Animals"
   },
   {
-    "file": "pages/sweetcorn.html",
-    "title": "SweetCorn",
-    "thumbnail": "images/SweetCorn-thumb.jpg",
-    "artist": "Judy Gale Roberts",
-    "theme": "Intarsia",
-    "type": "Other"
-  },
-  {
     "file": "pages/girlwithwateringcanredshoes.html",
     "title": "Girl With Watering",
     "thumbnail": "images/GirlWithWateringCanRedShoes-thumb.jpg",
@@ -123,14 +115,6 @@
     "file": "pages/ornament5.html",
     "title": "Squirrel Ornament",
     "thumbnail": "images/Ornament5-thumb.jpg",
-    "artist": "Judy Gale Roberts",
-    "theme": "Intarsia",
-    "type": "Other"
-  },
-  {
-    "file": "pages/ornament6.html",
-    "title": "Red Fox Ornament",
-    "thumbnail": "images/Ornament6-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Other"
@@ -216,33 +200,9 @@
     "type": "Birds"
   },
   {
-    "file": "pages/oranges.html",
-    "title": "Oranges",
-    "thumbnail": "images/Oranges-thumb.jpg",
-    "artist": "Judy Gale Roberts",
-    "theme": "Intarsia",
-    "type": "Other"
-  },
-  {
-    "file": "pages/oranges2.html",
-    "title": "Oranges",
-    "thumbnail": "images/Oranges2-thumb.jpg",
-    "artist": "Judy Gale Roberts",
-    "theme": "Intarsia",
-    "type": "Other"
-  },
-  {
     "file": "pages/peaches.html",
     "title": "Peaches",
     "thumbnail": "images/Peaches-thumb.jpg",
-    "artist": "Judy Gale Roberts",
-    "theme": "Intarsia",
-    "type": "Other"
-  },
-  {
-    "file": "pages/pumpkin.html",
-    "title": "Pumpkin",
-    "thumbnail": "images/Pumpkin-thumb.jpg",
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Other"
@@ -262,14 +222,6 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals"
-  },
-  {
-    "file": "pages/sittingcat.html",
-    "title": "Sitting Cat",
-    "thumbnail": "images/SittingCat-thumb.jpg",
-    "artist": "Kathy Wise",
-    "theme": "Intarsia",
-    "type": "Cats"
   },
   {
     "file": "pages/standingpug.html",
