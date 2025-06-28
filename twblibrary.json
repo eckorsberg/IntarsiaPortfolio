@@ -1,0 +1,282 @@
+[
+  {
+    "file": "pages/cogsworth.html",
+    "title": "Cogsworth",
+    "thumbnail": "images/Cogsworth-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/mrspottsandchip.html",
+    "title": "Mrs Potts And Chip",
+    "thumbnail": "images/MrsPottsAndChip-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/luminaire.html",
+    "title": "Lumière",
+    "thumbnail": "images/luminaire-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/goofybird.html",
+    "title": "Goofy Bird",
+    "thumbnail": "images/GoofyBird-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/tabbycat.html",
+    "title": "Tabby Cat",
+    "thumbnail": "images/TabbyCat-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Cats"
+  },
+  {
+    "file": "pages/thumper.html",
+    "title": "Thumper",
+    "thumbnail": "images/Thumper-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/welcome.html",
+    "title": "Welcome plaque",
+    "thumbnail": "images/Welcome-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/giraffeinframe.html",
+    "title": "Giraffe in Frame",
+    "thumbnail": "images/GiraffeInFrame-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Animals"
+  },
+  {
+    "file": "pages/sweetcorn.html",
+    "title": "SweetCorn",
+    "thumbnail": "images/SweetCorn-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/girlwithwateringcanredshoes.html",
+    "title": "Girl With Watering",
+    "thumbnail": "images/GirlWithWateringCanRedShoes-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/expressivecorgi.html",
+    "title": "Expressive Corgi",
+    "thumbnail": "images/ExpressiveCorgi-thumb.jpg",
+    "artist": "Janette Square",
+    "theme": "Intarsia",
+    "type": "Dogs"
+  },
+  {
+    "file": "pages/hootowlpineapply.html",
+    "title": "Hoot Owl in Pineapple",
+    "thumbnail": "images/HootOwlPineapply-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/eagle.html",
+    "title": "Eagle Head",
+    "thumbnail": "images/Eagle-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Animals"
+  },
+  {
+    "file": "pages/hatthedwarf.html",
+    "title": "Hat the Dwarf",
+    "thumbnail": "images/HatTheDwarf-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Mythical"
+  },
+  {
+    "file": "pages/ornament1.html",
+    "title": "Hoot Owl Ornament",
+    "thumbnail": "images/Ornament1-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/ornament5.html",
+    "title": "Squirrel Ornament",
+    "thumbnail": "images/Ornament5-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/ornament6.html",
+    "title": "Red Fox Ornament",
+    "thumbnail": "images/Ornament6-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/pumatwocubs.html",
+    "title": "Puma with Cubs",
+    "thumbnail": "images/PumaTwoCubs-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Cats"
+  },
+  {
+    "file": "pages/pumpkincrow.html",
+    "title": "Pumpkin and Crow",
+    "thumbnail": "images/PumpkinCrow-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/babygiraffe.html",
+    "title": "Baby Giraffe",
+    "thumbnail": "images/BabyGiraffe-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Animals"
+  },
+  {
+    "file": "pages/calvinhobbes.html",
+    "title": "Calvin and Hobbes",
+    "thumbnail": "images/CalvinHobbes-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
+    "file": "pages/up.html",
+    "title": "Ellie and Carl",
+    "thumbnail": "images/UP-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/jaguarinlay.html",
+    "title": "Jaguar Head",
+    "thumbnail": "images/JaguarInlay-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Cats"
+  },
+  {
+    "file": "pages/hootowlintree.html",
+    "title": "Hoot Owl in Tree",
+    "thumbnail": "images/HootOwlIntree-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/lionshead.html",
+    "title": "Lions Head",
+    "thumbnail": "images/LionsHead-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Cats"
+  },
+  {
+    "file": "pages/treeoflife.html",
+    "title": "Tree of Life",
+    "thumbnail": "images/TreeOfLife-thumb.jpg",
+    "artist": "John Rigsby",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/owlintree.html",
+    "title": "Owl in Tree",
+    "thumbnail": "images/OwlInTree-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Birds"
+  },
+  {
+    "file": "pages/oranges.html",
+    "title": "Oranges",
+    "thumbnail": "images/Oranges-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/oranges2.html",
+    "title": "Oranges",
+    "thumbnail": "images/Oranges2-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/peaches.html",
+    "title": "Peaches",
+    "thumbnail": "images/Peaches-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/pumpkin.html",
+    "title": "Pumpkin",
+    "thumbnail": "images/Pumpkin-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Other"
+  },
+  {
+    "file": "pages/schnauzer.html",
+    "title": "Schnauzer",
+    "thumbnail": "images/Schnauzer-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Dogs"
+  },
+  {
+    "file": "pages/seaotter.html",
+    "title": "Sea Otter",
+    "thumbnail": "images/SeaOtter-thumb.jpg",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
+    "type": "Animals"
+  },
+  {
+    "file": "pages/sittingcat.html",
+    "title": "Sitting Cat",
+    "thumbnail": "images/SittingCat-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Cats"
+  },
+  {
+    "file": "pages/standingpug.html",
+    "title": "Standing Pug",
+    "thumbnail": "images/StandingPug-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Dogs"
+  }
+]
