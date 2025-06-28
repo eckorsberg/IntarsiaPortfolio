@@ -4,6 +4,12 @@ fetch("gallery.json")
   .then(data => {
     const galleryContainer = document.querySelector(".gallery"); // Target container for gallery
 
+	// Display total number of pieces
+	const totalCountElement = document.getElementById("totalCount");
+	if (totalCountElement) {
+	  totalCountElement.textContent = `Total pieces in portfolio: ${data.length}`;
+	}
+
     // Cache filter dropdown DOM elements
     const filters = {
       artist: document.getElementById("artistFilter"),
