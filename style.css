@@ -132,6 +132,13 @@ img {
   font-size: 1.1em;
 }
 
+/* === For display of total number in portfolio === */
+.gallery-count {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
 /* === Article Thumbnails === */
 .article-thumb {
   max-width: 100%;
