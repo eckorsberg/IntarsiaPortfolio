@@ -814,5 +814,13 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Other"
+  },
+  {
+    "file": "pages/phoenixlight.html",
+    "title": "Phoenix backlight",
+    "thumbnail": "images/phoenixlight-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Scrollsaw",
+    "type": "Mythical"
   }
 ]
