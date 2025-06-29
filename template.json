@@ -1,0 +1,8 @@
+  {
+    "file": "pages/newimage.html",
+    "title": "{{TITLE}}",
+    "thumbnail": "images/newimage-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "{{THEME}}",
+    "type": "{{TYPE}}"
+  }
