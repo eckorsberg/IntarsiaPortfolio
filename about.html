@@ -69,10 +69,17 @@ fetch('gallery.json')
   });
 </script>
 
+	<!-- Email contact -->
+	<p class="contact-line">Contact me at <span id="email"></span></p>
+	<script>
+	  document.getElementById("email").innerHTML =
+		"<a href='mailto:" + "ed" + "@" + "korsbergcrafts.com'>" + "ed@korsbergcrafts.com" + "</a>";
+	</script>
+
 	<!-- Build Info Footer -->
 	<footer style="text-align: center; font-size: 0.9em; color: #666; margin-top: 3rem;">
-	  <p>Build version: <strong>v1.0</strong><br>
-	  Last updated: <span id="buildDate">2025-06-24</span></p>
+	  <p>Build version: <strong>v1.1</strong><br>
+	  Last updated: <span id="buildDate">2025-07-03</span></p>
 	</footer>	
 
 </body>
