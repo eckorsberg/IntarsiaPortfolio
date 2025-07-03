@@ -232,6 +232,21 @@ img {
   border: 0;
 }
 
+/* === Email contact === */
+.contact-line {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  margin-top: 2rem;
+}
+#email a {
+  color: #0077cc;
+  text-decoration: none;
+}
+#email a:hover {
+  text-decoration: underline;
+}
+
 
 /* === Responsive Design === */
 @media (max-width: 600px) {
