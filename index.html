@@ -78,12 +78,20 @@
 <script>
   // Toggles the visibility of the filter controls when the toggle button is clicked
   function toggleFilters() {
-    const group = document.querySelector('.filter-group');       // Selects the container holding the filter controls
-    const button = document.querySelector('.filter-toggle');     // Selects the toggle button
-
-    const isCollapsed = group.classList.toggle('collapsed');     // Toggles the 'collapsed' class on the filter group
-    button.textContent = isCollapsed ? 'Show Filters' : 'Hide Filters'; // Updates button text based on state
+    const group = document.querySelector('.filter-group');
+    const button = document.querySelector('.filter-toggle');
+  
+    const isCollapsed = group.classList.contains('collapsed');
+    if (isCollapsed) {
+  	group.classList.remove('collapsed');
+  	button.textContent = 'Hide Filters';
+    } else {
+  	// Only collapse if user tapped the button (not accidentally while scrolling)
+  	group.classList.add('collapsed');
+  	button.textContent = 'Show Filters';
+    }
   }
+
 
   // Sets initial visibility of the filter controls based on screen width
   function adjustFilterVisibility() {
