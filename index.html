@@ -83,12 +83,12 @@
   
     const isCollapsed = group.classList.contains('collapsed');
     if (isCollapsed) {
-  	group.classList.remove('collapsed');
-  	button.textContent = 'Hide Filters';
+  	  group.classList.remove('collapsed');
+  	  button.textContent = 'Hide Filters';
     } else {
   	// Only collapse if user tapped the button (not accidentally while scrolling)
-  	group.classList.add('collapsed');
-  	button.textContent = 'Show Filters';
+  	  group.classList.add('collapsed');
+  	  button.textContent = 'Show Filters';
     }
   }
 
