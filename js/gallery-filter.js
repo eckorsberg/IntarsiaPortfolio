@@ -15,6 +15,7 @@ fetch("gallery.json")
       artist: document.getElementById("artistFilter"),
       theme: document.getElementById("themeFilter"),
       type: document.getElementById("typeFilter"),
+	  status: document.getElementById("statusFilter"),
     };
 
     const searchBox = document.getElementById("searchBox");
@@ -63,6 +64,7 @@ fetch("gallery.json")
         artist: filters.artist.value,
         theme: filters.theme.value,
         type: filters.type.value,
+		status: filters.status.value,
       };
 
       let matchedCount = 0;
@@ -73,6 +75,7 @@ fetch("gallery.json")
           (!selected.artist || item.artist === selected.artist) &&
           (!selected.theme || item.theme === selected.theme) &&
           (!selected.type || item.type === selected.type) &&
+		  (!selected.status || item.status === selected.status) &&
           (!searchTerm || item.title.toLowerCase().includes(searchTerm));
 
         if (match) {
