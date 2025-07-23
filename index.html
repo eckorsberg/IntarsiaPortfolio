@@ -82,44 +82,47 @@
   <script src="js/gallery-filter.js"></script>
   
 <script>
-  // Toggles the visibility of the filter controls when the toggle button is clicked
+  let userToggled = false;  // Track if user manually toggled filters
+
   function toggleFilters() {
     const group = document.querySelector('.filter-group');
     const button = document.querySelector('.filter-toggle');
-  
     const isCollapsed = group.classList.contains('collapsed');
+
+    userToggled = true;  // Mark that the user explicitly toggled it
+
     if (isCollapsed) {
-  	  group.classList.remove('collapsed');
-  	  button.textContent = 'Hide Filters';
+      group.classList.remove('collapsed');
+      button.textContent = 'Hide Filters';
     } else {
-  	// Only collapse if user tapped the button (not accidentally while scrolling)
-  	  group.classList.add('collapsed');
-  	  button.textContent = 'Show Filters';
+      group.classList.add('collapsed');
+      button.textContent = 'Show Filters';
     }
   }
 
-
-  // Sets initial visibility of the filter controls based on screen width
   function adjustFilterVisibility() {
-    const group = document.querySelector('.filter-group');       // Selects the filter controls container
-    const button = document.querySelector('.filter-toggle');     // Selects the toggle button
+    const group = document.querySelector('.filter-group');
+    const button = document.querySelector('.filter-toggle');
 
-    if (window.innerWidth <= 600) {                              // On small screens (<= 600px)
-      group.classList.add('collapsed');                          // Collapse filters
-      button.style.display = 'block';                            // Show the toggle button
-      button.textContent = 'Show Filters';                       // Set button text
-    } else {                                                     // On larger screens
-      group.classList.remove('collapsed');                       // Expand filters
-      button.style.display = 'none';                             // Hide the toggle button
+    if (window.innerWidth <= 600) {
+      button.style.display = 'block';
+
+      // Only collapse automatically if the user hasn’t toggled manually
+      if (!userToggled) {
+        group.classList.add('collapsed');
+        button.textContent = 'Show Filters';
+      }
+    } else {
+      group.classList.remove('collapsed');
+      button.style.display = 'none';
+      userToggled = false; // Reset when switching to desktop
     }
   }
 
-  // Run the adjustment logic when the page is loaded
   window.addEventListener('DOMContentLoaded', adjustFilterVisibility);
-
-  // Also run the logic whenever the window is resized
-  window.addEventListener('resize', adjustFilterVisibility); // Ensures filters adapt to screen size changes
+  window.addEventListener('resize', adjustFilterVisibility);
 </script>
+
 
 </body>
 </html>
