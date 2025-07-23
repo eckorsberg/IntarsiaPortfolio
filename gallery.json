@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/HoMitaCode2025.html",
+    "title": "Ho Mita Coda 2025 Donation",
+    "thumbnail": "images/HoMitaCode2025-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical"
+  },
+  {
     "file": "pages/cogsworth.html",
     "title": "Cogsworth",
     "thumbnail": "images/Cogsworth-thumb.jpg",
@@ -17,7 +25,7 @@
   },
   {
     "file": "pages/luminaire.html",
-    "title": "Lumière",
+    "title": "Lumi\u00e8re",
     "thumbnail": "images/luminaire-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
