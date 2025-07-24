@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/LotusEtch.html",
+    "title": "Laser etch of Lotus Emira on glass",
+    "thumbnail": "images/LotusEtch-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Laser",
+	"status": "Donated"
+  },
+  {
     "file": "pages/HoMitaKoda2025.html",
     "title": "Ho Mita Coda 2025 Donation",
     "thumbnail": "images/HoMitaKoda2025-thumb.jpg",
