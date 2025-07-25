@@ -5,7 +5,8 @@
     "thumbnail": "images/MahjongedWithWine-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
-    "type": "laser"
+    "type": "Engraving",
+	"status": "Not For Sale"
   },
   {
     "file": "pages/LotusEtch.html",
@@ -13,7 +14,7 @@
     "thumbnail": "images/LotusEtch-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
-    "type": "Laser",
+    "type": "Engraving",
     "status": "Donated"
   },
   {
