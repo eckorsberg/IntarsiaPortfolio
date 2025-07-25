@@ -1,12 +1,20 @@
 [
   {
+    "file": "pages/MahjongedWithWine.html",
+    "title": "Mohjang With Wine glass",
+    "thumbnail": "images/MahjongedWithWine-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "laser"
+  },
+  {
     "file": "pages/LotusEtch.html",
     "title": "Laser etch of Lotus Emira on glass",
     "thumbnail": "images/LotusEtch-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Laser",
-	"status": "Donated"
+    "status": "Donated"
   },
   {
     "file": "pages/HoMitaKoda2025.html",
