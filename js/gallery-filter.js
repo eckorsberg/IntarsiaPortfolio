@@ -4,18 +4,18 @@ fetch("gallery.json")
   .then(data => {
     const galleryContainer = document.querySelector(".gallery"); // Target container for gallery
 
-	// Display total number of pieces
-	const totalCountElement = document.getElementById("totalCount");
-	if (totalCountElement) {
-	  totalCountElement.textContent = `Total pieces in portfolio: ${data.length}`;
-	}
+    // Display total number of pieces
+    const totalCountElement = document.getElementById("totalCount");
+    if (totalCountElement) {
+      totalCountElement.textContent = `Total pieces in portfolio: ${data.length}`;
+    }
 
     // Cache filter dropdown DOM elements
     const filters = {
       artist: document.getElementById("artistFilter"),
       theme: document.getElementById("themeFilter"),
       type: document.getElementById("typeFilter"),
-	  status: document.getElementById("statusFilter"),
+      status: document.getElementById("statusFilter"),
     };
 
     const searchBox = document.getElementById("searchBox");
@@ -64,7 +64,7 @@ fetch("gallery.json")
         artist: filters.artist.value,
         theme: filters.theme.value,
         type: filters.type.value,
-		status: filters.status.value,
+        status: filters.status.value,
       };
 
       let matchedCount = 0;
@@ -75,7 +75,7 @@ fetch("gallery.json")
           (!selected.artist || item.artist === selected.artist) &&
           (!selected.theme || item.theme === selected.theme) &&
           (!selected.type || item.type === selected.type) &&
-		  (!selected.status || item.status === selected.status) &&
+          (!selected.status || item.status === selected.status) &&
           (!searchTerm || item.title.toLowerCase().includes(searchTerm));
 
         if (match) {
@@ -92,16 +92,25 @@ fetch("gallery.json")
           img.alt = item.title;
           img.classList.add("gallery-img");
 
-          // Caption
+          // Caption (title)
           const caption = document.createElement("p");
           caption.className = "gallery-caption";
           caption.innerText = item.title;
 
-          // Append to gallery
           link.appendChild(img);
           link.appendChild(caption);
+
+          //// Optional cost line
+          //if (item.status === "Available" && item.cost) {
+          //  const costLine = document.createElement("p");
+          //  costLine.className = "gallery-cost";
+          //  costLine.innerText = item.cost;
+          //  link.appendChild(costLine);
+          //}
+
           galleryContainer.appendChild(link);
         }
+
       });
 
       // Handle empty results
