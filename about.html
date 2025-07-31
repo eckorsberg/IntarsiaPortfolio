@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-wrapper">
-      <div class="back"><a href="index.html">← Back to Gallery</a></div>
-      <h1>About This Portfolio</h1>
-      <p>My initial adventure in woodworking started with turning bowls on a lathe. Eventually I discovered scroll saw projects, and then the beautiful challenge of Intarsia.</p>
-      <p>Most patterns are inspired by artists like Kathy Wise, Judy Gale Roberts, Bruce Worthington, Janette Square and others. Some patterns are my own, based on photos I adapted into designs.</p>
-      <p>In many cases, the woods used or the number of pieces were recorded. In others, I simply estimated.  I have used other exotic woods across these designs but when I was writing this web page I was unable to recall some of them.  Some are regulars that I can easily identify such as Yellowheart, Redheart, Sycamore, Aspen, Sepele, Honey Locust but many others are not distinct enough in the pictures for me to identify.</p>
-      <p>This site is built using HTML, JavaScript, CSS and JSON, hosted for free via GitHub Pages with no backend server support needed.</p>
-  
+	<div class="page-wrapper">
+	  <div class="back"><a href="index.html">← Back to Gallery</a></div>
+	  <h1>About This Portfolio</h1>
+	  <p>My initial adventure in woodworking started with turning bowls on a lathe. Eventually I discovered scroll saw projects, and then the beautiful challenge of Intarsia.</p>
+	  <p>Most patterns are inspired by artists like Kathy Wise, Judy Gale Roberts, Bruce Worthington, Janette Square and others. Some patterns are my own, based on photos I adapted into designs.</p>
+	  <p>In many cases, the woods used or the number of pieces were recorded. In others, I simply estimated.  I have used other exotic woods across these designs but when I was writing this web page I was unable to recall some of them.  Some are regulars that I can easily identify such as Yellowheart, Redheart, Sycamore, Aspen, Sepele, Honey Locust but many others are not distinct enough in the pictures for me to identify.</p>
+	  <p>This site is built using HTML, JavaScript, CSS and JSON, hosted for free via GitHub Pages with no backend server support needed.</p>
+
 	  <p>Here is an article written by Michelle Collins of the Solon Times showcasing my recent exploration into the art of Intarsia woodworking.<br>
 	  <a href="https://www.chagrinvalleytoday.com/eedition/page_d8de3f4e-ca95-5e6a-a8e8-56e171db8f3b.html">
-	    <img src="ArticleThumbnail.png" alt="Article thumbnail" class="article-thumb"></a>
+		<img src="ArticleThumbnail.png" alt="Article thumbnail" class="article-thumb"></a>
 	  </p>
 	  
 	  <p>Here is a description of Intarsia</p>
@@ -27,47 +27,6 @@
 	  The individual pieces of woods are carefully cut and shaped to fit together	like a puzzle.<br>
 	  Think of it as painting with wood.</b></div>
 	</div>
-	
-	
-<!-- compute how many items for each filter match -->
-<!-- Gallery Stats Section -->
-<div id="gallery-stats" style="margin-top: 2rem;">
-  <h2>Gallery Summary</h2>
-  <p>Loading statistics...</p>
-</div>
-
-<script>
-fetch('gallery.json')
-  .then(response => response.json())
-  .then(data => {
-    const counts = { artist: {}, theme: {}, type: {} };
-
-    data.forEach(item => {
-      ['artist', 'theme', 'type'].forEach(field => {
-        const key = item[field] || 'Unknown';
-        counts[field][key] = (counts[field][key] || 0) + 1;
-      });
-    });
-
-    const formatCounts = (label, entries) => {
-      return `<h3>${label}</h3><ul>` +
-        Object.entries(entries)
-          .sort((a, b) => b[1] - a[1])
-          .map(([k, v]) => `<li>${k}: ${v}</li>`)
-          .join('') +
-        `</ul>`;
-    };
-
-    document.getElementById('gallery-stats').innerHTML =
-      formatCounts('Pattern Designers', counts.artist) +
-      formatCounts('Themes', counts.theme) +
-      formatCounts('Types', counts.type);
-  })
-  .catch(err => {
-    document.getElementById('gallery-stats').textContent = 'Error loading stats.';
-    console.error(err);
-  });
-</script>
 
 	<!-- Email contact -->
 	<p class="contact-line">Contact me at <span id="email"></span></p>
@@ -75,12 +34,52 @@ fetch('gallery.json')
 	  document.getElementById("email").innerHTML =
 		"<a href='mailto:" + "ed" + "@" + "korsbergcrafts.com'>" + "ed@korsbergcrafts.com" + "</a>";
 	</script>
+		
+	<!-- compute how many items for each filter match -->
+	<!-- Gallery Stats Section -->
+	<div id="gallery-stats" style="margin-top: 2rem;">
+	  <h2>Gallery Summary</h2>
+	  <p>Loading statistics...</p>
+	</div>
+
+	<script>
+	fetch('gallery.json')
+	  .then(response => response.json())
+	  .then(data => {
+		const counts = { artist: {}, theme: {}, type: {} };
+
+		data.forEach(item => {
+		  ['artist', 'theme', 'type'].forEach(field => {
+			const key = item[field] || 'Unknown';
+			counts[field][key] = (counts[field][key] || 0) + 1;
+		  });
+		});
+
+		const formatCounts = (label, entries) => {
+		  return `<h3>${label}</h3><ul>` +
+			Object.entries(entries)
+			  .sort((a, b) => b[1] - a[1])
+			  .map(([k, v]) => `<li>${k}: ${v}</li>`)
+			  .join('') +
+			`</ul>`;
+		};
+
+		document.getElementById('gallery-stats').innerHTML =
+		  formatCounts('Pattern Designers', counts.artist) +
+		  formatCounts('Themes', counts.theme) +
+		  formatCounts('Types', counts.type);
+	  })
+	  .catch(err => {
+		document.getElementById('gallery-stats').textContent = 'Error loading stats.';
+		console.error(err);
+	  });
+	</script>
+
 
 	<!-- Build Info Footer -->
 	<footer style="text-align: center; font-size: 0.9em; color: #666; margin-top: 3rem;">
 	  <p>Build version: <strong>v1.1</strong><br>
 	  Last updated: <span id="buildDate">2025-07-03</span></p>
 	</footer>	
-
 </body>
 </html>
