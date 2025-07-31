@@ -69,7 +69,8 @@
     "artist": "Unknown",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$75"
   },
   {
     "file": "pages/tabbycat.html",
@@ -78,7 +79,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$125"
   },
   {
     "file": "pages/snowleopard.html",
@@ -87,7 +89,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$275"
   },
   {
     "file": "pages/thumper.html",
@@ -159,7 +162,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$125"
   },
   {
     "file": "pages/sweetcorn.html",
@@ -213,7 +217,8 @@
     "artist": "Janette Square",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$200"
   },
   {
     "file": "pages/hootowlpineapply.html",
@@ -240,7 +245,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$225"
   },
   {
     "file": "pages/eagle.html",
@@ -249,7 +255,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$150"
   },
   {
     "file": "pages/marquetry.html",
@@ -375,7 +382,7 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Available"
+    "status": "Not For Sale"
   },
   {
     "file": "pages/pumpkincrow.html",
@@ -384,7 +391,7 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Available"
+    "status": "Not For Sale"
   },
   {
     "file": "pages/babygiraffe.html",
@@ -456,7 +463,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$150"
   },
   {
     "file": "pages/jaguarinlay.html",
@@ -600,7 +608,8 @@
     "artist": "Janette Square",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$25"
   },
   {
     "file": "pages/krestel.html",
@@ -645,7 +654,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$85"
   },
   {
     "file": "pages/dentist.html",
@@ -735,7 +745,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$50"
   },
   {
     "file": "pages/schnauzer.html",
@@ -744,7 +755,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$125"
   },
   {
     "file": "pages/seaotter.html",
@@ -780,7 +792,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$125"
   },
   {
     "file": "pages/waffleboard.html",
@@ -852,7 +865,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Available"
+    "status": "Available",
+	"cost": "$50"
   },
   {
     "file": "pages/owleyeglass.html",

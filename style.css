@@ -74,6 +74,15 @@ img {
   color: #2a7ab9;
 }
 
+/* === Display cost if Availble Styling === */
+.gallery-cost {
+  font-size: 0.9em;
+  color: green;
+  font-weight: bold;
+  margin-top: -5px;
+  text-align: center;
+}
+
 /* === Gallery Styling === */
 .gallery {
   display: grid;
@@ -234,7 +243,7 @@ img {
 
 /* === Email contact === */
 .contact-line {
-  font-size: 1rem;
+  font-size: 1.5rem; /* or try 1.3rem or 20px */
   color: #444;
   text-align: center;
   margin-top: 2rem;
