@@ -1,12 +1,21 @@
 [
   {
+    "file": "pages/hummingbird2.html",
+    "title": "HummingBird2",
+    "thumbnail": "images/Hummingbird2-thumb.jpg",
+    "artist": "Janette Square",
+    "theme": "Intarsia",
+    "type": "Birds",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/MahjongedWithWine.html",
     "title": "Mohjang With Wine glass",
     "thumbnail": "images/MahjongedWithWine-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-	"status": "Not For Sale"
+    "status": "Not For Sale"
   },
   {
     "file": "pages/LotusEtch.html",
@@ -70,7 +79,7 @@
     "theme": "Intarsia",
     "type": "Whimsical",
     "status": "Available",
-	"cost": "$75"
+    "cost": "$75"
   },
   {
     "file": "pages/tabbycat.html",
@@ -80,7 +89,7 @@
     "theme": "Intarsia",
     "type": "Cats",
     "status": "Available",
-	"cost": "$125"
+    "cost": "$125"
   },
   {
     "file": "pages/snowleopard.html",
@@ -90,7 +99,7 @@
     "theme": "Intarsia",
     "type": "Cats",
     "status": "Available",
-	"cost": "$275"
+    "cost": "$275"
   },
   {
     "file": "pages/thumper.html",
@@ -163,7 +172,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$125"
+    "cost": "$125"
   },
   {
     "file": "pages/sweetcorn.html",
@@ -218,7 +227,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$200"
+    "cost": "$200"
   },
   {
     "file": "pages/hootowlpineapply.html",
@@ -246,7 +255,7 @@
     "theme": "Intarsia",
     "type": "Animals",
     "status": "Available",
-	"cost": "$225"
+    "cost": "$225"
   },
   {
     "file": "pages/eagle.html",
@@ -256,7 +265,7 @@
     "theme": "Intarsia",
     "type": "Animals",
     "status": "Available",
-	"cost": "$150"
+    "cost": "$150"
   },
   {
     "file": "pages/marquetry.html",
@@ -464,7 +473,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$150"
+    "cost": "$150"
   },
   {
     "file": "pages/jaguarinlay.html",
@@ -608,8 +617,7 @@
     "artist": "Janette Square",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Available",
-	"cost": "$25"
+    "status": "Gifted"
   },
   {
     "file": "pages/krestel.html",
@@ -655,7 +663,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$85"
+    "cost": "$85"
   },
   {
     "file": "pages/dentist.html",
@@ -746,7 +754,7 @@
     "theme": "Intarsia",
     "type": "Birds",
     "status": "Available",
-	"cost": "$50"
+    "cost": "$50"
   },
   {
     "file": "pages/schnauzer.html",
@@ -756,7 +764,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$125"
+    "cost": "$125"
   },
   {
     "file": "pages/seaotter.html",
@@ -793,7 +801,7 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-	"cost": "$125"
+    "cost": "$125"
   },
   {
     "file": "pages/waffleboard.html",
@@ -866,7 +874,7 @@
     "theme": "Intarsia",
     "type": "Whimsical",
     "status": "Available",
-	"cost": "$50"
+    "cost": "$50"
   },
   {
     "file": "pages/owleyeglass.html",
