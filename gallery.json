@@ -156,6 +156,24 @@
     "status": "Donated"
   },
   {
+    "file": "pages/waffleboard.html",
+    "title": "Waffle Board",
+    "thumbnail": "images/WaffleBoard-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Not For Sale"
+  },
+  {
+    "file": "pages/waffleboard1.html",
+    "title": "Waffle Board1",
+    "thumbnail": "images/WaffleBoard1-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Not For Sale"
+  },  
+  {
     "file": "pages/giraffeinframe.html",
     "title": "Giraffe in Frame",
     "thumbnail": "images/GiraffeInFrame-thumb.jpg",
@@ -802,24 +820,6 @@
     "type": "Dogs",
     "status": "Available",
     "cost": "$125"
-  },
-  {
-    "file": "pages/waffleboard.html",
-    "title": "Waffle Board",
-    "thumbnail": "images/WaffleBoard-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Cutting Board",
-    "type": "Functional",
-    "status": "Not For Sale"
-  },
-  {
-    "file": "pages/waffleboard1.html",
-    "title": "Waffle Board1",
-    "thumbnail": "images/WaffleBoard1-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Cutting Board",
-    "type": "Functional",
-    "status": "Not For Sale"
   },
   {
     "file": "pages/watermellon.html",
