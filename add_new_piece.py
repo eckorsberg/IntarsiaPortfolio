@@ -7,7 +7,7 @@ from PIL import Image
 # Constants
 template_html_path = "./template.html"
 template_json_path = "./template.json"
-gallery_json_path = './gallery.json'
+#gallery_json_path = './gallery.json'
 images_full_dir = './images_full/'
 images_thumb_dir = './images/'
 pages_dir = './pages/'
@@ -36,6 +36,7 @@ def create_html(image_name):
 
 def append_to_gallery_json(image_name):
     json_path = "gallery.json"
+    #json_path = "laser.json"
     template_json_path = "template.json"
     
     with open(template_json_path, "r", encoding="utf-8") as tf:
