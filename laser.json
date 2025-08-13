@@ -9,6 +9,15 @@
     "status": "Gifted"	
   },
   {
+    "file": "pages/homitakodaglass.html",
+    "title": "Ho Mita Koda wine glass",
+    "thumbnail": "images/homitakodaglass-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving",
+    "status": "Gifted"	
+  },
+  {
     "file": "pages/torus.html",
     "title": "Torus",
     "thumbnail": "images/torus-thumb.jpg",
@@ -24,15 +33,6 @@
     "theme": "Laser",
     "type": "Engraving",
     "status": "Gifted"
-  },
-  {
-    "file": "pages/homitakodaglass.html",
-    "title": "Ho Mita Koda wine glass",
-    "thumbnail": "images/homitakodaglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
-    "status": "Gifted"	
   },
   {
     "file": "pages/gaussianbump.html",
@@ -53,7 +53,7 @@
   },
   {
     "file": "pages/beercan.html",
-    "title": "IR etching on can",
+    "title": "Etching on coated can",
     "thumbnail": "images/beercan-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
@@ -80,7 +80,7 @@
   },
   {
     "file": "pages/LotusEtch.html",
-    "title": "Laser etch of Lotus Emira on glass",
+    "title": "Lotus Emira",
     "thumbnail": "images/LotusEtch-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
