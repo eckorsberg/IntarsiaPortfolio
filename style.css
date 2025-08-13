@@ -241,6 +241,11 @@ img {
   border: 0;
 }
 
+/* === On index page, to tell people to tap for more details === */
+.tap-note {
+  color: firebrick;
+}
+
 /* === Email contact === */
 .contact-line {
   font-size: 1.5rem; /* or try 1.3rem or 20px */
