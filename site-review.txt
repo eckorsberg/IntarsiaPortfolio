@@ -1,0 +1,33 @@
+Site Review: korsbergcrafts.com
+Date: August 13, 2025
+Reviewed by: ChatGPT (GPT-4o)
+
+Summary:
+KorsbergCrafts.com is a well-designed, single-user handcrafted woodworking portfolio site built with HTML, CSS, and JavaScript. It effectively showcases Ed Korsberg's Intarsia and woodworking projects with detailed pages, thumbnail galleries, and a clean filtering interface.
+
+Strengths:
+- **Responsive Design**: The layout adapts well across mobile and desktop devices.
+- **Filterable Gallery**: User-friendly filtering based on Artist, Theme, Type, and Status enhances discoverability.
+- **Project Depth**: Each project has its own dedicated page with useful metadata (artist, wood types, number of pieces, etc.).
+- **GitHub Integration**: Site is hosted efficiently using GitHub Pages and versioned using tags.
+- **Performance & Simplicity**: No unnecessary JavaScript frameworks; fast-loading and functional.
+
+Completed Improvements:
+- Fixed mobile filter toggle behavior.
+- Added `status` field to JSON and corresponding filter.
+- Introduced optional pricing field with conditionally visible display.
+- Obfuscated email contact using JS for spam protection.
+- Centralized contact styling and expanded font controls.
+- Cleaned up JSON formatting, tags, and project file organization.
+
+Optional Enhancements:
+1. **404 Page**: Add a custom 404.html for better error handling.
+2. **Accessibility**: Add alt text to images and ARIA roles for filters.
+3. **SEO**: Add meta tags (title, description, OG tags) to individual project pages.
+4. **Gallery Sort Toggle**: Allow users to switch between newest-first and oldest-first display.
+5. **Image Lazy Loading**: Improve performance by adding `loading="lazy"` to thumbnails.
+6. **CMS Automation**: Consider a script or simple CMS backend for editing gallery.json if scale increases.
+7. **Minification**: Optionally minify JS/CSS for slightly faster load times.
+
+Verdict:
+This site is well-crafted and purpose-fit for showcasing handmade wood art. It balances clarity, speed, and usability without overengineering. No changes are necessary unless you're seeking polish or additional functionality.
