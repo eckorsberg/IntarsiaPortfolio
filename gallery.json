@@ -9,24 +9,6 @@
     "status": "Gifted"
   },
   {
-    "file": "pages/MahjongedWithWine.html",
-    "title": "Mohjang With Wine glass",
-    "thumbnail": "images/MahjongedWithWine-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
-    "status": "Not For Sale"
-  },
-  {
-    "file": "pages/LotusEtch.html",
-    "title": "Laser etch of Lotus Emira on glass",
-    "thumbnail": "images/LotusEtch-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
-    "status": "Gifted"
-  },
-  {
     "file": "pages/HoMitaKoda2025.html",
     "title": "Ho Mita Coda 2025 Donation",
     "thumbnail": "images/HoMitaKoda2025-thumb.jpg",
@@ -834,8 +816,8 @@
     "file": "pages/zoe.html",
     "title": "Zoe",
     "thumbnail": "images/Zoe-thumb.jpg",
-    "artist": "Unknown",
-    "theme": "Judy Gale Roberts",
+    "artist": "Judy Gale Roberts",
+    "theme": "Intarsia",
     "type": "Other",
     "status": "Gifted"
   },
