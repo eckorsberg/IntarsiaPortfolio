@@ -86,5 +86,13 @@
     "theme": "Laser",
     "type": "Engraving",
     "status": "Gifted"
+  },
+  {
+    "file": "pages/zebraillusion.html",
+    "title": "Zebra crossing water",
+    "thumbnail": "images/zebraillusion-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving"
   }
 ]
