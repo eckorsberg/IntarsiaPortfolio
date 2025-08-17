@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/hummingbird4.html",
+    "title": "Hummingbird4",
+    "thumbnail": "images/hummingbird4-thumb.jpg",
+    "artist": "Kathy Wise",
+    "theme": "Intarsia",
+    "type": "Birds",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/hummingbird3.html",
     "title": "Hummingbird3",
     "thumbnail": "images/hummingbird3-thumb.jpg",
