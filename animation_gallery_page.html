@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Animation Portfolio</title>
+<style>
+  :root { --gap: 1rem; --card-w: 360px; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; }
+  header { padding: 1rem; background: #f7f7f7; border-bottom: 1px solid #e5e5e5; }
+  header .wrap { max-width: 1100px; margin: 0 auto; }
+  h1 { margin: 0 0 .25rem; font-size: clamp(1.4rem, 2.5vw, 2rem); }
+  p.lead { margin: 0; color: #555; }
+  main { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+  .grid {
+    display: grid; gap: var(--gap);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-w)), 1fr));
+  }
+  .card {
+    border: 1px solid #e1e1e1; border-radius: 14px; background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .thumb {
+    width: 100%; aspect-ratio: 16/9; background: #fafafa;
+    display: grid; place-items: center;
+  }
+  .thumb img, .thumb video {
+    max-width: 100%; max-height: 100%; display: block; object-fit: contain;
+  }
+  .content { padding: .75rem .9rem 1rem; }
+  .title { font-weight: 600; margin-bottom: .35rem; }
+  .caption { color: #555; font-size: .95rem; }
+  .actions { margin-top: .6rem; display:flex; flex-wrap: wrap; gap:.5rem; }
+  .btn {
+    border: 1px solid #ccc; background: #f5f5f5;
+    padding: .4rem .7rem; border-radius: 999px; text-decoration: none; color: #333;
+    font-size: .95rem;
+  }
+  .back { display:inline-block; margin-top: .75rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eaeaea; }
+    header { background:#161616; border-bottom-color:#2a2a2a; }
+    .card { background:#161616; border-color:#2a2a2a; box-shadow: none; }
+    .thumb { background:#111; }
+    .btn { border-color:#3a3a3a; background:#1e1e1e; color:#ddd; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Animation Portfolio</h1>
+    <p class="lead">A small collection of my animation experiments. Click a thumbnail to play or open full size.</p>
+    <a class="back" href="index.html">← Return to Main Gallery</a>
+  </div>
+</header>
+
+<main class="grid">
+  <!-- CARD 1: Guardian Dragon -->
+  <article class="card">
+    <a class="thumb" href="./animation/PixVerse_V4.5_Image_Text_540P_Dragon_unfurls_i.mp4" target="_blank" title="Open video">
+      <!-- Use your real poster/thumbnail here -->
+      <img src="./images/GuardianDragon-thumb.jpg" alt="Guardian Dragon animation" loading="lazy">
+    </a>
+    <div class="content">
+      <div class="title">Guardian Dragon</div>
+      <div class="actions">
+        <a class="btn" href="./pages/GuardianDragon.html">View piece page</a>
+        <a class="btn" href="./animation/PixVerse_V4.5_Image_Text_540P_Dragon_unfurls_i.mp4" target="_blank">Open video</a>
+      </div>
+    </div>
+  </article>
+
+
+  <!-- CARD 2: Zebras -->
+  <article class="card">
+    <a class="thumb" href="./animation/PixVerse_V4.5_Image_Text_720P_zebras_initially.mp4" target="_blank" title="Open video">
+      <!-- Use your real poster/thumbnail here -->
+      <img src="./images/Zebras-thumb.jpg" alt="Zebras animation" loading="lazy">
+    </a>
+    <div class="content">
+      <div class="title">Zebras</div>
+      <div class="actions">
+        <a class="btn" href="./pages/Zebras.html">View piece page</a>
+        <a class="btn" href="./animation/PixVerse_V4.5_Image_Text_720P_zebras_initially.mp4" target="_blank">Open video</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- CARD 3: Hummingbird4 -->
+  <article class="card">
+    <a class="thumb" href="./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wooden_8s.mp4" target="_blank" title="Open video">
+      <!-- Use your real poster/thumbnail here -->
+      <img src="./images/hummingbird4-thumb.jpg" alt="Hummingbird animation" loading="lazy">
+    </a>
+    <div class="content">
+      <div class="title">Hummingbird4</div>
+      <div class="actions">
+        <a class="btn" href="./pages/hummingbird4.html">View piece page</a>
+        <a class="btn" href="./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wooden_8s.mp4" target="_blank">Open video</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- CARD 4: Urban dancer -->
+  <article class="card">
+    <a class="thumb" href="./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wood_c.mp4" target="_blank" title="Open video">
+      <!-- Use your real poster/thumbnail here -->
+      <img src="./images/dancer-thumb.jpg" alt="Zebras animation" loading="lazy">
+    </a>
+    <div class="content">
+      <div class="title">Dancer</div>
+      <div class="actions">
+        <a class="btn" href="./pages/dancer.html">View piece page</a>
+        <a class="btn" href="./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wood_c.mp4" target="_blank">Open video</a>
+      </div>
+    </div>
+  </article>
+</main>
+</body>
+</html>
