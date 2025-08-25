@@ -299,6 +299,23 @@ img {
   text-decoration: underline;
 }
 
+/* === for PixVerse anaimation === */
+.anim-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+.anim-thumb video{
+  border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.15);
+  display:block; max-width:260px; width:100%;
+}
+@media (prefers-reduced-motion: reduce){
+  .anim-thumb video{ animation:none }
+  .anim-thumb video[autoplay]{ /* politely pause for users who prefer less motion */
+    autoplay:false;
+  }
+}
+
 
 /* === Responsive Design === */
 @media (max-width: 600px) {
