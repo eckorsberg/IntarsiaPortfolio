@@ -4,71 +4,102 @@ import json
 from pathlib import Path
 from PIL import Image
 
-# Constants
-template_html_path = "./template.html"
-template_json_path = "./template.json"
-#gallery_json_path = './gallery.json'
-images_full_dir = './images_full/'
-images_thumb_dir = './images/'
-pages_dir = './pages/'
+# Constants / directories
+TEMPLATE_HTML_PATH = "./template.html"
+TEMPLATE_JSON_PATH = "./template.json"  # schema for new entry
+IMAGES_FULL_DIR = "./images_full/"
+IMAGES_THUMB_DIR = "./images/"
+PAGES_DIR = "./pages/"
 
-def create_thumbnail(image_name):
+def create_thumbnail(image_name: str) -> None:
     base, ext = os.path.splitext(image_name)
-    source_path = os.path.join(images_full_dir, image_name)
-    dest_path = os.path.join(images_thumb_dir, f"{base}-thumb{ext}")
-    
+    source_path = os.path.join(IMAGES_FULL_DIR, image_name)
+    dest_path = os.path.join(IMAGES_THUMB_DIR, f"{base}-thumb{ext}")
+
     with Image.open(source_path) as img:
+        # keep aspect ratio; cap the larger side at 300px
         img.thumbnail((300, 300))
         img.save(dest_path)
-        print(f"[✓] Thumbnail created: {dest_path}")
+    print(f"[✓] Thumbnail created: {dest_path}")
 
-def create_html(image_name):
-    base, _ = os.path.splitext(image_name)
-    dest_path = os.path.join(pages_dir, f"{base}.html")
+def create_html(image_name: str) -> None:
+    """
+    Builds pages/<base>.html from template.html and replaces:
+      - <a href="../images_full/newimage.jpg" ...>  -> uses images_full/<image_name>
+      - <img src="../images/newimage-thumb.jpg" ... -> uses images/<base>-thumb<ext>
+    Also updates <title>, <h1>, and img alt from 'newimage' to <base>.
+    """
+    base, ext = os.path.splitext(image_name)
+    dest_path = os.path.join(PAGES_DIR, f"{base}.html")
 
-    with open(template_html_path, "r", encoding="utf-8") as f:
+    with open(TEMPLATE_HTML_PATH, "r", encoding="utf-8") as f:
         template = f.read()
-    
+
+    # Exact replacements for the two lines you specified
+    template = template.replace(
+        '../images_full/newimage.jpg',
+        f'../images_full/{image_name}',
+    )
+    template = template.replace(
+        '../images/newimage-thumb.jpg',
+        f'../images/{base}-thumb{ext}',
+    )
+
+    # Friendly extras so the page isn't stuck with "newimage"
+    template = template.replace('<title>newimage</title>', f'<title>{base}</title>')
+    template = template.replace('<h1>newimage</h1>', f'<h1>{base}</h1>')
+    template = template.replace('alt="newimage"', f'alt="{base}"')
+
+    # (If you ever re-introduce {{NAME}} etc., you can still replace those here.)
+
+    os.makedirs(PAGES_DIR, exist_ok=True)
     with open(dest_path, "w", encoding="utf-8") as f:
-        f.write(template.replace("{{NAME}}", base))
-    
+        f.write(template)
     print(f"[✓] HTML page created: {dest_path}")
 
-def append_to_gallery_json(image_name):
-    json_path = "gallery.json"
-    #json_path = "laser.json"
-    template_json_path = "template.json"
-    
-    with open(template_json_path, "r", encoding="utf-8") as tf:
+def append_to_gallery_json(image_name: str, which_json: str) -> None:
+    """
+    Opens <which_json>.json (e.g., gallery.json or laser.json),
+    creates a new entry from template.json, patches file/thumbnail,
+    and inserts at the top.
+    """
+    json_file = f"{which_json}.json"
+    if which_json.lower() not in {"gallery", "laser"}:
+        raise ValueError("2nd parameter must be 'gallery' or 'laser'")
+
+    # Load a fresh entry template
+    with open(TEMPLATE_JSON_PATH, "r", encoding="utf-8") as tf:
         new_entry = json.load(tf)
 
-    # Replace placeholder values in template
-    html_file = f"pages/{Path(image_name).stem}.html"
-    thumb_file = f"images/{Path(image_name).stem}-thumb.{Path(image_name).suffix[1:]}"
+    base, ext = os.path.splitext(image_name)
+    html_file = f"pages/{base}.html"
+    thumb_file = f"images/{base}-thumb{ext}"
+
     new_entry["file"] = html_file
     new_entry["thumbnail"] = thumb_file
 
-    # Load and modify JSON list
-    with open(json_path, "r", encoding="utf-8") as jf:
+    # Read, modify, write back
+    with open(json_file, "r", encoding="utf-8") as jf:
         data = json.load(jf)
 
-    # Insert at top
     data.insert(0, new_entry)
 
-    # Save updated JSON
-    with open(json_path, "w", encoding="utf-8") as jf:
+    with open(json_file, "w", encoding="utf-8") as jf:
         json.dump(data, jf, indent=2)
-    
-    print(f"✔ Appended entry to {json_path}")
 
+    print(f"[✓] Appended entry to {json_file}")
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) < 2:
-        print("Usage: python add_new_piece.py <filename.jpg/png>")
+        print("Usage: python add_new_piece.py <filename.jpg|png> [gallery|laser]")
         sys.exit(1)
 
     image_name = sys.argv[1]
+    which_json = sys.argv[2] if len(sys.argv) >= 3 else "gallery"  # default friendly fallback
 
     create_thumbnail(image_name)
     create_html(image_name)
-    append_to_gallery_json(image_name)
+    append_to_gallery_json(image_name, which_json)
+
+if __name__ == "__main__":
+    main()
