@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/marekmug.html",
+    "title": "Bob Marek mug",
+    "thumbnail": "images/marekmug-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving",
+    "status": "Gifted"	
+  },
+  {
     "file": "pages/homitakodamug.html",
     "title": "Ho Mita Koda beer mug",
     "thumbnail": "images/homitakodamug-thumb.jpg",
