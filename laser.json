@@ -1,12 +1,21 @@
 [
   {
+    "file": "pages/richfieldbrewing.html",
+    "title": "Richfield Brewing",
+    "thumbnail": "images/richfieldbrewing-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/marekmug.html",
     "title": "Bob Marek mug",
     "thumbnail": "images/marekmug-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/homitakodamug.html",
@@ -15,7 +24,7 @@
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/homitakodaglass.html",
@@ -24,7 +33,7 @@
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/torus.html",
@@ -58,7 +67,7 @@
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/beercan.html",
@@ -67,7 +76,7 @@
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/barbglass.html",
@@ -76,7 +85,7 @@
     "artist": "Ed Korsberg",
     "theme": "Laser",
     "type": "Engraving",
-    "status": "Gifted"	
+    "status": "Gifted"
   },
   {
     "file": "pages/MahjongedWithWine.html",
