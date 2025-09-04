@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/happybatandmouse.html",
+    "title": "Happy Bat and Mouse",
+    "thumbnail": "images/happybatandmouse-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Intarsia",
+    "type": "Whimsical",
+    "status": "Available"
+  },
+  {
     "file": "pages/hummingbird4.html",
     "title": "Hummingbird4",
     "thumbnail": "images/hummingbird4-thumb.jpg",
