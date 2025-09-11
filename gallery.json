@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/threeboards.html",
+    "title": "Copies of previous boards",
+    "thumbnail": "images/threeboards-thumb.png",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
     "file": "pages/happybatandmouse.html",
     "title": "Happy Bat and Mouse",
     "thumbnail": "images/happybatandmouse-thumb.jpg",
@@ -281,7 +290,7 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Available",
+    "status": "Not For Sale",
     "cost": "$225"
   },
   {
@@ -780,7 +789,7 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Available",
+    "status": "Not For Sale",
     "cost": "$50"
   },
   {
@@ -882,7 +891,7 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Available",
+    "status": "Donated",
     "cost": "$50"
   },
   {
