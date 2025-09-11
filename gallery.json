@@ -106,7 +106,7 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Available",
+    "status": "Not For Sale",
     "cost": "$125"
   },
   {
@@ -198,7 +198,7 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Available"
   },
   {
     "file": "pages/calicocorgi.html",
@@ -799,7 +799,7 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Available",
+    "status": "Not For Sale",
     "cost": "$125"
   },
   {
