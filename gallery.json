@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/basketweaveboard.html",
+    "title": "Basket weave cutting board",
+    "thumbnail": "images/basketweaveboard-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
     "file": "pages/threeboards.html",
     "title": "Copies of previous boards",
     "thumbnail": "images/threeboards-thumb.png",
