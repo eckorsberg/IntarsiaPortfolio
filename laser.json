@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/emilyparmaglass.html",
+    "title": "Emily the Paddler",
+    "thumbnail": "images/emilyparmaglass-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/richfieldbrewing.html",
     "title": "Richfield Brewing",
     "thumbnail": "images/richfieldbrewing-thumb.jpg",
