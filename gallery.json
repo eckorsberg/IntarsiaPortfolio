@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/3d-basket-weave-board.html",
+    "title": "3D Basket Weave",
+    "thumbnail": "images/3d-basket-weave-board-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
     "file": "pages/basketweavemaplewalnut.html",
     "title": "Basket Weave Cutting Board",
     "thumbnail": "images/basketweavemaplewalnut-thumb.jpg",
