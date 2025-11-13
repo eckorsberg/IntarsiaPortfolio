@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/warningjob.html",
+    "title": "Don't tell me my job",
+    "thumbnail": "images/warningjob-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Laser",
+    "type": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/kyleglass.html",
     "title": "Kyle in retirement",
     "thumbnail": "images/kyleglass-thumb.jpg",
