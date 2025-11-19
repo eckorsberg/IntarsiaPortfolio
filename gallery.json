@@ -1,5 +1,23 @@
 [
   {
+    "file": "pages/basketweave1inch.html",
+    "title": "Basket weave 1 inch",
+    "thumbnail": "images/basketweave1inch-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
+    "file": "pages/basketweave58.html",
+    "title": "3D Basketweave 5/8",
+    "thumbnail": "images/basketweave58-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
     "file": "pages/brickcuttingboard.html",
     "title": "Brick wall cutting board",
     "thumbnail": "images/brickcuttingboard-thumb.jpg",
