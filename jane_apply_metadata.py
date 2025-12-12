@@ -29,14 +29,13 @@ def load_csv_metadata():
                 continue
             meta[image_file] = {
                 "title": row.get("title", "").strip(),
-                "theme": row.get("theme", "").strip(),
-                "type": row.get("type", "").strip(),
-                "status": row.get("status", "").strip(),
+                "pattern_designer": row.get("pattern_designer", "").strip(),
                 "fabrics": row.get("fabrics", "").strip(),
                 "technique": row.get("technique", "").strip(),
                 "number": row.get("number", "").strip(),
                 "description": row.get("description", "").strip(),
             }
+
     return meta
 
 
@@ -71,12 +70,6 @@ def update_gallery_json(meta_by_image):
 
         if m["title"]:
             item["title"] = m["title"]
-        if m["theme"]:
-            item["theme"] = m["theme"]
-        if m["type"]:
-            item["type"] = m["type"]
-        if m["status"]:
-            item["status"] = m["status"]
 
         updated += 1
 
@@ -112,6 +105,16 @@ def update_detail_pages(meta_by_image):
                 flags=re.DOTALL,
             )
 
+        # Pattern Designer
+        if m.get("pattern_designer"):
+            text = re.sub(
+                r'(<p><strong>Pattern Designer:</strong>\s*)(.*?)(</p>)',
+                r"\1" + html_escape(m["pattern_designer"]) + r"\3",
+                text,
+                count=1,
+                flags=re.DOTALL,
+            )
+        
         # Fabrics
         if m["fabrics"]:
             text = re.sub(
