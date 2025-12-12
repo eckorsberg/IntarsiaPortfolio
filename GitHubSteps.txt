@@ -76,5 +76,57 @@ mv !(ed|jane|.git) ed/
 </html>
 
 
+CSS colors
+Warm gallery
+#f6f4f1  /* warm gallery */
+#f8f6f3  /* very soft cream */
+#f7f5f2  /* neutral warm */
+#f4efe9  /* linen / parchment */
+#efece7  /* aged paper */
+#ede9e4  /* museum wall */
+
+Neutral light greys
+#f5f5f5
+#f2f2f2
+#eeeeee
+#eaeaea
+#f1f3f5
+
+warm gray
+#f2efe9
+#efede8
+#ebe7e1
+#e8e4de
+#e5e2dc
+
+cool gallery neutral
+#f0f2f4
+#edf1f4
+#e9edf1
+#e7ebef
+
+Subtle earh-influenced
+#f3efe8  /* sand */
+#efe9e0  /* light clay */
+#ede6dc  /* pale taupe */
+#e9e2d8  /* stone */
+
+suggested
+
+body {
+  /* Background test candidates:
+     #f6f4f1  warm gallery
+     #f4efe9  linen
+     #f2efe9  greige
+     #f1f3f5  cool neutral
+     #efece7  aged paper
+  */
+  background-color: #f6f4f1;
+}
+
+
+
+
+
 
 
