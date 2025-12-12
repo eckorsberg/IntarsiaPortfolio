@@ -4,12 +4,22 @@ import json
 from pathlib import Path
 from PIL import Image
 
+# Resolve repo root based on this script's location so templates
+# are always loaded from the top-level folder, regardless of cwd.
+REPO_ROOT = Path(__file__).resolve().parent
+
 # Constants / directories
-TEMPLATE_HTML_PATH = "./template.html"
-TEMPLATE_JSON_PATH = "./template.json"  # schema for new entry
+TEMPLATE_HTML_PATH = REPO_ROOT / "template.html"
+TEMPLATE_JSON_PATH = REPO_ROOT / "template.json"  # schema for new entry
+
+# These are *per-artist* paths and are resolved relative to the
+# current working directory, so you can:
+#   cd ed   && python ../add_new_piece.py foo.jpg gallery
+#   cd jane && python ../add_new_piece.py bar.jpg gallery
 IMAGES_FULL_DIR = "./images_full/"
 IMAGES_THUMB_DIR = "./images/"
 PAGES_DIR = "./pages/"
+
 
 def create_thumbnail(image_name: str) -> None:
     base, ext = os.path.splitext(image_name)
@@ -21,6 +31,7 @@ def create_thumbnail(image_name: str) -> None:
         img.thumbnail((300, 300))
         img.save(dest_path)
     print(f"[✓] Thumbnail created: {dest_path}")
+
 
 def create_html(image_name: str) -> None:
     """
@@ -57,17 +68,18 @@ def create_html(image_name: str) -> None:
         f.write(template)
     print(f"[✓] HTML page created: {dest_path}")
 
+
 def append_to_gallery_json(image_name: str, which_json: str) -> None:
     """
-    Opens <which_json>.json (e.g., gallery.json or laser.json),
-    creates a new entry from template.json, patches file/thumbnail,
-    and inserts at the top.
+    Opens <which_json>.json (e.g., gallery.json or laser.json) in the
+    *current* artist folder (cwd), creates a new entry from template.json,
+    patches file/thumbnail (and artist), and inserts at the top.
     """
     json_file = f"{which_json}.json"
     if which_json.lower() not in {"gallery", "laser"}:
         raise ValueError("2nd parameter must be 'gallery' or 'laser'")
 
-    # Load a fresh entry template
+    # Load a fresh entry template from the repo root
     with open(TEMPLATE_JSON_PATH, "r", encoding="utf-8") as tf:
         new_entry = json.load(tf)
 
@@ -78,7 +90,17 @@ def append_to_gallery_json(image_name: str, which_json: str) -> None:
     new_entry["file"] = html_file
     new_entry["thumbnail"] = thumb_file
 
-    # Read, modify, write back
+    # Optionally adjust artist based on which folder we're in.
+    cwd_name = Path.cwd().name.lower()
+    artist_by_folder = {
+        "ed": "Ed Korsberg",
+        "jane": "Jane Korsberg",
+    }
+    artist = artist_by_folder.get(cwd_name)
+    if artist:
+        new_entry["artist"] = artist
+
+    # Read, modify, write back in the current folder
     with open(json_file, "r", encoding="utf-8") as jf:
         data = json.load(jf)
 
@@ -89,9 +111,11 @@ def append_to_gallery_json(image_name: str, which_json: str) -> None:
 
     print(f"[✓] Appended entry to {json_file}")
 
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python add_new_piece.py <filename.jpg|png> [gallery|laser]")
+        print("       (run from within 'ed' or 'jane' for per-artist paths)")
         sys.exit(1)
 
     image_name = sys.argv[1]
@@ -100,6 +124,7 @@ def main():
     create_thumbnail(image_name)
     create_html(image_name)
     append_to_gallery_json(image_name, which_json)
+
 
 if __name__ == "__main__":
     main()

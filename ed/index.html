@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ed Korsberg Intarsia Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css"> <!-- Link to external CSS -->
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MTFF12TZT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7MTFF12TZT');
+  </script>
+  
+</head>
+<body>
+  <h1>🎨 Ed Korsberg's Woodworking Portfolio</h1>
+
+  <!-- Optional navigation block (currently commented out) -->
+  <!--
+  <nav style="text-align: center; margin-bottom: 1rem;">
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a>
+  </nav>
+  -->
+
+  <!-- Intro section with project description -->
+  <div class="intro">
+    <p>Welcome to my collection of handcrafted woodworking art: Intarsia, cutting boards, miscellaneous wood crafts and now laser etching.<br>
+    While I hand made all these items, there are multiple artists or pattern designers responsible for the original artistic pattern.<br>
+    Originally I purchased patterns from various artists but I am increasingly designing my own patterns now.</p>
+    <p><a href="about.html" class="btn">Learn More About This Project</a></p>
+  </div>
+  
+  
+  <!-- Laser portfolio banner  -->  
+  <div style="background-color: #f4f4f4; border-left: 4px solid #666; padding: 1em; margin: 1.5em 0;">
+    <p style="margin: 0; font-size: 1rem;">
+      <a href="laser_gallery_page.html" class="button-link">View Laser Portfolio</a>
+    </p>
+  </div>
+  
+  <!-- PixVerse animations  -->  
+  <div style="background-color: #f4f4f4; border-left: 4px solid #666; padding: 1em; margin: 1.5em 0;">
+    <p style="margin: 0; font-size: 1rem;">
+      <a href="animation_gallery_page.html" class="button-link">View Animation Portfolio</a>
+    </p>
+  </div>
+  
+  <!-- TWB library 
+  <p><a href="./twblibrary.html" class="btn">Twinsburg library show, July 2025</a></p>
+  -->
+  
+  <!-- Number of pieces in portfolio -->
+  <p id="totalCount" class="gallery-count"></p>
+
+  <!-- Note to people to click on image -->
+  <p class="tap-note"><b>Tap images to for further details and full sized picture</b></p>
+
+
+  <!-- For mobile -->
+  <button class="filter-toggle" onclick="toggleFilters()">Show Filters</button>
+
+  <!-- Filter controls for search and dropdown filters -->
+  <div class="filter-group collapsed">
+    <div>
+      <label for="searchBox">Search Title:</label>
+      <input type="text" id="searchBox" placeholder="Type to filter...">
+    </div>
+
+    <div>
+      <label for="artistFilter">Pattern by:</label>
+      <select id="artistFilter"></select>
+    </div>
+
+    <div>
+      <label for="themeFilter">Theme:</label>
+      <select id="themeFilter"></select>
+    </div>
+
+    <div>
+      <label for="typeFilter">Type:</label>
+      <select id="typeFilter"></select>
+    </div>
+    
+    <div>
+      <label for="statusFilter">Status:</label>
+      <select id="statusFilter"></select>
+    </div>
+    
+  </div>
+
+  <!-- Gallery output area, populated dynamically -->
+  <div class="gallery"></div>
+
+  <!-- JavaScript that handles gallery loading and filtering -->
+  <script src="../js/gallery-filter.js"></script>
+  
+<script>
+  let userToggled = false;  // Track if user manually toggled filters
+
+  function toggleFilters() {
+    const group = document.querySelector('.filter-group');
+    const button = document.querySelector('.filter-toggle');
+    const isCollapsed = group.classList.contains('collapsed');
+
+    userToggled = true;  // Mark that the user explicitly toggled it
+
+    if (isCollapsed) {
+      group.classList.remove('collapsed');
+      button.textContent = 'Hide Filters';
+    } else {
+      group.classList.add('collapsed');
+      button.textContent = 'Show Filters';
+    }
+  }
+
+  function adjustFilterVisibility() {
+    const group = document.querySelector('.filter-group');
+    const button = document.querySelector('.filter-toggle');
+
+    if (window.innerWidth <= 600) {
+      button.style.display = 'block';
+
+      // Only collapse automatically if the user hasn’t toggled manually
+      if (!userToggled) {
+        group.classList.add('collapsed');
+        button.textContent = 'Show Filters';
+      }
+    } else {
+      group.classList.remove('collapsed');
+      button.style.display = 'none';
+      userToggled = false; // Reset when switching to desktop
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', adjustFilterVisibility);
+  window.addEventListener('resize', adjustFilterVisibility);
+</script>
+
+
+</body>
+</html>
