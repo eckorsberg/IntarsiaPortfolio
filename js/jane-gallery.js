@@ -32,27 +32,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const title = item.title || "Untitled";
         const thumb = item.thumbnail || "";
         const file = item.file || "#";
-        const theme = item.theme || "";
-        const status = item.status || "";
 
         const card = document.createElement("a");
         card.className = "card";
         card.href = file;
 
-        card.innerHTML = `
-          <div class="card-image">
-            <img src="${thumb}" alt="${title}">
-          </div>
-          <div class="card-body">
-            <h2 class="card-title">${title}</h2>
-            ${theme || status ? `
-              <p class="card-meta">
-                ${theme ? `<span class="card-theme">${theme}</span>` : ""}
-                ${status ? `<span class="card-status">${status}</span>` : ""}
-              </p>
-            ` : ""}
-          </div>
-        `;
+		card.innerHTML = `
+		  <div class="card-image">
+			<img src="${thumb}" alt="${title}">
+		  </div>
+		  <div class="card-body">
+			<h2 class="card-title">${title}</h2>
+		  </div>
+		`;
+
 
         galleryEl.appendChild(card);
       });

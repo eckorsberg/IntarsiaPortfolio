@@ -2,39 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>Jane Korsberg Quilt Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jane's Gallery – Coming Soon</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-
-    .message {
-      text-align: center;
-    }
-
-    .message h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .message p {
-      font-size: 1.1rem;
-      color: #666;
-    }
-  </style>
+  <!-- Reuse the main site stylesheet -->
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="message">
-    <h1>Jane's Gallery</h1>
-    <p>Coming soon – stay tuned for Jane’s beautiful creations!</p>
+  <h1>🧵 Jane Korsberg's Quilt Portfolio</h1>
+
+  <!-- Simple intro (no about.html link, no laser/animation references) -->
+  <div class="intro">
+    <p>
+      Welcome to my collection of quilts and fabric art. Many of these pieces were
+      created as special gifts or commissions, often inspired by the stories and
+      lives of the people they were made for.
+    </p>
+    <p>
+      While each quilt is unique, they share a love of color, pattern, and detail —
+      from whimsical children’s themes to tributes inspired by books, music, and
+      personal milestones.
+    </p>
   </div>
+
+  <!-- Number of pieces in Jane's portfolio -->
+  <p id="totalCount" class="gallery-count"></p>
+
+  <!-- Note to people to click on image -->
+  <p class="tap-note"><b>Tap images for further details and a full-sized picture</b></p>
+
+  <!-- Simple gallery output area, populated dynamically (no filters) -->
+  <div class="gallery"></div>
+
+  <!-- Simple gallery loader for Jane (no filters, no analytics) -->
+  <script src="../js/jane-gallery.js"></script>
 </body>
 </html>

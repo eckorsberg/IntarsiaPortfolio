@@ -34,9 +34,7 @@ def main():
         file_html = item.get("file", "")      # e.g. "pages/EncantoQuilt.html"
         thumb = item.get("thumbnail", "")     # e.g. "images/EncantoQuilt-thumb.jpg"
         title = item.get("title") or ""
-        theme = item.get("theme") or ""
-        type_ = item.get("type") or ""
-        status = item.get("status") or ""
+        pattern_designer = item.get("pattern_designer") or ""
 
         # Derive an image filename (EncantoQuilt.jpg) from thumbnail if possible
         image_file = ""
@@ -66,10 +64,8 @@ def main():
         rows.append({
             "image_file": image_file,
             "title": title,
-            "theme": theme,
-            "type": type_,
-            "status": status,
             # Detail-page fields Jane will fill in:
+            "pattern_designer": pattern_designer,
             "fabrics": "",
             "technique": "",
             "number": "",
@@ -80,14 +76,13 @@ def main():
     fieldnames = [
         "image_file",
         "title",
-        "theme",
-        "type",
-        "status",
+        "pattern_designer",
         "fabrics",
         "technique",
         "number",
         "description",
     ]
+
 
     with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)

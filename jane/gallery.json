@@ -1,443 +1,296 @@
 [
   {
-    "file": "pages/005.html",
-    "title": "005",
-    "thumbnail": "images/005-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Ballerina.html",
+    "title": "Ballerina",
+    "thumbnail": "images/Ballerina-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/019.html",
-    "title": "019",
-    "thumbnail": "images/019-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/BaseballTshirtQuilt.html",
+    "title": "Baseballtshirtquilt",
+    "thumbnail": "images/BaseballTshirtQuilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/068.html",
-    "title": "068",
-    "thumbnail": "images/068-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/BKportrait.html",
+    "title": "Bkportrait",
+    "thumbnail": "images/BKportrait-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/Briansquilt3.html",
-    "title": "Briansquilt3",
-    "thumbnail": "images/Briansquilt3-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/BKquilt.html",
+    "title": "Bkquilt",
+    "thumbnail": "images/BKquilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/BroadwayquiltScott.html",
-    "title": "Broadwayquiltscott",
-    "thumbnail": "images/BroadwayquiltScott-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Bookofthemonthquilt.html",
+    "title": "Bookofthemonthquilt",
+    "thumbnail": "images/Bookofthemonthquilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Broadwayquilt2.html",
+    "title": "Broadwayquilt2",
+    "thumbnail": "images/Broadwayquilt2-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/BugKidsquilt.html",
+    "title": "Bugkidsquilt",
+    "thumbnail": "images/BugKidsquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Butterflyquilt.html",
+    "title": "Butterflyquilt",
+    "thumbnail": "images/Butterflyquilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/CampHMK2025.html",
     "title": "Camphmk2025",
     "thumbnail": "images/CampHMK2025-thumb.png",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/Clamshellquilt082617.html",
-    "title": "Clamshellquilt082617",
-    "thumbnail": "images/Clamshellquilt082617-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/CandySwirlQuilt.html",
+    "title": "Candyswirlquilt",
+    "thumbnail": "images/CandySwirlQuilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/DiabetesPartnershipquiltdonation.html",
-    "title": "Diabetespartnershipquiltdonation",
-    "thumbnail": "images/DiabetesPartnershipquiltdonation-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Clamshell.html",
+    "title": "Clamshell",
+    "thumbnail": "images/Clamshell-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Daliaquilt.html",
+    "title": "Daliaquilt",
+    "thumbnail": "images/Daliaquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Dogquilt.html",
     "title": "Dogquilt",
     "thumbnail": "images/Dogquilt-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/DoubleWeddingRing.html",
+    "title": "Doubleweddingring",
+    "thumbnail": "images/DoubleWeddingRing-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/DoubleWeddingRing2.html",
+    "title": "Doubleweddingring2",
+    "thumbnail": "images/DoubleWeddingRing2-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Elephantquilt.html",
+    "title": "Elephantquilt",
+    "thumbnail": "images/Elephantquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Encantoquilt.html",
     "title": "Encantoquilt",
     "thumbnail": "images/Encantoquilt-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/giftforAaronShatzman.html",
-    "title": "Giftforaaronshatzman",
-    "thumbnail": "images/giftforAaronShatzman-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Giraffequilt.html",
+    "title": "Giraffequilt",
+    "thumbnail": "images/Giraffequilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/giftforPhillipAndAllisonSwedding.html",
-    "title": "Giftforphillipandallisonswedding",
-    "thumbnail": "images/giftforPhillipAndAllisonSwedding-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/giftforTammyRandall.html",
-    "title": "Giftfortammyrandall",
-    "thumbnail": "images/giftforTammyRandall-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/gifttoAnneRaguso.html",
-    "title": "Gifttoanneraguso",
-    "thumbnail": "images/gifttoAnneRaguso-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/HarryPotterquilt2.html",
+    "title": "Harrypotterquilt2",
+    "thumbnail": "images/HarryPotterquilt2-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/HarryPotterquilt.html",
     "title": "Harrypotterquilt",
     "thumbnail": "images/HarryPotterquilt-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_0299.html",
-    "title": "Img 0299",
-    "thumbnail": "images/IMG_0299-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Heartquilt.html",
+    "title": "Heartquilt",
+    "thumbnail": "images/Heartquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_0647.html",
-    "title": "Img 0647",
-    "thumbnail": "images/IMG_0647-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/HummingbirdLegitKits.html",
+    "title": "Hummingbirdlegitkits",
+    "thumbnail": "images/HummingbirdLegitKits-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_0983.html",
-    "title": "Img 0983",
-    "thumbnail": "images/IMG_0983-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Irisblockquilt.html",
+    "title": "Irisblockquilt",
+    "thumbnail": "images/Irisblockquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_2554.html",
-    "title": "Img 2554",
-    "thumbnail": "images/IMG_2554-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/Irishchain.html",
+    "title": "Irishchain",
+    "thumbnail": "images/Irishchain-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_3151Edited.html",
-    "title": "Img 3151Edited",
-    "thumbnail": "images/IMG_3151Edited-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/JNeimeyerQuilt.html",
+    "title": "Jneimeyerquilt",
+    "thumbnail": "images/JNeimeyerQuilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_3233.html",
-    "title": "Img 3233",
-    "thumbnail": "images/IMG_3233-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/JudyNeimeyerquilt2.html",
+    "title": "Judyneimeyerquilt2",
+    "thumbnail": "images/JudyNeimeyerquilt2-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/IMG_5020.html",
-    "title": "Img 5020",
-    "thumbnail": "images/IMG_5020-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_5140.html",
-    "title": "Img 5140",
-    "thumbnail": "images/IMG_5140-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_5478.html",
-    "title": "Img 5478",
-    "thumbnail": "images/IMG_5478-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_5561.html",
-    "title": "Img 5561",
-    "thumbnail": "images/IMG_5561-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_5678.html",
-    "title": "Img 5678",
-    "thumbnail": "images/IMG_5678-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_5922.html",
-    "title": "Img 5922",
-    "thumbnail": "images/IMG_5922-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_6090.html",
-    "title": "Img 6090",
-    "thumbnail": "images/IMG_6090-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_6188.html",
-    "title": "Img 6188",
-    "thumbnail": "images/IMG_6188-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_6574.html",
-    "title": "Img 6574",
-    "thumbnail": "images/IMG_6574-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_6662.html",
-    "title": "Img 6662",
-    "thumbnail": "images/IMG_6662-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_7006.html",
-    "title": "Img 7006",
-    "thumbnail": "images/IMG_7006-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_7561.html",
-    "title": "Img 7561",
-    "thumbnail": "images/IMG_7561-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_7845.html",
-    "title": "Img 7845",
-    "thumbnail": "images/IMG_7845-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_7935.html",
-    "title": "Img 7935",
-    "thumbnail": "images/IMG_7935-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_8281.html",
-    "title": "Img 8281",
-    "thumbnail": "images/IMG_8281-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_8896.html",
-    "title": "Img 8896",
-    "thumbnail": "images/IMG_8896-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_9005.html",
-    "title": "Img 9005",
-    "thumbnail": "images/IMG_9005-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_9405.html",
-    "title": "Img 9405",
-    "thumbnail": "images/IMG_9405-thumb.png",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_E1328.html",
-    "title": "Img E1328",
-    "thumbnail": "images/IMG_E1328-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
-  },
-  {
-    "file": "pages/IMG_E1713.html",
-    "title": "Img E1713",
-    "thumbnail": "images/IMG_E1713-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "file": "pages/JudyNeimyer1stquilt.html",
+    "title": "Judyneimyer1Stquilt",
+    "thumbnail": "images/JudyNeimyer1stquilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/KamalaHarris.html",
     "title": "Kamalaharris",
     "thumbnail": "images/KamalaHarris-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/MHPXE4909.html",
     "title": "Mhpxe4909",
     "thumbnail": "images/MHPXE4909-thumb.JPG",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/OneBlockwonder2025.html",
     "title": "Oneblockwonder2025",
     "thumbnail": "images/OneBlockwonder2025-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/OpticalIllusianQuilt.html",
+    "title": "Opticalillusianquilt",
+    "thumbnail": "images/OpticalIllusianQuilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/OrchidThreadPainting.html",
+    "title": "Orchidthreadpainting",
+    "thumbnail": "images/OrchidThreadPainting-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Owl.html",
     "title": "Owl",
     "thumbnail": "images/Owl-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/PeanutsRaffle.html",
+    "title": "Peanutsraffle",
+    "thumbnail": "images/PeanutsRaffle-thumb.png",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Playbillquilt.html",
+    "title": "Playbillquilt",
+    "thumbnail": "images/Playbillquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Playbillquilt2.html",
+    "title": "Playbillquilt2",
+    "thumbnail": "images/Playbillquilt2-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/PortraitquiltMom.html",
+    "title": "Portraitquiltmom",
+    "thumbnail": "images/PortraitquiltMom-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Ratatouillequilt.html",
+    "title": "Ratatouillequilt",
+    "thumbnail": "images/Ratatouillequilt-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/RileyCummingsgift2010.html",
     "title": "Rileycummingsgift2010",
     "thumbnail": "images/RileyCummingsgift2010-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/SamMinsleyMSUquilt2025.html",
     "title": "Samminsleymsuquilt2025",
     "thumbnail": "images/SamMinsleyMSUquilt2025-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/SesameStreetquilt.html",
     "title": "Sesamestreetquilt",
     "thumbnail": "images/SesameStreetquilt-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/StarTreckquilt.html",
+    "title": "Startreckquilt",
+    "thumbnail": "images/StarTreckquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/StarTrekquilt.html",
     "title": "Startrekquilt",
     "thumbnail": "images/StarTrekquilt-thumb.jpg",
-    "artist": "Jane Korsberg",
-    "theme": "Quilt",
-    "type": "TBD",
-    "status": "Available"
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Sunflowerqult.html",
+    "title": "Sunflowerqult",
+    "thumbnail": "images/Sunflowerqult-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Tablerunner.html",
+    "title": "Tablerunner",
+    "thumbnail": "images/Tablerunner-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/TheVeryHungryCaterpillar.html",
+    "title": "Theveryhungrycaterpillar",
+    "thumbnail": "images/TheVeryHungryCaterpillar-thumb.jpg",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/TropicalBirds.html",
+    "title": "Tropicalbirds",
+    "thumbnail": "images/TropicalBirds-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Tshirtquilt for ADA.html",
+    "title": "Tshirtquilt For Ada",
+    "thumbnail": "images/Tshirtquilt for ADA-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },
+  {
+    "file": "pages/Zebraqult.html",
+    "title": "Zebraqult",
+    "thumbnail": "images/Zebraqult-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
   }
 ]
