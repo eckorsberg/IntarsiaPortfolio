@@ -1,9 +1,18 @@
 [
   {
+    "file": "pages/blackwhitestripe.html",
+    "title": "Black and White stripped board",
+    "thumbnail": "images/blackwhitestripe-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "theme": "Cutting Board",
+    "type": "Functional",
+    "status": "Available"
+  },
+  {
     "file": "pages/homitakoda2026.html",
     "title": "Ho Mita Koda 2026 Donation",
     "thumbnail": "images/homitakoda2026-thumb.jpg",
-    "artist": "Ed Korsberg",	
+    "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
     "status": "Donated"
