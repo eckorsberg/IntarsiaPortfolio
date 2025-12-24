@@ -1,0 +1,37 @@
+git checkout main
+git pull
+
+git checkout jane-regen
+git merge main
+
+# make Jane’s changes
+git add .
+git commit -m "Finalize Jane gallery"
+git push
+
+git checkout main
+git merge jane-regen
+git push
+=========================
+
+#git push -u origin jane-regen				#push to github and set default branch for push?
+git checkout main							#main branch
+git pull									#probably superfluous since I made no changes on main yet 
+
+git checkout jane-regen						#back to jane-regen
+git merge main								#merge main TO jane-regen, to get main and jane-regen in sync
+
+# make Jane’s changes
+# Jane edits jane/jane_metadata.csv in Excel and saves as CSV
+python jane_apply_metadata.py
+git add .
+git commit -m "Finalize Jane gallery"
+git push									#pushed to github on jane-regen
+
+git checkout main							#back to main
+git merge jane-regen						#incorporate jane-regen updates TO main
+git push									#this is my question, should it be git push -u origin main
+
+“Revisit favicon after Jane pages are finalized.”
+copy faviconsTBD2
+Powershell EditHtmlIcon.ps1
