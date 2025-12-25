@@ -7,55 +7,61 @@
   },
   {
     "file": "pages/BaseballTshirtQuilt.html",
-    "title": "Baseballtshirtquilt",
+    "title": "Baseball Tshirt",
     "thumbnail": "images/BaseballTshirtQuilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/BKportrait.html",
-    "title": "Bkportrait",
+    "title": "Bk Portrait",
     "thumbnail": "images/BKportrait-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/BKquilt.html",
-    "title": "Bkquilt",
+    "title": "Bk",
     "thumbnail": "images/BKquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Bookofthemonthquilt.html",
-    "title": "Bookofthemonthquilt",
+    "title": "Book of the month",
     "thumbnail": "images/Bookofthemonthquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
+    "file": "pages/Playbillquilt.html",
+    "title": "Broadway 1",
+    "thumbnail": "images/Playbillquilt-thumb.JPG",
+    "pattern_designer": "Jane Korsberg"
+  },  
+  {
     "file": "pages/Broadwayquilt2.html",
-    "title": "Broadwayquilt2",
+    "title": "Broadway 2",
     "thumbnail": "images/Broadwayquilt2-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/BugKidsquilt.html",
-    "title": "Bugkidsquilt",
+    "title": "Bug Kids",
     "thumbnail": "images/BugKidsquilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Butterflyquilt.html",
-    "title": "Butterflyquilt",
+    "title": "Butterfly",
     "thumbnail": "images/Butterflyquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/CampHMK2025.html",
-    "title": "Camphmk2025",
+    "title": "Camp Ho Mita Koda 2025",
     "thumbnail": "images/CampHMK2025-thumb.png",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/CandySwirlQuilt.html",
-    "title": "Candyswirlquilt",
+    "title": "Candy Swirl",
     "thumbnail": "images/CandySwirlQuilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
@@ -67,127 +73,121 @@
   },
   {
     "file": "pages/Daliaquilt.html",
-    "title": "Daliaquilt",
+    "title": "Dalia",
     "thumbnail": "images/Daliaquilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Dogquilt.html",
-    "title": "Dogquilt",
+    "title": "Dog",
     "thumbnail": "images/Dogquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/DoubleWeddingRing.html",
-    "title": "Doubleweddingring",
+    "title": "Double Wedding ring",
     "thumbnail": "images/DoubleWeddingRing-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/DoubleWeddingRing2.html",
-    "title": "Doubleweddingring2",
+    "title": "Double Wedding ring 2",
     "thumbnail": "images/DoubleWeddingRing2-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Elephantquilt.html",
-    "title": "Elephantquilt",
+    "title": "Elephant",
     "thumbnail": "images/Elephantquilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Encantoquilt.html",
-    "title": "Encantoquilt",
+    "title": "Encanto",
     "thumbnail": "images/Encantoquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Giraffequilt.html",
-    "title": "Giraffequilt",
+    "title": "Giraffe",
     "thumbnail": "images/Giraffequilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/HarryPotterquilt2.html",
-    "title": "Harrypotterquilt2",
-    "thumbnail": "images/HarryPotterquilt2-thumb.JPG",
-    "pattern_designer": "Jane Korsberg"
-  },
-  {
     "file": "pages/HarryPotterquilt.html",
-    "title": "Harrypotterquilt",
+    "title": "Harry Potter",
     "thumbnail": "images/HarryPotterquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Heartquilt.html",
-    "title": "Heartquilt",
+    "title": "Heart",
     "thumbnail": "images/Heartquilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/HummingbirdLegitKits.html",
-    "title": "Hummingbirdlegitkits",
+    "title": "Hummingbird LegitKits",
     "thumbnail": "images/HummingbirdLegitKits-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Irisblockquilt.html",
-    "title": "Irisblockquilt",
+    "title": "Iris Block",
     "thumbnail": "images/Irisblockquilt-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Irishchain.html",
-    "title": "Irishchain",
+    "title": "Irish Chain",
     "thumbnail": "images/Irishchain-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/JNeimeyerQuilt.html",
-    "title": "Jneimeyerquilt",
+    "title": "Vintage Rose",
     "thumbnail": "images/JNeimeyerQuilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/JudyNeimeyerquilt2.html",
-    "title": "Judyneimeyerquilt2",
+    "title": "Paradise in Bloom",
     "thumbnail": "images/JudyNeimeyerquilt2-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/JudyNeimyer1stquilt.html",
-    "title": "Judyneimyer1Stquilt",
+    "title": "Desert Sky",
     "thumbnail": "images/JudyNeimyer1stquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/KamalaHarris.html",
-    "title": "Kamalaharris",
+    "title": "Kamala Harris",
     "thumbnail": "images/KamalaHarris-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/MHPXE4909.html",
-    "title": "Mhpxe4909",
+    "title": "Dog Baby",
     "thumbnail": "images/MHPXE4909-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/OneBlockwonder2025.html",
-    "title": "Oneblockwonder2025",
+    "title": "OneBlock Wonder 2025",
     "thumbnail": "images/OneBlockwonder2025-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/OpticalIllusianQuilt.html",
-    "title": "Opticalillusianquilt",
+    "title": "Optical Illusian",
     "thumbnail": "images/OpticalIllusianQuilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/OrchidThreadPainting.html",
-    "title": "Orchidthreadpainting",
+    "title": "Orchid Thread Painting",
     "thumbnail": "images/OrchidThreadPainting-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
@@ -199,97 +199,79 @@
   },
   {
     "file": "pages/PeanutsRaffle.html",
-    "title": "Peanutsraffle",
+    "title": "Peanuts Raffle",
     "thumbnail": "images/PeanutsRaffle-thumb.png",
     "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/Playbillquilt.html",
-    "title": "Playbillquilt",
-    "thumbnail": "images/Playbillquilt-thumb.JPG",
-    "pattern_designer": "Jane Korsberg"
-  },
-  {
-    "file": "pages/Playbillquilt2.html",
-    "title": "Playbillquilt2",
-    "thumbnail": "images/Playbillquilt2-thumb.JPG",
-    "pattern_designer": "Jane Korsberg"
-  },
-  {
     "file": "pages/PortraitquiltMom.html",
-    "title": "Portraitquiltmom",
+    "title": "Portrait Mom",
     "thumbnail": "images/PortraitquiltMom-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Ratatouillequilt.html",
-    "title": "Ratatouillequilt",
+    "title": "Ratatouille",
     "thumbnail": "images/Ratatouillequilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/RileyCummingsgift2010.html",
-    "title": "Rileycummingsgift2010",
+    "title": "Riley Cummings gift 2010",
     "thumbnail": "images/RileyCummingsgift2010-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/SamMinsleyMSUquilt2025.html",
-    "title": "Samminsleymsuquilt2025",
+    "title": "Sam Minsley MSU 2025",
     "thumbnail": "images/SamMinsleyMSUquilt2025-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/SesameStreetquilt.html",
-    "title": "Sesamestreetquilt",
+    "title": "Sesame Street",
     "thumbnail": "images/SesameStreetquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
-    "file": "pages/StarTreckquilt.html",
-    "title": "Startreckquilt",
-    "thumbnail": "images/StarTreckquilt-thumb.JPG",
-    "pattern_designer": "Jane Korsberg"
-  },
-  {
     "file": "pages/StarTrekquilt.html",
-    "title": "Startrekquilt",
+    "title": "StarTrek",
     "thumbnail": "images/StarTrekquilt-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Sunflowerqult.html",
-    "title": "Sunflowerqult",
+    "title": "Sunflower",
     "thumbnail": "images/Sunflowerqult-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Tablerunner.html",
-    "title": "Tablerunner",
+    "title": "Table runner",
     "thumbnail": "images/Tablerunner-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/TheVeryHungryCaterpillar.html",
-    "title": "Theveryhungrycaterpillar",
+    "title": "The Very Hungry Caterpillar",
     "thumbnail": "images/TheVeryHungryCaterpillar-thumb.jpg",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/TropicalBirds.html",
-    "title": "Tropicalbirds",
+    "title": "Tropical birds",
     "thumbnail": "images/TropicalBirds-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Tshirtquilt for ADA.html",
-    "title": "Tshirtquilt For Ada",
+    "title": "Tshirt Quilt For ADA",
     "thumbnail": "images/Tshirtquilt for ADA-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   },
   {
     "file": "pages/Zebraqult.html",
-    "title": "Zebraqult",
+    "title": "Zebra",
     "thumbnail": "images/Zebraqult-thumb.JPG",
     "pattern_designer": "Jane Korsberg"
   }
