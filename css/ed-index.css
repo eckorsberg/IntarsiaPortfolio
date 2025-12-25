@@ -1,0 +1,66 @@
+/* Page-specific styles extracted from /style.css */
+
+h1{
+  font-size: clamp(1.8rem, 6vw, 2.4rem);
+  line-height: 1.15;
+  margin: 0 0 .5rem;
+}
+
+/* === for laser and animation buttons on ed/index.html === */
+.header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:2rem;
+}
+
+.header-card{
+  background: rgba(255,255,255,0.65);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 1rem 1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  margin: 0 0 1rem;
+}
+
+.gallery{
+  margin-top: .75rem;
+}
+
+.quick-links{
+  display:flex;
+  align-items:center;
+  gap:.6rem;
+}
+
+
+.quick-label{
+  font-size:.95rem;
+  opacity:.75;
+}
+
+.quick-pill{
+  text-decoration:none;
+  padding:.52rem 1rem;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,0.18);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  color:#222;
+  font-weight:600;
+}
+
+.quick-pill:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.filter-toggle{
+  background: rgba(255,255,255,0.9);
+  color: #222;
+  border: 1px solid rgba(0,0,0,0.18);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.filter-toggle:hover{
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
