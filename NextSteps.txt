@@ -35,3 +35,6 @@ git push									#this is my question, should it be git push -u origin main
 “Revisit favicon after Jane pages are finalized.”
 copy faviconsTBD2
 Powershell EditHtmlIcon.ps1
+
+# reduce main page clutter
+# add py to just update description
