@@ -5,22 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Welcome to Korsberg Crafts</title>
   <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: #f0f0f0;
-    }
+	body {
+	  margin: 0;
+	  font-family: sans-serif;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  height: 100vh;
+	  background-color: #f6f4f1;
+	  position: relative;
+	  z-index: 0;
+	}
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
+	body::before {
+	  content: "";
+	  position: absolute;
+	  inset: 0;
+	  background-image: url("landing-page-wallpaper.png");
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;   /* ← this is the key */	  
+	  opacity: 0.35;          /* ← dial this way down */
+	  pointer-events: none;
+	  z-index: -1;
+	}
+
+	h1 {
+	  font-size: clamp(2.2rem, 4vw, 2.8rem);
+	  margin-bottom: 1.5rem;
+	  text-align: center;
+	  color: #222;
+	  text-shadow: 0 1px 3px rgba(255,255,255,0.6);
+	  font-weight: 600;
+	  padding: 0.25em 0.5em;
+	  border-radius: 8px;	  
+	}
+
 
     .cards {
       display: flex;
@@ -55,8 +76,8 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Korsberg Crafts</h1>
-  <div class="cards">
+    <h1>Welcome to Korsberg Crafts</h1>  
+	<div class="cards">
     <a class="card" href="ed/">Ed's Wood Art</a>
     <a class="card" href="jane/">Jane's Quilts</a>
   </div>
