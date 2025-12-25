@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			<img src="${thumb}" alt="${title}">
 		  </div>
 		  <div class="card-body">
-			<h2 class="card-title">${title}</h2>
+			<p class="gallery-caption">${title}</p>
 		  </div>
 		`;
 
