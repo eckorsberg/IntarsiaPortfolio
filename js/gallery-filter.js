@@ -11,41 +11,42 @@ fetch("gallery.json")
     }
 
     // Cache filter dropdown DOM elements
-    const filters = {
-      artist: document.getElementById("artistFilter"),
-      theme: document.getElementById("themeFilter"),
-      type: document.getElementById("typeFilter"),
-      status: document.getElementById("statusFilter"),
-    };
+	const filters = {
+	  artist: document.getElementById("artistFilter"),
+	  theme: document.getElementById("themeFilter"),
+	  type: document.getElementById("typeFilter"),
+	  status: document.getElementById("statusFilter"),
+	};
+
+	// keep only filters that actually exist on the page
+	const activeFilters = Object.fromEntries(
+	  Object.entries(filters).filter(([_, el]) => el)
+	);
 
     const searchBox = document.getElementById("searchBox");
 
     // Populate dropdowns with unique values from the dataset
-    Object.keys(filters).forEach(key => {
-      const uniqueValues = [...new Set(data.map(item => item[key]).filter(Boolean))].sort();
+	Object.keys(activeFilters).forEach(key => {
+	  const uniqueValues = [...new Set(data.map(item => item[key]).filter(Boolean))].sort();
 
-      // Add default "All" option
-      const defaultOption = document.createElement("option");
-      defaultOption.value = "";
-      defaultOption.textContent = "All";
-      filters[key].appendChild(defaultOption);
+	  const defaultOption = document.createElement("option");
+	  defaultOption.value = "";
+	  defaultOption.textContent = "All";
+	  activeFilters[key].appendChild(defaultOption);
 
-      // Add individual option values
-      uniqueValues.forEach(value => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = value;
-        filters[key].appendChild(option);
-      });
-    });
+	  uniqueValues.forEach(value => {
+		const option = document.createElement("option");
+		option.value = value;
+		option.textContent = value;
+		activeFilters[key].appendChild(option);
+	  });
+	});
 
     // Now that options exist, restore session values
-    Object.keys(filters).forEach(key => {
-      const saved = sessionStorage.getItem(`filter-${key}`);
-      if (saved && filters[key]) {
-        filters[key].value = saved;
-      }
-    });
+	Object.keys(activeFilters).forEach(key => {
+	  const saved = sessionStorage.getItem(`filter-${key}`);
+	  if (saved) activeFilters[key].value = saved;
+	});
 
     const savedSearch = sessionStorage.getItem("searchTerm");
     if (savedSearch) {
@@ -60,23 +61,21 @@ fetch("gallery.json")
       const searchTerm = searchBox.value.trim().toLowerCase();
 
       // Get selected filter values
-      const selected = {
-        artist: filters.artist.value,
-        theme: filters.theme.value,
-        type: filters.type.value,
-        status: filters.status.value,
-      };
+	const selected = {};
+	Object.keys(activeFilters).forEach(key => {
+	  selected[key] = activeFilters[key].value;
+	});
 
       let matchedCount = 0;
 
       // Loop through dataset and build elements for matches
       data.forEach(item => {
-        const match =
-          (!selected.artist || item.artist === selected.artist) &&
-          (!selected.theme || item.theme === selected.theme) &&
-          (!selected.type || item.type === selected.type) &&
-          (!selected.status || item.status === selected.status) &&
-          (!searchTerm || item.title.toLowerCase().includes(searchTerm));
+		const matchFilters = Object.entries(selected).every(([key, val]) =>
+		  !val || item[key] === val
+		);
+
+		const match = matchFilters &&
+		  (!searchTerm || item.title.toLowerCase().includes(searchTerm));
 
         if (match) {
           matchedCount++;
@@ -120,12 +119,12 @@ fetch("gallery.json")
     }
 
     // Attach change listeners to all filters
-    Object.entries(filters).forEach(([key, select]) => {
-      select.addEventListener("change", () => {
-        sessionStorage.setItem(`filter-${key}`, select.value);
-        applyFilters();
-      });
-    });
+	Object.entries(activeFilters).forEach(([key, select]) => {
+	  select.addEventListener("change", () => {
+		sessionStorage.setItem(`filter-${key}`, select.value);
+		applyFilters();
+	  });
+	});
 
     // Text input listener
     searchBox.addEventListener("input", () => {
