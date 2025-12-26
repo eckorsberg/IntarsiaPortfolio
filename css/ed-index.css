@@ -18,10 +18,11 @@ h1{
   background: rgba(255,255,255,0.65);
   border: 1px solid rgba(0,0,0,0.06);
   border-radius: 14px;
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 0.6rem;   /* top | sides | bottom */
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  margin: 0 0 1rem;
+  margin: 0 0 0.6rem;          /* reduce gap below card */
 }
+
 
 .gallery{
   margin-top: .75rem;
@@ -55,12 +56,54 @@ h1{
   box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
-.filter-toggle{
-  background: rgba(255,255,255,0.9);
-  color: #222;
-  border: 1px solid rgba(0,0,0,0.18);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+/* --- Filters (Ed index only) --- */
+.filter-group{
+  display:flex;
+  gap: .75rem 1rem;
+  align-items:flex-end;
+  justify-content:flex-start;
+
+  /* spacing */
+  margin: 0.4rem 0 1rem;
+
+  /* make it feel lighter (not a big “form card”) */
+  border: 1px solid rgba(0,0,0,0.10);
+  border-radius: 12px;
+  padding: .75rem .9rem;
+  background: rgba(255,255,255,0.55);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
-.filter-toggle:hover{
-  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+
+.filter-group > div{
+  display:flex;
+  flex-direction:column;
+  gap: .25rem;
+
+  /* remove the “mini-card inside card” look */
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.filter-group label{
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.filter-group input,
+.filter-group select{
+  min-width: 180px;
+}
+
+/* mobile: stack nicely */
+@media (max-width: 600px){
+  .filter-group{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-group input,
+  .filter-group select{
+    width: 100%;
+    min-width: 0;
+  }
 }

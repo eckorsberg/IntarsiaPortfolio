@@ -42,14 +42,12 @@
     <!-- Number of pieces in portfolio -->
     <p id="totalCount" class="gallery-count"></p>
     
-    <!-- For mobile -->
-    <button class="filter-toggle" onclick="toggleFilters()">Show Filters</button>
   </div>
 
   <!-- Filter controls for search and dropdown filters -->
-  <div class="filter-group collapsed">
+  <div class="filter-group">
     <div>
-      <label for="searchBox">Search Title:</label>
+      <label for="searchBox">Search:</label>
       <input type="text" id="searchBox" placeholder="Type to filter...">
     </div>
 
@@ -66,48 +64,6 @@
   <!-- JavaScript that handles gallery loading and filtering -->
   <script src="/js/gallery-filter.js"></script>
   
-<script>
-  let userToggled = false;  // Track if user manually toggled filters
-
-  function toggleFilters() {
-    const group = document.querySelector('.filter-group');
-    const button = document.querySelector('.filter-toggle');
-    const isCollapsed = group.classList.contains('collapsed');
-
-    userToggled = true;  // Mark that the user explicitly toggled it
-
-    if (isCollapsed) {
-      group.classList.remove('collapsed');
-      button.textContent = 'Hide Filters';
-    } else {
-      group.classList.add('collapsed');
-      button.textContent = 'Show Filters';
-    }
-  }
-
-  function adjustFilterVisibility() {
-    const group = document.querySelector('.filter-group');
-    const button = document.querySelector('.filter-toggle');
-
-    if (window.innerWidth <= 600) {
-      button.style.display = 'block';
-
-      // Only collapse automatically if the user hasn’t toggled manually
-      if (!userToggled) {
-        group.classList.add('collapsed');
-        button.textContent = 'Show Filters';
-      }
-    } else {
-      group.classList.remove('collapsed');
-      button.style.display = 'none';
-      userToggled = false; // Reset when switching to desktop
-    }
-  }
-
-  window.addEventListener('DOMContentLoaded', adjustFilterVisibility);
-  window.addEventListener('resize', adjustFilterVisibility);
-</script>
-
 
 </body>
 </html>
