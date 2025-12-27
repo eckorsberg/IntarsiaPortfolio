@@ -63,6 +63,12 @@ img {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* === Center any animations === */
+.anim-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* === Back Navigation Styling === */
 .back {
   margin: 1em 0;
