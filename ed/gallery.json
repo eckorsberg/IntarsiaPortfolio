@@ -6,7 +6,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": true
   },
   {
     "file": "pages/homitakoda2026.html",
@@ -15,7 +16,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Donated"
+    "status": "Donated",
+    "featured": true
   },
   {
     "file": "pages/homitakodaboard2026.html",
@@ -24,7 +26,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": true
   },
   {
     "file": "pages/basketweave1inch.html",
@@ -33,7 +36,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/basketweave58.html",
@@ -42,7 +46,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/brickcuttingboard.html",
@@ -51,7 +56,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": true
   },
   {
     "file": "pages/3d-basket-weave-board.html",
@@ -60,7 +66,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/basketweavemaplewalnut.html",
@@ -69,7 +76,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/basketweaveboard.html",
@@ -78,7 +86,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/threeboards.html",
@@ -87,7 +96,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Available"
+    "status": "Available",
+    "featured": false
   },
   {
     "file": "pages/happybatandmouse.html",
@@ -96,7 +106,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/hummingbird4.html",
@@ -105,7 +116,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/hummingbird3.html",
@@ -114,7 +126,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/hummingbird2.html",
@@ -123,7 +136,8 @@
     "artist": "Janette Square",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/HoMitaKoda2025.html",
@@ -132,7 +146,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Donated"
+    "status": "Donated",
+    "featured": false
   },
   {
     "file": "pages/cogsworth.html",
@@ -141,7 +156,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/mrspottsandchip.html",
@@ -150,16 +166,18 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/luminaire.html",
-    "title": "Lumi\u00e8re",
+    "title": "Lumière",
     "thumbnail": "images/luminaire-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/goofybird.html",
@@ -168,7 +186,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/girlwithumbrella.html",
@@ -178,7 +197,8 @@
     "theme": "Intarsia",
     "type": "Whimsical",
     "status": "Not For Sale",
-    "cost": "$75"
+    "cost": "$75",
+    "featured": false
   },
   {
     "file": "pages/tabbycat.html",
@@ -188,7 +208,8 @@
     "theme": "Intarsia",
     "type": "Cats",
     "status": "Not For Sale",
-    "cost": "$125"
+    "cost": "$125",
+    "featured": false
   },
   {
     "file": "pages/snowleopard.html",
@@ -198,7 +219,8 @@
     "theme": "Intarsia",
     "type": "Cats",
     "status": "Available",
-    "cost": "$275"
+    "cost": "$275",
+    "featured": false
   },
   {
     "file": "pages/thumper.html",
@@ -207,7 +229,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/motherandbabygiraffe.html",
@@ -216,7 +239,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/welcome.html",
@@ -225,7 +249,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/3dcuttingboard.html",
@@ -234,7 +259,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Donated"
+    "status": "Donated",
+    "featured": false
   },
   {
     "file": "pages/checkeredboard.html",
@@ -243,7 +269,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/stairstepcuttingboard.html",
@@ -252,7 +279,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Donated"
+    "status": "Donated",
+    "featured": false
   },
   {
     "file": "pages/waffleboard.html",
@@ -261,7 +289,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/waffleboard1.html",
@@ -270,7 +299,8 @@
     "artist": "Ed Korsberg",
     "theme": "Cutting Board",
     "type": "Cutting Board",
-    "status": "Donated"
+    "status": "Donated",
+    "featured": false
   },
   {
     "file": "pages/giraffeinframe.html",
@@ -279,7 +309,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Available"
+    "status": "Available",
+    "featured": true
   },
   {
     "file": "pages/calicocorgi.html",
@@ -289,7 +320,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-    "cost": "$125"
+    "cost": "$125",
+    "featured": false
   },
   {
     "file": "pages/sweetcorn.html",
@@ -298,7 +330,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/girlwithwateringcanredshoes.html",
@@ -307,7 +340,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/flamencodancer.html",
@@ -316,7 +350,8 @@
     "artist": "Serhan Sultanoglu",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/zebras.html",
@@ -325,7 +360,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/elephant.html",
@@ -334,7 +370,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/expressivecorgi.html",
@@ -344,7 +381,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Not For Sale",
-    "cost": "$200"
+    "cost": "$200",
+    "featured": false
   },
   {
     "file": "pages/hootowlpineapply.html",
@@ -353,7 +391,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/wave.html",
@@ -362,7 +401,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/sloth.html",
@@ -372,7 +412,8 @@
     "theme": "Intarsia",
     "type": "Animals",
     "status": "Not For Sale",
-    "cost": "$225"
+    "cost": "$225",
+    "featured": false
   },
   {
     "file": "pages/eagle.html",
@@ -382,7 +423,8 @@
     "theme": "Intarsia",
     "type": "Animals",
     "status": "Not For Sale",
-    "cost": "$150"
+    "cost": "$150",
+    "featured": true
   },
   {
     "file": "pages/marquetry.html",
@@ -391,7 +433,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/chef.html",
@@ -400,7 +443,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/impossibletriangle.html",
@@ -409,7 +453,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/fishtank.html",
@@ -418,7 +463,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/guardiandragon.html",
@@ -427,7 +473,8 @@
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
     "type": "Dragons",
-    "status": "Sold"
+    "status": "Sold",
+    "featured": true
   },
   {
     "file": "pages/hatthedwarf.html",
@@ -436,7 +483,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Mythical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/ornament1.html",
@@ -445,7 +493,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/ornament2.html",
@@ -454,7 +503,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/ornament3.html",
@@ -463,7 +513,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/ornament4.html",
@@ -472,7 +523,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/ornament5.html",
@@ -481,7 +533,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/ornament6.html",
@@ -490,7 +543,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/pumatwocubs.html",
@@ -499,7 +553,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/cardinalsontree.html",
@@ -508,7 +563,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/pumpkincrow.html",
@@ -517,7 +573,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/babygiraffe.html",
@@ -526,7 +583,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/goofydragon.html",
@@ -535,7 +593,8 @@
     "artist": "Steve Harpster",
     "theme": "Intarsia",
     "type": "Dragons",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/calvinhobbes.html",
@@ -544,7 +603,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/up.html",
@@ -553,7 +613,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/dancer.html",
@@ -562,7 +623,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/sleepingjaguar.html",
@@ -571,7 +633,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/corgistanding.html",
@@ -580,7 +643,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dogs",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/airedale.html",
@@ -590,7 +654,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-    "cost": "$150"
+    "cost": "$150",
+    "featured": true
   },
   {
     "file": "pages/jaguarinlay.html",
@@ -599,7 +664,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/babydragon.html",
@@ -608,7 +674,8 @@
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
     "type": "Dragons",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/hootowlintree.html",
@@ -617,7 +684,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/parrots.html",
@@ -626,7 +694,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/superstitionmountain.html",
@@ -635,7 +704,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": true
   },
   {
     "file": "pages/lionshead.html",
@@ -644,7 +714,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": true
   },
   {
     "file": "pages/redtiger.html",
@@ -653,7 +724,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/fruitbasket.html",
@@ -662,7 +734,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/stork.html",
@@ -671,7 +744,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Mythical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/phoenix.html",
@@ -680,7 +754,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Mythical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/treeoflife.html",
@@ -689,7 +764,8 @@
     "artist": "John Rigsby",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/goldfinches.html",
@@ -698,7 +774,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/owlintree.html",
@@ -707,7 +784,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/sewingmachine.html",
@@ -716,7 +794,8 @@
     "artist": "Garnet Hall",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/flyingdragon.html",
@@ -725,7 +804,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Dragons",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/hummingbird.html",
@@ -734,7 +814,8 @@
     "artist": "Janette Square",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/krestel.html",
@@ -743,7 +824,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/wedding.html",
@@ -752,7 +834,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/pumaandcubs.html",
@@ -761,7 +844,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/gnarlydragon.html",
@@ -770,7 +854,8 @@
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
     "type": "Mythical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/beagle.html",
@@ -780,7 +865,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-    "cost": "$85"
+    "cost": "$85",
+    "featured": false
   },
   {
     "file": "pages/dentist.html",
@@ -789,7 +875,8 @@
     "artist": "Ed Korsberg",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/lovebirds.html",
@@ -798,7 +885,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Birds",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/oranges.html",
@@ -807,7 +895,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/oranges2.html",
@@ -816,7 +905,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Sold"
+    "status": "Sold",
+    "featured": false
   },
   {
     "file": "pages/peaches.html",
@@ -825,7 +915,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/pears.html",
@@ -834,7 +925,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/pears2.html",
@@ -843,7 +935,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Sold"
+    "status": "Sold",
+    "featured": false
   },
   {
     "file": "pages/pumastare.html",
@@ -852,7 +945,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/pumpkin.html",
@@ -861,7 +955,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/robin.html",
@@ -871,7 +966,8 @@
     "theme": "Intarsia",
     "type": "Birds",
     "status": "Not For Sale",
-    "cost": "$50"
+    "cost": "$50",
+    "featured": false
   },
   {
     "file": "pages/schnauzer.html",
@@ -881,7 +977,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Not For Sale",
-    "cost": "$125"
+    "cost": "$125",
+    "featured": false
   },
   {
     "file": "pages/seaotter.html",
@@ -890,7 +987,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Animals",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/sittingcat.html",
@@ -899,7 +997,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Cats",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/snowman.html",
@@ -908,7 +1007,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/standingpug.html",
@@ -918,7 +1018,8 @@
     "theme": "Intarsia",
     "type": "Dogs",
     "status": "Available",
-    "cost": "$125"
+    "cost": "$125",
+    "featured": false
   },
   {
     "file": "pages/watermellon.html",
@@ -927,7 +1028,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/zoe.html",
@@ -936,7 +1038,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/apples.html",
@@ -945,7 +1048,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bananas.html",
@@ -954,7 +1058,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bwdragonfull.html",
@@ -963,7 +1068,8 @@
     "artist": "Bruce Worthington",
     "theme": "Intarsia",
     "type": "Dragons",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/cateyeglass1.html",
@@ -973,7 +1079,8 @@
     "theme": "Intarsia",
     "type": "Whimsical",
     "status": "Donated",
-    "cost": "$50"
+    "cost": "$50",
+    "featured": false
   },
   {
     "file": "pages/owleyeglass.html",
@@ -982,7 +1089,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Whimsical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/cherries.html",
@@ -991,7 +1099,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/grapes.html",
@@ -1000,7 +1109,8 @@
     "artist": "Judy Gale Roberts",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bowllayer.html",
@@ -1009,7 +1119,8 @@
     "artist": "Ed Korsberg",
     "theme": "Scrollsaw",
     "type": "Bowls",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bowl1.html",
@@ -1018,7 +1129,8 @@
     "artist": "Ed Korsberg",
     "theme": "Lathe",
     "type": "Bowls",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bowl2.html",
@@ -1027,7 +1139,8 @@
     "artist": "Ed Korsberg",
     "theme": "Lathe",
     "type": "Bowls",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/bowl3.html",
@@ -1036,7 +1149,8 @@
     "artist": "Ed Korsberg",
     "theme": "Lathe",
     "type": "Bowls",
-    "status": "Not For Sale"
+    "status": "Not For Sale",
+    "featured": false
   },
   {
     "file": "pages/rickvicki.html",
@@ -1045,7 +1159,8 @@
     "artist": "Ed Korsberg",
     "theme": "Scrollsaw",
     "type": "Memorial",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/guolihuan.html",
@@ -1054,7 +1169,8 @@
     "artist": "Ed Korsberg",
     "theme": "Scrollsaw",
     "type": "Memorial",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   },
   {
     "file": "pages/horsehead.html",
@@ -1063,7 +1179,8 @@
     "artist": "Kathy Wise",
     "theme": "Intarsia",
     "type": "Intarsia",
-    "status": "Sold"
+    "status": "Sold",
+    "featured": false
   },
   {
     "file": "pages/phoenixlight.html",
@@ -1072,6 +1189,7 @@
     "artist": "Ed Korsberg",
     "theme": "Scrollsaw",
     "type": "Mythical",
-    "status": "Gifted"
+    "status": "Gifted",
+    "featured": false
   }
 ]
