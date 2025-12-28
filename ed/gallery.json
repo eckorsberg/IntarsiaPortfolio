@@ -614,7 +614,7 @@
     "theme": "Intarsia",
     "type": "Intarsia",
     "status": "Not For Sale",
-    "featured": false
+    "featured": true
   },
   {
     "file": "pages/dancer.html",
@@ -665,7 +665,7 @@
     "theme": "Intarsia",
     "type": "Cats",
     "status": "Not For Sale",
-    "featured": false
+    "featured": true
   },
   {
     "file": "pages/babydragon.html",
