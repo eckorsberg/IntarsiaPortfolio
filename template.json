@@ -4,5 +4,6 @@
     "thumbnail": "images/newimage-thumb.jpg",
     "artist": "Ed Korsberg",
     "theme": "{{THEME}}",
-    "type": "{{TYPE}}"
+    "type": "{{TYPE}}",
+    "featured": false
   }
