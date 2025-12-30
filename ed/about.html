@@ -68,13 +68,21 @@
 	fetch('gallery.json')
 	  .then(response => response.json())
 	  .then(data => {
-		const counts = { artist: {}, theme: {}, type: {} };
+
+		const counts = { pattern_designer: {}, category: {} };
+
+		const getPatternDesigner = (item) =>
+		  (item.pattern_designer || item.patternDesigner || item.artist || 'Unknown');
+
+		const getCategory = (item) =>
+		  (item.category || item.type || 'Unknown');
 
 		data.forEach(item => {
-		  ['artist', 'theme', 'type'].forEach(field => {
-			const key = item[field] || 'Unknown';
-			counts[field][key] = (counts[field][key] || 0) + 1;
-		  });
+		  const pd = getPatternDesigner(item);
+		  counts.pattern_designer[pd] = (counts.pattern_designer[pd] || 0) + 1;
+
+		  const cat = getCategory(item);
+		  counts.category[cat] = (counts.category[cat] || 0) + 1;
 		});
 
 		const formatCounts = (label, entries) => {
@@ -87,9 +95,8 @@
 		};
 
 		document.getElementById('gallery-stats').innerHTML =
-		  formatCounts('Pattern Designers', counts.artist) +
-		  formatCounts('Themes', counts.theme) +
-		  formatCounts('Types', counts.type);
+		  formatCounts('Pattern Designers', counts.pattern_designer) +
+		  formatCounts('Categories', counts.category);
 	  })
 	  .catch(err => {
 		document.getElementById('gallery-stats').textContent = 'Error loading stats.';
