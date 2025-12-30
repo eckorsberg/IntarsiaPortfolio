@@ -26,10 +26,10 @@ fetch("gallery.json")
 
     // Cache filter dropdown DOM elements
     const filters = {
-      artist: document.getElementById("artistFilter"),
-      theme: document.getElementById("themeFilter"),
-      type: document.getElementById("typeFilter"),
-      status: document.getElementById("statusFilter"),
+      //artist: document.getElementById("artistFilter"),
+      //theme: document.getElementById("themeFilter"),
+      category: document.getElementById("categoryFilter"),
+      //status: document.getElementById("statusFilter"),
     };
 
     // Keep only filters that actually exist on the page

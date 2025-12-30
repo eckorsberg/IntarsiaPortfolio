@@ -3,141 +3,125 @@
     "file": "pages/warningjob.html",
     "title": "Don't tell me my job",
     "thumbnail": "images/warningjob-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/kyleglass.html",
     "title": "Kyle in retirement",
     "thumbnail": "images/kyleglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/emilyparmaglass.html",
     "title": "Emily the Paddler",
     "thumbnail": "images/emilyparmaglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/richfieldbrewing.html",
     "title": "Richfield Brewing",
     "thumbnail": "images/richfieldbrewing-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/marekmug.html",
     "title": "Bob Marek mug",
     "thumbnail": "images/marekmug-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/homitakodamug.html",
     "title": "Ho Mita Koda beer mug",
     "thumbnail": "images/homitakodamug-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/homitakodaglass.html",
     "title": "Ho Mita Koda wine glass",
     "thumbnail": "images/homitakodaglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/torus.html",
     "title": "Torus",
     "thumbnail": "images/torus-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving"
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving"
   },
   {
     "file": "pages/mikeglass.html",
     "title": "Mike the Engineer",
     "thumbnail": "images/mikeglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/gaussianbump.html",
     "title": "Gaussian hump",
     "thumbnail": "images/gaussianbump-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving"
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving"
   },
   {
     "file": "pages/beerglass.html",
     "title": "Dave's favorite",
     "thumbnail": "images/beerglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/beercan.html",
     "title": "Etching on coated can",
     "thumbnail": "images/beercan-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/barbglass.html",
     "title": "Birthday gift",
     "thumbnail": "images/barbglass-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/MahjongedWithWine.html",
     "title": "Mohjang With Wine glass",
     "thumbnail": "images/MahjongedWithWine-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Not For Sale"
   },
   {
     "file": "pages/LotusEtch.html",
     "title": "Lotus Emira",
     "thumbnail": "images/LotusEtch-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
     "status": "Gifted"
   },
   {
     "file": "pages/zebraillusion.html",
     "title": "Zebra crossing water",
     "thumbnail": "images/zebraillusion-thumb.jpg",
-    "artist": "Ed Korsberg",
-    "theme": "Laser",
-    "type": "Engraving"
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving"
   }
 ]

@@ -1,51 +1,50 @@
-// File: pattern-designer-loader.js
-// Purpose: Load pattern designer for detail pages under /ed/pages and /jane/pages
-// Works for both Ed and Jane by using the first path segment (ed/jane) as the base.
-
+// /js/pattern-designer-loader.js
 (function () {
-  // e.g. "/ed/pages/babydragon.html" or "/jane/pages/EncantoQuilt.html"
-  const path = window.location.pathname.toLowerCase().replace(/^\//, "");
-  const parts = path.split("/"); // ["ed", "pages", "babydragon.html"]
+  const designerEl = document.getElementById("patternDesigner");
+  if (!designerEl) return;
 
-  const section = parts[0] || "";              // "ed" or "jane"
-  const relativePath = parts.slice(1).join("/"); // "pages/babydragon.html"
+  const path = window.location.pathname.replace(/^\//, "");
+  const parts = path.split("/");
 
-  // Decide which gallery.json to load
-  let jsonPath;
-  if (section === "ed" || section === "jane") {
-    jsonPath = `/${section}/gallery.json`;     // "/ed/gallery.json" or "/jane/gallery.json"
+  const section = parts[0];                 // "ed", "jane", etc.
+  const relativePage = parts.slice(1).join("/"); // "pages/foo.html"
+
+  // Decide which JSON files to search
+  // Key point: in /ed/, laser items live in /ed/laser.json but pages are still /ed/pages/...
+  let jsonPaths = [];
+  if (section === "ed") {
+    jsonPaths = ["/ed/gallery.json", "/ed/laser.json"];
+  } else if (section === "jane") {
+    jsonPaths = ["/jane/gallery.json"];
+  } else if (section === "laser") {
+    // only relevant if you ever move laser to /laser/ URLs later
+    jsonPaths = ["/laser/laser.json"];
   } else {
-    // Fallback if you ever use this on a root-level page
-    jsonPath = "/gallery.json";
-  }
-
-  const designerElement = document.getElementById("patternDesigner");
-  if (!designerElement) {
     return;
   }
 
-  fetch(jsonPath)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Failed to load ${jsonPath}: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((data) => {
-      const currentFile = relativePath; // "pages/babydragon.html"
+  const norm = (s) => (s || "").toLowerCase();
 
-      const entry = data.find(
-        (item) => (item.file || "").toLowerCase() === currentFile
-      );
+  Promise.all(
+    jsonPaths.map(p =>
+      fetch(p).then(r => r.ok ? r.json() : Promise.reject({ path: p, status: r.status }))
+    )
+  )
+    .then(arrays => {
+      const combined = arrays.flat();
 
-      if (entry && entry.artist) {
-        designerElement.textContent = entry.artist;
-      } else {
-        designerElement.textContent = "Unknown";
-      }
+      const entry = combined.find(item => norm(item.file) === norm(relativePage));
+
+      const designer =
+        entry?.pattern_designer ||
+        entry?.patternDesigner || // just in case
+        entry?.artist ||
+        "";
+
+      designerEl.textContent = designer.trim() || "Unknown";
     })
-    .catch((error) => {
-      console.error("Error loading pattern designer:", error);
-      designerElement.textContent = "Unknown";
+    .catch(err => {
+      console.error("Pattern designer load failed:", err);
+      designerEl.textContent = "Unknown";
     });
 })();
