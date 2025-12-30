@@ -57,7 +57,7 @@
     "theme": "Cutting Board",
     "type": "Cutting Board",
     "status": "Available",
-    "featured": true
+    "featured": false
   },
   {
     "file": "pages/3d-basket-weave-board.html",
@@ -67,7 +67,7 @@
     "theme": "Cutting Board",
     "type": "Cutting Board",
     "status": "Available",
-    "featured": false
+    "featured": true
   },
   {
     "file": "pages/basketweavemaplewalnut.html",
