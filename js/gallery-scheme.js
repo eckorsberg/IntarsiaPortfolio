@@ -1,4 +1,4 @@
-// /js/gallery-schema.js
+// /js/gallery-schema.js TBD
 window.GallerySchema = {
   designer(item) {
     return (item.pattern_designer || item.patternDesigner || item.artist || "").trim();
