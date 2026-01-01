@@ -20,6 +20,56 @@ IMAGES_FULL_DIR = "./images_full/"
 IMAGES_THUMB_DIR = "./images/"
 PAGES_DIR = "./pages/"
 
+# --- Full-image shrink knobs (match shrink_images_full.py) ---
+MAX_SIDE = 2600               # max width or height in pixels
+MAX_SIZE_BYTES = 600 * 1024   # skip if already under ~600 KB
+JPEG_QUALITY = 85             # reasonable web quality
+
+def shrink_full_image(image_name: str) -> None:
+    """
+    Shrink/recompress the newly-added file in ./images_full/ in-place.
+    - If file is already small, skip.
+    - Converts to RGB and saves as JPEG (keeps original extension, but content is JPEG).
+      (If you want to preserve PNG truly, we can adjust.)
+    """
+    source_path = Path(IMAGES_FULL_DIR) / image_name
+    if not source_path.exists():
+        raise FileNotFoundError(f"Full image not found: {source_path}")
+
+    orig_size = source_path.stat().st_size
+    if orig_size <= MAX_SIZE_BYTES:
+        print(f"[-] Full image already small; skipping shrink: {image_name} ({orig_size/1024:.1f} KB)")
+        return
+
+    try:
+        with Image.open(source_path) as img:
+            img = img.convert("RGB")
+
+            w, h = img.size
+            scale = min(MAX_SIDE / max(w, h), 1.0)
+            if scale < 1.0:
+                new_w = int(w * scale)
+                new_h = int(h * scale)
+                print(f"[~] Resizing full image {image_name}: {w}x{h} -> {new_w}x{new_h}")
+                img = img.resize((new_w, new_h), Image.LANCZOS)
+            else:
+                print(f"[~] No resize needed for {image_name}, recompressing")
+
+            temp_path = source_path.with_suffix(source_path.suffix + ".tmp")
+            img.save(temp_path, format="JPEG", quality=JPEG_QUALITY, optimize=True)
+
+        new_size = temp_path.stat().st_size
+        if new_size < orig_size:
+            temp_path.replace(source_path)
+            print(f"[✓] Shrunk full image {image_name}: {orig_size/1024:.1f} KB -> {new_size/1024:.1f} KB")
+        else:
+            temp_path.unlink()
+            print(f"[=] Kept original full image {image_name} (shrunken not smaller)")
+
+    except Exception as e:
+        print(f"[!] Error shrinking full image {image_name}: {e}")
+
+
 
 def create_thumbnail(image_name: str) -> None:
     base, ext = os.path.splitext(image_name)
@@ -121,6 +171,7 @@ def main():
     image_name = sys.argv[1]
     which_json = sys.argv[2] if len(sys.argv) >= 3 else "gallery"  # default friendly fallback
 
+    shrink_full_image(image_name)
     create_thumbnail(image_name)
     create_html(image_name)
     append_to_gallery_json(image_name, which_json)
