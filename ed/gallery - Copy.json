@@ -90,6 +90,15 @@
     "featured": false
   },
   {
+    "file": "pages/threeboards.html",
+    "title": "Copies of previous boards",
+    "thumbnail": "images/threeboards-thumb.png",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Cutting Board",
+    "status": "Available",
+    "featured": false
+  },
+  {
     "file": "pages/happybatandmouse.html",
     "title": "Happy Bat and Mouse",
     "thumbnail": "images/happybatandmouse-thumb.jpg",
