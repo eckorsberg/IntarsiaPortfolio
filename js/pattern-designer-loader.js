@@ -1,4 +1,35 @@
 // /js/pattern-designer-loader.js
+// -----------------------------------------------------------------------------
+// Purpose
+//   - Detail pages contain a placeholder:
+//       <span id="patternDesigner">Loading...</span>
+//   - This script looks up the current page in the appropriate JSON file(s),
+//     finds the matching entry, and replaces the text with the correct designer.
+//
+// Assumptions
+//   - Detail page URL structure is:
+//       /ed/pages/<something>.html
+//       /jane/pages/<something>.html
+//     (This script infers "section" from the first path segment.)
+//   - JSON items use "file" values that match the page's relative path from the
+//     section root, e.g. "pages/foo.html".
+//   - For Ed, designer metadata may live in either:
+//       /ed/gallery.json (wood portfolio)
+//       /ed/laser.json   (laser portfolio)
+//     so we search both and combine.
+//   - For Jane, we only search /jane/gallery.json.
+//
+// Safe modification points
+//   - If you change folder structure (e.g., move pages out of /pages/),
+//     update how `relativePage` is computed.
+//   - If you rename JSON fields (e.g., pattern_designer), update the fallback
+//     lookup for `designer`.
+//   - If you add more sections (e.g. /laser/), add a case in the jsonPaths block.
+//
+// Notes
+//   - Matching is case-insensitive via norm() to be resilient to filename casing.
+//   - If fetch fails or an entry is not found, we show "Unknown" (and log to console).
+
 (function () {
   const designerEl = document.getElementById("patternDesigner");
   if (!designerEl) return;

@@ -1,6 +1,26 @@
-
 // laser-gallery.js
-// Simple gallery loader for laser.html (no filters)
+// -----------------------------------------------------------------------------
+// Purpose
+//   - Simple gallery loader for laser.html (no filters).
+//   - Reads laser.json and renders clickable cards that navigate to item.file.
+//
+// Assumptions
+//   - laser.html contains a container with class ".gallery".
+//   - laser.json entries provide:
+//       * item.thumbnail (image URL)
+//       * item.title     (caption)
+//       * item.file      (detail page URL)
+//   - Clicking anywhere on the card should navigate to item.file.
+//
+// Safe modification points
+//   - If you want to show optional metadata (artist/status), the commented-out
+//     sections below are the intended place to re-enable.
+//   - If you want the thumbnail itself to be a link instead of card click,
+//     you would replace the card click handler with an <a> wrapper.
+//
+// Notes
+//   - This file intentionally does not share filtering code with the main gallery
+//     to keep laser.html extremely simple and robust.
 
 fetch('laser.json')
   .then(response => response.json())

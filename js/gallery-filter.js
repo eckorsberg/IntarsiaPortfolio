@@ -1,3 +1,43 @@
+/**
+ * gallery-filter.js
+ * -----------------------------------------------------------------------------
+ * Purpose
+ *   - Builds the main gallery grid from gallery.json.
+ *   - Supports:
+ *       * "Featured" vs "All" landing view
+ *       * Optional dropdown filters (if present in the page)
+ *       * Optional title search box (if present)
+ *       * Session persistence (so refresh/back retains view + filters)
+ *
+ * Assumptions
+ *   - This script runs on a page that contains:
+ *       * a container element with class ".gallery"
+ *       * (optionally) view toggle controls: #featuredToggle, #toggleView, #viewLabel
+ *       * (optionally) filters like #categoryFilter
+ *       * (optionally) a search input #searchBox
+ *   - gallery.json is in the same folder as the HTML that loads it.
+ *   - Each JSON item includes at minimum:
+ *       * item.file      (detail page link)
+ *       * item.thumbnail (thumbnail URL)
+ *       * item.title     (display caption / search)
+ *   - If item.featured === true exists, "Featured" landing mode is enabled.
+ *
+ * Safe modification points
+ *   - To add new filters:
+ *       1) Add an entry in the `filters` object below, matching a JSON field name.
+ *       2) Ensure the HTML contains a <select> with the matching id.
+ *       3) Confirm the field exists in your gallery.json items.
+ *   - To change "Featured" behavior:
+ *       - Adjust `useFeaturedLanding` logic. Current behavior:
+ *         Featured only applies when no filters/search are active.
+ *   - To change the tile markup:
+ *       - Edit the DOM creation inside applyFilters() (link/img/caption).
+ *
+ * Notes
+ *   - This script is defensive: it auto-disables filters/toggles if the DOM
+ *     elements are missing on a given page.
+ */
+
 // Load gallery data from a JSON file
 fetch("gallery.json")
   .then(response => response.json()) // Parse the JSON response
