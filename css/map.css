@@ -1,7 +1,26 @@
+/*
+  map.css
+  -----------------------------------------------------------------------------
+  Purpose
+    - Responsive embed wrapper for an iframe-based Google Map (or similar).
+    - Uses the classic "intrinsic ratio" technique to keep the map responsive
+      across desktop and mobile.
+
+  Notes / assumptions
+    - Shared styling remains in /style.css.
+    - HTML structure is expected to be:
+        <div class="map-container">
+          <iframe ...></iframe>
+        </div>
+    - The padding-bottom value sets the aspect ratio (currently 16:9).
+      Change it if you want a different shape:
+        * 75%  => 4:3
+        * 56.25% => 16:9 (current)
+*/
+
 /* Page-specific styles extracted from /style.css */
 
-/* === For displaying google map to library === */
-
+/* === Responsive map wrapper (16:9 by default) === */
 .map-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 ratio */
@@ -10,6 +29,7 @@
   margin-bottom: 1em;
 }
 
+/* The iframe is stretched to fill the responsive container */
 .map-container iframe {
   position: absolute;
   top: 0;

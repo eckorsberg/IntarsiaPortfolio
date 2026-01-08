@@ -1,6 +1,22 @@
+/*
+  laser.css
+  -----------------------------------------------------------------------------
+  Purpose
+    - Page-specific styles for the Laser portfolio page (e.g. /ed/laser.html).
+    - Adds a centered "banner" / callout card at the top of the page.
+
+  Notes / assumptions
+    - Shared styling remains in /style.css.
+    - The laser page includes a container element with class:
+        .laser-banner
+    - Keep this file small and focused so laser-specific tweaks don't leak into
+      other galleries.
+*/
+
 /* Page-specific styles extracted from /style.css */
 
-/* === Laser Portfolio Banner === */
+/* === Laser Portfolio Banner ===
+   A simple centered callout/card used for announcements or intro text. */
 .laser-banner {
   background-color: #f8f8f8;
   border: 2px solid #ccc;
@@ -11,6 +27,7 @@
   max-width: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
+
 .laser-banner h2 {
   margin-top: 0;
 }

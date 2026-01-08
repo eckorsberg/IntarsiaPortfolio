@@ -1,3 +1,21 @@
+/*
+  index.css
+  -----------------------------------------------------------------------------
+  Purpose
+    - Page-specific styles for Ed's index page (/ed/index.html).
+    - This file contains only rules that are unique to the index layout:
+        * Header card styling
+        * "Quick link" pills (Laser / Animation)
+        * Filter row layout (desktop + mobile stacking)
+
+  Notes / assumptions
+    - The shared, site-wide styling remains in /style.css.
+    - The index page includes elements with these classes:
+        .header, .header-card
+        .quick-links, .quick-label, .quick-pill
+        .filter-group (and its internal div/label/input/select structure)
+*/
+
 /* Page-specific styles extracted from /style.css */
 
 h1{
@@ -6,7 +24,8 @@ h1{
   margin: 0 0 .5rem;
 }
 
-/* === for laser and animation buttons on ed/index.html === */
+/* === Header card area (Ed index) ===
+   Used to hold the intro and the optional "quick links" buttons neatly. */
 .header{
   display:flex;
   align-items:flex-start;
@@ -23,17 +42,18 @@ h1{
   margin: 0 0 0.6rem;          /* reduce gap below card */
 }
 
-
+/* Slight spacing adjustment for gallery region below the header card */
 .gallery{
   margin-top: .75rem;
 }
 
+/* === Quick link pills (Laser / Animation buttons) ===
+   These are the rounded "pill" buttons at the top of Ed's index page. */
 .quick-links{
   display:flex;
   align-items:center;
   gap:.6rem;
 }
-
 
 .quick-label{
   font-size:.95rem;
@@ -56,7 +76,10 @@ h1{
   box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
-/* --- Filters (Ed index only) --- */
+/* === Filters (Ed index only) ===
+   - Lightweight filter strip (not a heavy "form card")
+   - Desktop: horizontal row
+   - Mobile: stacked controls */
 .filter-group{
   display:flex;
   gap: .75rem 1rem;
@@ -95,7 +118,7 @@ h1{
   min-width: 180px;
 }
 
-/* mobile: stack nicely */
+/* Mobile: stack filters vertically for narrow screens */
 @media (max-width: 600px){
   .filter-group{
     flex-direction: column;
