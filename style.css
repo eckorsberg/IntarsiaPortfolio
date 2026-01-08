@@ -1,32 +1,61 @@
 /*
-  Intarsia Portfolio - Main CSS
-  ===================================
+  Intarsia Portfolio – Main CSS
+  ==================================================
+  Purpose:
+  Shared styling for Ed and Jane portfolio pages,
+  including galleries, detail pages, navigation,
+  and mobile-friendly affordances.
+
   Table of Contents:
+
   1. Global Styles
      - body, h1, p, img
-  2. Back Navigation Styling
-     - .back, .back a, .back a:hover
-  3. Gallery Styling
-     - .gallery, .gallery a
-     - .gallery-caption
-     - .gallery-img, .gallery-img:hover
-     - .gallery-thumb
-     - .gallery-link
-     - .gallery-title
-  4. Article Thumbnails
-     - .article-thumb
-  5. Intro Text Styling
+     - typography, spacing, background colors
+
+  2. Back Navigation & Buttons
+     - .back, .back a
+     - .button-link (laser / special links)
+
+  3. Gallery Layout & Thumbnails
+     - .gallery (CSS grid layout)
+     - .gallery-link (clickable tile wrapper)
+     - .gallery-img (thumbnail image styling)
+     - .gallery-caption, .gallery-title
+     - .gallery-count, .gallery-cost
+
+  4. Gallery Zoom Affordance
+     - 🔍 overlay on gallery thumbnails
+     - visual cue for “tap to view details”
+
+  5. Detail Page Image Styling
+     - .image-container (centered image block)
+     - tap hint text
+     - 🔍 overlay on detail-page images
+     - subtle active/tap feedback
+
+  6. Intro & Article Content
      - .intro-text
-  6. Filter Controls (Search & Dropdowns)
-     - .filter-group
-     - .filter-group > div
-  7. Responsive Design
-     - @media (max-width: 600px)
-     - @media (min-width: 1200px)
-  8. Mobile Filter Toggle
-     - .filter-toggle
-     - .filter-group.collapsed
+     - .article-thumb
+
+  7. Contact Styling
+     - .contact-line
+     - email link presentation
+
+  8. Responsive Design
+     - mobile layout adjustments
+     - large-screen image sizing
+
+  Notes:
+  - Single shared CSS for both /ed and /jane
+  - Mobile UX favors clear tap affordances
+  - No JS required for zoom cues
+  
+  TBD on js comment update
+  “Please rewrite the comments in this JS file for clarity and maintainability.
+   Do not change executable code.
+   Focus on intent, assumptions, and safe modification points.”
 */
+
 
 /* === Global Styles === */
 /*
@@ -171,7 +200,26 @@ img {
   margin-bottom: 15px;
   text-decoration: none;
   color: inherit;
+  position: relative; /* needed for zoom overlay */
 }
+
+/* Gallery thumbnail zoom cue – mobile only */
+@media (max-width: 768px) {
+  .gallery-link::after {
+    content: "🔍";
+    position: absolute;
+    right: 10px;
+    bottom: 32px; /* above caption on mobile */
+    font-size: 18px;
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 999px;
+    padding: 4px 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    pointer-events: none;
+  }
+}
+
 
 .gallery-title {
   font-size: 1.1em;
