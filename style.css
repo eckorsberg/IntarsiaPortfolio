@@ -206,16 +206,46 @@ img {
   align-items: center;
   margin-bottom: 1rem;
 }
-.tap-note {
+/* === Detail page: tap image hint === */
+.image-container .tap-note {
   font-size: 0.9em;
   color: #666;
   margin-top: 0.5rem;
 }
 
-/* === On index page, to tell people to tap for more details === */
-.tap-note {
+/* === Gallery / index page tap hint === */
+.gallery .tap-note {
   color: firebrick;
+  font-size: 0.9em;
 }
+
+/* === Make detail-page images obviously tappable === */
+.image-container a {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container a::after {
+  content: "🔍";
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 22px;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 6px 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.image-container img {
+  transition: transform 120ms ease;
+}
+
+.image-container a:active img {
+  transform: scale(0.98);
+}
+
 
 /* === Email contact === */
 .contact-line {
