@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Guardian Dragon",
+    "thumbnail": "./images/GuardianDragon-thumb.jpg",
+    "video": "./animation/PixVerse_V4.5_Image_Text_540P_Dragon_unfurls_i.mp4",
+    "detailPage": "./pages/guardiandragon.html"
+  },
+  {
+    "title": "Zebras",
+    "thumbnail": "./images/Zebras-thumb.jpg",
+    "video": "./animation/PixVerse_V4.5_Image_Text_720P_zebras_initially.mp4",
+    "detailPage": "./pages/zebras.html"
+  },
+  {
+    "title": "Hummingbird4",
+    "thumbnail": "./images/hummingbird4-thumb.jpg",
+    "video": "./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wooden_8s.mp4",
+    "detailPage": "./pages/hummingbird4.html"
+  },
+  {
+    "title": "Dancer Urban line",
+    "thumbnail": "./images/Dancer-thumb.jpg",
+    "video": "./animation/PixVerse_V4.5_Image_Text_540P_This_is_a_wood_c.mp4",
+    "detailPage": "./pages/dancer.html"
+  },
+  {
+    "title": "Dancer Chicago Step",
+    "thumbnail": "./images/Dancer-thumb.jpg",
+    "video": "./animation/PixVerse_V45_Image_Text_540P_ChicagoStepping.mp4",
+    "detailPage": "./pages/dancer.html"
+  },
+  {
+    "title": "Girl with watering can",
+    "thumbnail": "./images/GirlWithWateringCanRedShoes-thumb.jpg",
+    "video": "./animation/PixVerse_V4.5_Image_Text_540P_Show_the_girls_w.mp4",
+    "detailPage": "./pages/girlwithwateringcanredshoes.html"
+  },
+  {
+    "title": "Bob Marek playing again",
+    "thumbnail": "./images/marekmug-thumb.jpg",
+    "video": "./animation/BobMarekServingAgain.mp4",
+    "detailPage": "./pages/marekmug.html"
+  },
+  {
+    "title": "Bat playing with his pet mouse",
+    "thumbnail": "./images/happybatandmouse-thumb.jpg",
+    "video": "./animation/happybatandmouse_animation.mp4",
+    "detailPage": "./pages/happybatandmouse.html"
+  },
+  {
+    "title": "Luminaire",
+    "thumbnail": "./images/luminaire-thumb.jpg",
+    "video": "./animation/luminareanimation.mp4",
+    "detailPage": "./pages/luminaire.html"
+  },
+  {
+    "title": "Cogsworth and Luminaire",
+    "thumbnail": "./images/merged-thumb.jpg",
+    "video": "./animation/cogsworthandluminare.mp4",
+    "detailPage": "./pages/luminaire.html"
+  },
+  {
+    "title": "Ho Mita Koda high ropes",
+    "thumbnail": "./images/homitakoda2026-thumb.jpg",
+    "video": "./animation/highropeschallenge.mp4",
+    "detailPage": "./pages/homitakoda2026.html"
+  }
+]
