@@ -1,3 +1,4 @@
+/* Shared card component styles (used across index / gallery pages) */
 .card {
   position: relative;
   background: white;
@@ -23,9 +24,9 @@
 
 /* per-card images */
 .card.ed::before {
-  background-image: url("images/wood-texture.jpg");
+  background-image: url("/ed/images/wood-texture.jpg");
 }
 
 .card.jane::before {
-  background-image: url("images/quilt-texture.jpg");
+  background-image: url("/jane/images/quilt-texture.jpg");
 }
