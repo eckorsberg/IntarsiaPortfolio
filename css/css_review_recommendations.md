@@ -2,7 +2,7 @@
 
 **Project:** Korsberg Crafts Portfolio  
 **Review Date:** January 2026  
-**Context:** Mature, stable site in maintenance mode  
+**Context:** Mature, stable site in maintenance mode.
 **Overall Grade:** A-
 
 ---
