@@ -1,3 +1,5 @@
+/* animation-gallery.css */
+
 :root { --gap: 1rem; --card-w: 360px; }
 
 body {
@@ -116,6 +118,7 @@ main {
   background: #ececec;
 }
 
+/* Override base .back styles for tighter spacing on animation gallery */
 .back {
   display: inline-block;
   margin-top: .75rem;
