@@ -1,6 +1,7 @@
 Site Review: korsbergcrafts.com
 Date: August 13, 2025
 Reviewed by: ChatGPT (GPT-4o)
+Superceded by site-review.md
 
 Summary:
 KorsbergCrafts.com is a well-designed, single-user handcrafted woodworking portfolio site built with HTML, CSS, and JavaScript. It effectively showcases Ed Korsberg's Intarsia and woodworking projects with detailed pages, thumbnail galleries, and a clean filtering interface.
