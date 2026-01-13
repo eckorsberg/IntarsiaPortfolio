@@ -1,472 +1,362 @@
-# CSS/HTML Code Review & Recommendations
+# CSS/HTML Maintenance Recommendations
 
 **Project:** Korsberg Crafts Portfolio  
 **Review Date:** January 2026  
-**Overall Grade:** B-
+**Context:** Mature, stable site in maintenance mode  
+**Overall Grade:** A-
 
 ---
 
 ## Executive Summary
 
-Your code is **functional and shows good organizational thinking**, but lacks consistency in execution. The structure (separating page-specific CSS from shared styles) is sound, but implementation needs standardization.
+Your site architecture is **sound and appropriate for its goals**. After reviewing your site-review.md document, it's clear you've made intentional decisions to keep the codebase simple, stable, and maintainable without frameworks or aggressive abstraction.
 
-**Key Issues:**
-- Mixing naming conventions
-- CSS variables defined but not used
-- Duplicate/conflicting styles across files
-- Too many variations of similar components
+This review respects those principles and identifies only **evidence-based issues** that represent actual maintenance risks or confusion points—not stylistic preferences.
 
-**Good News:** These are all easy fixes that won't require HTML restructuring—just a CSS cleanup pass.
+**Total Issues Found:** 3 minor items  
+**Estimated Fix Time:** 15-30 minutes  
+**Priority Level:** Low (address when convenient)
 
 ---
 
-## Strengths 💪
+## Your Architecture Strengths ✅
 
-### 1. Good Separation of Concerns
-- Page-specific styles properly separated (`index.css`, `laser.css`, `animation-gallery.css`)
-- Shared styles centralized in `style.css`
+Based on your site-review.md, you've successfully achieved:
 
-### 2. Semantic HTML
-- Proper use of `<header>`, `<main>`, `<footer>` elements
-- Meaningful class names
+- ✅ Static HTML with no build pipeline
+- ✅ Minimal, purpose-driven JavaScript
+- ✅ Clear CSS organization (base vs page-specific)
+- ✅ Consistent kebab-case naming throughout
+- ✅ Data-driven rendering only where it reduces duplication
+- ✅ External stylesheets (no embedded `<style>` blocks)
+- ✅ No unnecessary dependencies or frameworks
 
-### 3. Mobile-First Thinking
-- Responsive design with media queries
-- Touch-friendly affordances (zoom indicators)
-
-### 4. CSS Variables Defined
-- Variables declared in `style.css` `:root`
-- Shows forward-thinking planning
+**This is a well-executed static site.** The following items are genuine maintenance concerns, not refactoring suggestions.
 
 ---
 
-## Issues & Inconsistencies 🔍
+## Issues Requiring Action
 
-### 1. Class Naming Conventions
+### Issue #1: Orphaned CSS Classes (Priority: Low)
 
-**Problem:** Mixing different naming styles
+**Location:** `/style.css` (bottom of file)
 
-```css
-/* Found in your code: */
-.gallery-link        /* kebab-case ✅ */
-.gallery_caption     /* snake_case ❌ */
-.gallery-caption     /* kebab-case ✅ */
-.quick-links         /* kebab-case ✅ */
-.quickLinks          /* camelCase ❌ */
-```
-
-**Recommendation:** Standardize on **kebab-case** throughout (CSS industry standard)
-
----
-
-### 2. Duplicate/Conflicting Styles
-
-**Problem:** Same elements styled differently
-
-```css
-/* In style.css */
-.gallery-caption {
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-/* Also exists */
-.gallery-title {
-  font-size: 1.1em;
-}
-```
-
-**Question:** Are these the same element? If so, consolidate.
-
-**Also found:**
-```css
-/* style.css */
-.back { margin: 1em 0; }
-
-/* animation-gallery.css */
-.back { margin-top: .75rem; }
-```
-
-**Recommendation:** Choose one definition per component.
-
----
-
-### 3. Redundant Container Classes
-
-**Problem:** Orphaned/unused styles at bottom of `style.css`
+**Problem:** Two classes appear to be unused:
 
 ```css
 .gallery-item {
-  flex: 0 0 200px;
-  margin: 15px;
+    flex: 0 0 200px;
+    margin: 15px;
+    text-align: center;
 }
 
 .gallery-container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 ```
 
-But `.gallery` already uses CSS Grid layout.
+These don't match your current gallery architecture, which uses CSS Grid via the `.gallery` class.
 
-**Recommendation:** Remove unused classes or clarify their purpose.
+**Evidence Needed:**
+1. Search all HTML files for `gallery-item` and `gallery-container`
+2. Check if these are legacy classes from a previous layout
+3. Determine if they're intentional future hooks
+
+**Recommended Actions:**
+
+**If unused:**
+```css
+/* Delete these lines from style.css */
+```
+
+**If legacy/future hooks:**
+```css
+/* Legacy layout classes - retained for potential future use */
+.gallery-item { /* ... */ }
+.gallery-container { /* ... */ }
+```
+
+**If actively used somewhere:**
+- Document where/why in a comment
+- Consider renaming to avoid confusion with `.gallery`
 
 ---
 
-### 4. Inconsistent Spacing Units
+### Issue #2: Conflicting `.back` Styles (Priority: Low)
 
-**Problem:** Mixing `em`, `rem`, and `px` without pattern
+**Locations:** 
+- `/style.css`
+- `/css/animation-gallery.css`
 
-```css
-margin: 1em 0;        /* em */
-padding: 1rem;        /* rem */
-gap: 15px;            /* px */
-border-radius: 8px;   /* px */
-```
-
-**Recommendation:**
-- **`rem`** for most spacing (consistent, accessible)
-- **`em`** for component-relative sizing (buttons, typography)
-- **`px`** only for borders, shadows, and precise 1-2px adjustments
-
-**Example refactor:**
-```css
-/* Before */
-margin: 1em 0;
-padding: 15px;
-
-/* After */
-margin: var(--spacing-md) 0;
-padding: var(--spacing-md);
-```
-
----
-
-### 5. CSS Variables Not Implemented
-
-**Problem:** Variables defined but hardcoded values still used everywhere
+**Problem:** The `.back` class has different definitions in two files:
 
 ```css
-/* Defined in :root */
---spacing-md: 1rem;
---radius-md: 12px;
---shadow-md: 0 4px 10px rgba(0,0,0,0.1);
-
-/* But still using hardcoded: */
-border-radius: 12px;
-margin: 1rem;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-```
-
-**Recommendation:** Replace all hardcoded values
-
-```css
-/* After */
-border-radius: var(--radius-md);
-margin: var(--spacing-md);
-box-shadow: var(--shadow-md);
-```
-
----
-
-### 6. Conflicting Link/Button Styles
-
-**Problem:** Four different button styles for similar purposes
-
-```html
-<a href="about.html" class="btn">Learn More</a>
-<a href="index.html" class="back-link">Return</a>
-<a class="button-link" href="...">Laser</a>
-<a class="quick-pill" href="...">Animations</a>
-```
-
-**Recommendation:** Consolidate to 2-3 button types maximum
-
-```css
-/* Proposed structure */
-.btn              /* Primary action button */
-.btn-secondary    /* Secondary action */
-.btn-pill         /* Pill-shaped variant */
-```
-
----
-
-### 7. Selector Specificity Issues
-
-**Problem:** Overly specific selectors make maintenance harder
-
-```css
-/* Too specific */
-.image-container a::after {
-  content: "🔍";
-  /* ... */
+/* style.css */
+.back {
+  margin: 1em 0;
+  font-size: 0.9rem;
+  text-align: left;
 }
 
-.gallery-link::after {
-  content: "🔍";
-  /* ... */
+/* animation-gallery.css */
+.back {
+  display: inline-block;
+  margin-top: .75rem;
 }
 ```
 
-**Recommendation:** Create reusable utility class
+**Impact:** Animation gallery back link will have merged styles, potentially causing unexpected spacing.
 
+**Recommended Actions:**
+
+**Option A - Namespace the override:**
 ```css
-.zoom-indicator::after {
-  content: "🔍";
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  font-size: 22px;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 999px;
-  padding: 6px 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-/* Usage */
-.image-container a,
-.gallery-link {
-  position: relative;
+/* animation-gallery.css */
+.back-anim {
+  display: inline-block;
+  margin-top: .75rem;
 }
 ```
+
+**Option B - Document the override:**
+```css
+/* animation-gallery.css */
+/* Override base .back styles for tighter spacing in animation header */
+.back {
+  display: inline-block;
+  margin-top: .75rem;
+}
+```
+
+**Option C - Verify if override is necessary:**
+- Test removing the animation-gallery.css override
+- If base styles work fine, delete the duplicate definition
 
 ---
 
-### 8. Magic Numbers
+### Issue #3: Undocumented CSS Variables (Priority: Low)
 
-**Problem:** Unexplained hardcoded values
+**Location:** `/style.css` `:root` block
 
-```css
-bottom: 32px;         /* Why 32? */
-font-size: 22px;      /* Why 22? */
-max-width: 600px;     /* Why 600? */
-```
-
-**Recommendation:** Use CSS variables with meaningful names
+**Problem:** CSS variables are defined but never used:
 
 ```css
 :root {
-  --zoom-icon-size: 22px;
-  --zoom-icon-offset: 10px;
-  --gallery-caption-height: 32px;
-  --content-max-width: 600px;
+  --bg-warm: #f6f4f1;
+  --text-primary: #222;
+  /* ... etc ... */
 }
 ```
 
----
+Per your site-review.md, "Full CSS variable conversion" is explicitly deferred.
 
-## Action Plan 📋
+**Impact:** No functional issue, but creates ambiguity about their purpose.
 
-### Priority 1: Immediate Fixes (1-2 hours)
+**Recommended Action:** Document the decision
 
-1. **Standardize class names to kebab-case**
-   - Search and replace: `gallery_caption` → `gallery-caption`
-   - Check all HTML files for consistency
-
-2. **Remove orphaned styles**
-   - Delete `.gallery-item` and `.gallery-container` if unused
-   - Verify no HTML references exist
-
-3. **Consolidate duplicate classes**
-   - Merge `.back` and `.back-link` → choose one
-   - Merge button variants → max 3 types
-
-### Priority 2: Variable Implementation (2-3 hours)
-
-4. **Replace hardcoded spacing**
-   ```css
-   /* Find & replace pattern */
-   margin: 1rem     → margin: var(--spacing-md)
-   gap: 1.5rem      → gap: var(--spacing-lg)
-   padding: 0.5rem  → padding: var(--spacing-sm)
-   ```
-
-5. **Replace hardcoded border-radius**
-   ```css
-   border-radius: 8px   → var(--radius-sm)
-   border-radius: 12px  → var(--radius-md)
-   border-radius: 14px  → var(--radius-lg)
-   border-radius: 999px → var(--radius-pill)
-   ```
-
-6. **Replace hardcoded shadows**
-   ```css
-   box-shadow: 0 2px 6px...  → var(--shadow-sm)
-   box-shadow: 0 4px 10px... → var(--shadow-md)
-   ```
-
-### Priority 3: Structural Improvements (3-4 hours)
-
-7. **Create utility classes for common patterns**
-   ```css
-   .zoom-indicator { /* Reusable zoom icon */ }
-   .card { /* Reusable card component */ }
-   .btn { /* Primary button */ }
-   .btn-secondary { /* Secondary button */ }
-   ```
-
-8. **Group related styles in style.css**
-   ```css
-   /* === Typography === */
-   /* === Layout === */
-   /* === Gallery Components === */
-   /* === Navigation === */
-   /* === Buttons & Links === */
-   /* === Utilities === */
-   ```
-
-9. **Consider BEM methodology for complex components**
-   ```css
-   /* Block */
-   .gallery { }
-   
-   /* Elements */
-   .gallery__item { }
-   .gallery__caption { }
-   .gallery__image { }
-   
-   /* Modifiers */
-   .gallery__item--featured { }
-   ```
-
----
-
-## Code Examples
-
-### Before & After: CSS Variables
-
-**Before (style.css):**
 ```css
-.card {
-  border-radius: 14px;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.btn {
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-}
-```
-
-**After:**
-```css
-.card {
-  border-radius: var(--radius-lg);
-  padding: var(--spacing-md);
-  margin: var(--spacing-lg) 0;
-  box-shadow: var(--shadow-md);
-}
-
-.btn {
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-pill);
-}
-```
-
-### Before & After: Button Consolidation
-
-**Before (scattered across files):**
-```css
-.btn { /* ... */ }
-.button-link { /* ... */ }
-.quick-pill { /* ... */ }
-.back-link { /* ... */ }
-```
-
-**After (organized in style.css):**
-```css
-/* === Buttons & Links === */
-
-/* Base button styles */
-.btn {
-  display: inline-block;
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-md);
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s ease;
-}
-
-/* Primary action button */
-.btn-primary {
-  background: var(--link-color);
-  color: white;
-  border: 1px solid var(--link-color);
-}
-
-/* Pill variant */
-.btn-pill {
-  border-radius: var(--radius-pill);
-  background: #fff;
-  border: 1px solid var(--border-medium);
-  box-shadow: var(--shadow-sm);
-}
-
-/* Text link button */
-.btn-text {
-  background: transparent;
-  color: var(--link-color);
-  padding: 0;
-}
-
-.btn-text:hover {
-  text-decoration: underline;
+/* 
+  CSS Variables - Future Hooks
+  ----------------------------
+  These variables are available for incremental use but are not
+  required for current functionality. Per site-review.md (Jan 2026),
+  full CSS variable conversion is explicitly deferred.
+  
+  Use these variables when:
+  - Adding new styles
+  - Editing existing styles that would benefit from consistency
+  
+  Do NOT refactor existing working code to use these variables.
+*/
+:root {
+  /* Colors */
+  --bg-warm: #f6f4f1;
+  --text-primary: #222;
+  /* ... */
 }
 ```
 
 ---
 
-## Testing Checklist
+## Non-Issues (Clarifications)
 
-After making changes, verify:
+These items from a typical code review are **NOT issues** in your context:
 
-- [ ] All pages load without broken styles
-- [ ] Mobile responsive design still works (< 768px)
-- [ ] Dark mode styles still apply correctly
-- [ ] No console errors in browser dev tools
-- [ ] All buttons/links visually consistent
-- [ ] Hover states work on all interactive elements
-- [ ] Gallery grid layouts correctly on all screen sizes
-- [ ] CSS file sizes haven't dramatically increased
+### ✅ Mixing `em`, `rem`, and `px`
+**Status:** Acceptable variance in a mature codebase  
+**Reasoning:** Consistent within each file; no functional problems; refactoring would violate your "no refactoring for symmetry alone" principle
+
+### ✅ Multiple button/link styles
+**Status:** Appropriate for different contexts  
+**Found:**
+- `.btn` - primary action buttons
+- `.button-link` - laser portfolio links
+- `.quick-pill` - navigation pills
+- `.back` / `.back-link` - navigation links
+
+**Reasoning:** Each serves a distinct purpose; consolidation would be refactoring for symmetry without evidence of confusion or maintenance burden
+
+### ✅ No utility classes or BEM
+**Status:** Intentional architectural decision  
+**Reasoning:** Per site-review.md, BEM is explicitly declined; current approach is maintainable
+
+### ✅ Lack of CSS minification
+**Status:** Intentional decision  
+**Reasoning:** Site is static and small; readability prioritized over optimization
 
 ---
 
-## Additional Resources
+## Action Checklist
 
-### Recommended Reading
-- [BEM Methodology](http://getbem.com/) - Naming convention for maintainable CSS
-- [CSS Variables Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-- [CSS Units Guide](https://www.w3.org/Style/Examples/007/units.en.html) - When to use rem vs em vs px
+When you have 15-30 minutes:
 
-### Tools
-- [CSS Lint](http://csslint.net/) - Check for issues
-- [PurgeCSS](https://purgecss.com/) - Remove unused CSS (future optimization)
+- [ ] **Search for orphaned classes**
+  ```bash
+  # In your project directory:
+  grep -r "gallery-item" . --include="*.html"
+  grep -r "gallery-container" . --include="*.html"
+  ```
+
+- [ ] **Delete or document orphaned CSS**
+  - If no results: delete `.gallery-item` and `.gallery-container` from style.css
+  - If found: document their purpose
+
+- [ ] **Resolve `.back` conflict**
+  - Choose Option A, B, or C from Issue #2
+  - Test animation gallery page after change
+
+- [ ] **Document CSS variables**
+  - Add explanatory comment above `:root` block
+  - Clarifies they're future hooks, not required features
+
+- [ ] **Update site-review.md**
+  - Add line: "Addressed orphaned CSS and conflicting selectors (Jan 2026)"
 
 ---
 
-## Questions for Consideration
+## Testing After Changes
 
-1. **Do you need all three button styles?** Consider consolidating to two (primary + text link)
+Minimal testing required since changes are documentation or deletion:
 
-2. **Are `.gallery-item` and `.gallery-container` used anywhere?** If not, remove them
+1. **Load all pages** - verify no broken styles
+2. **Check animation gallery** - verify back link spacing acceptable
+3. **Visual regression** - nothing should look different
 
-3. **Should the zoom indicator (🔍) be consistent everywhere?** Currently has different positioning in gallery vs detail pages
+**Expected result:** Zero visual changes, improved code clarity.
 
-4. **Dark mode: Complete or in progress?** The `@media (prefers-color-scheme: dark)` block is only in `animation-gallery.css`
+---
+
+## Long-Term Guidance
+
+### When to Use CSS Variables
+
+Since you've created them but deferred conversion, here's when to use them:
+
+**✅ Use variables for:**
+- New styles you're adding
+- Existing styles you're already modifying
+- Colors that appear in multiple new components
+
+**❌ Don't use variables for:**
+- Working code you're not otherwise touching
+- "Cleanup" refactoring sessions
+- Achieving visual consistency (it already exists)
+
+**Example:**
+```css
+/* If you're adding a new card style */
+.new-feature-card {
+  background: var(--bg-warm);        /* ✅ Use variable */
+  border-radius: var(--radius-md);   /* ✅ Use variable */
+}
+
+/* Don't refactor existing working code */
+.gallery-img {
+  border-radius: 8px;  /* ✅ Leave as-is */
+}
+```
+
+### When to Consolidate Styles
+
+Only consolidate when you have **evidence** of:
+- Confusion about which class to use
+- Actual duplicate code causing maintenance burden
+- Visual inconsistencies you want to fix
+
+**Not valid reasons:**
+- "It would be cleaner"
+- "Best practices say so"
+- "Other sites do it this way"
+
+### File Organization Principles
+
+Your current structure is sound:
+```
+/style.css              ← Site-wide base styles
+/css/index.css          ← Index page specifics
+/css/laser.css          ← Laser page specifics
+/css/animation-gallery.css ← Animation page specifics
+```
+
+**Maintain this pattern** when adding new pages:
+1. Put shared styles in `/style.css`
+2. Put page-specific styles in `/css/[page-name].css`
+3. Link both in the page HTML
+
+---
+
+## Architectural Affirmations
+
+Based on your site-review.md principles:
+
+### ✅ You're doing well by:
+- Keeping HTML hand-editable
+- Using JavaScript sparingly and purposefully
+- Avoiding framework adoption
+- Maintaining visual consistency without rigid design systems
+- Making incremental, evidence-driven improvements
+- Prioritizing stability over trends
+
+### ✅ Continue to:
+- Resist refactoring working code
+- Add features only when needed for content
+- Keep the build pipeline nonexistent
+- Value clarity over abstraction
+- Document architectural decisions (like you did in site-review.md)
+
+### ❌ Avoid:
+- Converting to a framework "because everyone uses them"
+- Adding build tools for minification
+- Refactoring for symmetry or consistency alone
+- Implementing design systems
+- Over-generalizing one-off solutions
 
 ---
 
 ## Conclusion
 
-Your project has a solid foundation with good separation of concerns and semantic HTML. The main work needed is **consistency cleanup** rather than structural changes.
+Your codebase is in excellent shape for a static portfolio site. The three issues identified are minor and can be addressed in under 30 minutes.
 
-**Estimated effort:** 6-9 hours to complete all recommendations
+**Key Takeaway:** Your architecture is appropriate for your goals. The temptation to "modernize" or "clean up" should be resisted unless driven by actual content needs or measurable maintenance burden.
 
-**Biggest wins:**
-1. Implementing CSS variables (improves maintainability)
-2. Standardizing button/link styles (improves consistency)
-3. Removing duplicate code (improves performance)
+**Recommendation:** Address the three minor issues when convenient, then continue in maintenance mode as planned. Future changes should be driven by new content (additional woodworking projects, new galleries) rather than structural improvements.
 
-These changes will make your codebase much easier to maintain and extend in the future.
+---
+
+## Questions for Future Consideration
+
+Only if/when these become actual problems:
+
+1. **If the site grows significantly** (100+ projects), would JSON + loaders help other galleries?
+2. **If multiple people contribute**, would a style guide document be useful?
+3. **If load times become an issue**, would image optimization be worth pursuing?
+
+Otherwise, maintain current architecture. It's working well.
+
+---
+
+**Review Status:** Complete  
+**Next Review:** Only if site goals change or functional issues arise  
+**Confidence Level:** High - architecture is mature and well-documented
