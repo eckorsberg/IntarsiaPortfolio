@@ -6,7 +6,7 @@
     "artist": "Ed Korsberg",
     "category": "Cutting Board",
     "status": "Available",
-    "featured": true
+    "featured": false
   },
   {
     "file": "pages/blackwhitestripe.html",
@@ -33,7 +33,7 @@
     "pattern_designer": "Ed Korsberg",
     "category": "Cutting Board",
     "status": "Gifted",
-    "featured": true
+    "featured": false
   },
   {
     "file": "pages/basketweave1inch.html",
@@ -168,7 +168,7 @@
     "pattern_designer": "Ed Korsberg",
     "category": "Whimsical",
     "status": "Not For Sale",
-    "featured": false
+    "featured": true
   },
   {
     "file": "pages/girlwithumbrella.html",
