@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/stewmug.html",
+    "title": "Stew mug on a mug",
+    "thumbnail": "images/stewmug-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+    "featured": true
+  },
+  {
     "file": "pages/warningjob.html",
     "title": "Don't tell me my job",
     "thumbnail": "images/warningjob-thumb.jpg",
