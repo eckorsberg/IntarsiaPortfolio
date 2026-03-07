@@ -1,9 +1,17 @@
 [
   {
+    "file": "pages/claudiobeermug.html",
+    "title": "Claudio Mug",
+    "thumbnail": "images/claudiobeermug-thumb.jpg",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/stewmug.html",
     "title": "Stew mug on a mug",
     "thumbnail": "images/stewmug-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Engraving",
     "status": "Gifted"
   },
