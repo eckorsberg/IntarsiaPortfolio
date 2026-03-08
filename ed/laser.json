@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/hunansolon.html",
+    "title": "Hunan of Solon",
+    "thumbnail": "images/hunansolon-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/claudiobeermug.html",
     "title": "Claudio Mug",
     "thumbnail": "images/claudiobeermug-thumb.jpg",
