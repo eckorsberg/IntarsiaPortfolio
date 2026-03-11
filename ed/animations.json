@@ -64,5 +64,11 @@
     "thumbnail": "./images/homitakoda2026-thumb.jpg",
     "video": "./animation/highropeschallenge.mp4",
     "detailPage": "./pages/homitakoda2026.html"
-  }
+  },
+  {
+    "title": "Hunan Solon",
+    "thumbnail": "./images/hunansolon-thumb.jpg",
+    "video": "./animation/hunansolonanimation.mp4",
+    "detailPage": "./pages/hunansolon.html"
+  }  
 ]
