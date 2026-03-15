@@ -70,5 +70,12 @@
     "thumbnail": "./images/hunansolon-thumb.jpg",
     "video": "./animation/hunansolonanimation.mp4",
     "detailPage": "./pages/hunansolon.html"
+  },
+  {
+    "title": "Claudio on bike",
+    "thumbnail": "./images/claudiobeermug-thumb.jpg",
+    "video": "./animation/claudiobikeanimation.mp4",
+    "detailPage": "./pages/claudiobeermug.html"
   }  
+  
 ]
