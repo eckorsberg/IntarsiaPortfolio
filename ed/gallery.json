@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/readingturtle.html",
+    "title": "Reading Turtle",
+    "thumbnail": "images/readingturtle-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Whimsical",
+    "status": "Available",
+    "featured": true
+  },
+  {
     "file": "pages/bigweaveboard.html",
     "title": "Big Weave",
     "thumbnail": "images/bigweaveboard-thumb.jpg",
