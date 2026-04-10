@@ -1,5 +1,29 @@
 [
   {
+    "file": "pages/scotchandsoda.html",
+    "title": "Scotch and Soda",
+    "thumbnail": "images/scotchandsoda-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
+    "file": "pages/washcommanders.html",
+    "title": "Washington Commanders",
+    "thumbnail": "images/washcommanders-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
+    "file": "pages/newyorkyankee.html",
+    "title": "New York Yankees",
+    "thumbnail": "images/newyorkyankee-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/hunansolon.html",
     "title": "Hunan of Solon",
     "thumbnail": "images/hunansolon-thumb.jpg",
