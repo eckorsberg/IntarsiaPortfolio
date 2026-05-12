@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/bearandtea.html",
+    "title": "Bear and Tea",
+    "thumbnail": "images/bearandtea-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Whimsical",
+    "status": "Available",
+    "featured": true
+  },
+  {
     "file": "pages/readingturtle.html",
     "title": "Reading Turtle",
     "thumbnail": "images/readingturtle-thumb.jpg",
