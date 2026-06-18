@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/laserbunnyglass.html",
+    "title": "Bunny reader",
+    "thumbnail": "images/laserbunnyglass-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/scotchandsoda.html",
     "title": "Scotch and Soda",
     "thumbnail": "images/scotchandsoda-thumb.jpg",
