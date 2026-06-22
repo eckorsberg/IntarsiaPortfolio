@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/legitwarrior.html",
+    "title": "{{TITLE}}",
+    "thumbnail": "images/legitwarrior-thumb.jpg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
     "file": "pages/Ballerina.html",
     "title": "Ballerina",
     "thumbnail": "images/Ballerina-thumb.jpg",
