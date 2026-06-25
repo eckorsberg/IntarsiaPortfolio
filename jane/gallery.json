@@ -1,7 +1,7 @@
 [
   {
     "file": "pages/forrose.html",
-    "title": "{{TITLE}}",
+    "title": "Rose quilt",
     "thumbnail": "images/forrose-thumb.jpg",
     "pattern_designer": "Jane Korsberg",
     "featured": true,
@@ -9,7 +9,7 @@
   },
   {
     "file": "pages/legitwarrior.html",
-    "title": "{{TITLE}}",
+    "title": "Sir Legitsalot",
     "thumbnail": "images/legitwarrior-thumb.jpg",
     "pattern_designer": "Jane Korsberg",
     "featured": true,
