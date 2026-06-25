@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/forrose.html",
+    "title": "{{TITLE}}",
+    "thumbnail": "images/forrose-thumb.jpg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
     "file": "pages/legitwarrior.html",
     "title": "{{TITLE}}",
     "thumbnail": "images/legitwarrior-thumb.jpg",
