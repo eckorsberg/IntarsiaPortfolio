@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/crackers.html",
+    "title": "Crackers",
+    "thumbnail": "images/crackers-thumb.jpg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": false,
+    "category": ""
+  },
+  {
     "file": "pages/forrose.html",
     "title": "Rose Quilt",
     "thumbnail": "images/forrose-thumb.jpg",
