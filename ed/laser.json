@@ -1,5 +1,21 @@
 [
   {
+    "file": "pages/steppingoutinstyle.html",
+    "title": "Stepping out in style",
+    "thumbnail": "images/steppingoutinstyle-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
+    "file": "pages/adventurewaits.html",
+    "title": "Adventure awaits",
+    "thumbnail": "images/adventurewaits-thumb.jpg",
+    "artist": "Ed Korsberg",
+    "category": "Engraving",
+    "status": "Gifted"
+  },
+  {
     "file": "pages/laserbunnyglass.html",
     "title": "Bunny reader",
     "thumbnail": "images/laserbunnyglass-thumb.jpg",
