@@ -132,14 +132,14 @@ fetch("gallery.json")
 
       featuredToggle.style.display = ""; // show
 
-      if (viewMode === "featured") {
-        viewLabel.textContent = `Showing: Featured (${featuredData.length} of ${data.length})`;
-        toggleBtn.textContent = "Show All";
-      } else {
-        viewLabel.textContent = `Showing: All (${data.length})`;
-        toggleBtn.textContent = "Show Featured";
-      }
-    }
+	  if (viewMode === "featured") {
+	    viewLabel.textContent = `Showing ${featuredData.length} Featured Projects`;
+	    toggleBtn.textContent = `View All ${data.length} Projects`;
+	  } else {
+	    viewLabel.textContent = `Showing All ${data.length} Projects`;
+	    toggleBtn.textContent = `View ${featuredData.length} Featured Projects`;
+	  }
+	}
 
     // Render gallery based on current filters and search term
     function applyFilters() {
