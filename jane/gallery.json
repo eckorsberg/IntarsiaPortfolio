@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/debquilt2026.html",
+    "title": "Crackers 2026",
+    "thumbnail": "images/debquilt2026-thumb.jpg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
     "file": "pages/crackers.html",
     "title": "Crackers",
     "thumbnail": "images/crackers-thumb.jpg",
