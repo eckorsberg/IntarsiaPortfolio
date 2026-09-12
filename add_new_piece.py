@@ -123,7 +123,7 @@ def append_to_gallery_json(image_name: str, which_json: str) -> None:
     """
     Opens <which_json>.json (e.g., gallery.json or laser.json) in the
     *current* artist folder (cwd), creates a new entry from template.json,
-    patches file/thumbnail (and artist), and inserts at the top.
+    patches file/thumbnail (and pattern_designer), and inserts at the top.
     """
     json_file = f"{which_json}.json"
     if which_json.lower() not in {"gallery", "laser"}:
@@ -140,15 +140,15 @@ def append_to_gallery_json(image_name: str, which_json: str) -> None:
     new_entry["file"] = html_file
     new_entry["thumbnail"] = thumb_file
 
-    # Optionally adjust artist based on which folder we're in.
+    # Adjust the pattern designer based on which folder we're in.
     cwd_name = Path.cwd().name.lower()
-    artist_by_folder = {
+    designer_by_folder = {
         "ed": "Ed Korsberg",
         "jane": "Jane Korsberg",
     }
-    artist = artist_by_folder.get(cwd_name)
-    if artist:
-        new_entry["artist"] = artist
+    designer = designer_by_folder.get(cwd_name)
+    if designer:
+        new_entry["pattern_designer"] = designer
 
     # Read, modify, write back in the current folder
     with open(json_file, "r", encoding="utf-8") as jf:

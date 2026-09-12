@@ -3,7 +3,7 @@
     "file": "pages/dolphingift.html",
     "title": "Dolphin Family Restaurant",
     "thumbnail": "images/dolphingift-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Whimsical",
     "status": "Donated",
     "featured": true
@@ -21,7 +21,7 @@
     "file": "pages/bearandtea.html",
     "title": "Bear and Tea",
     "thumbnail": "images/bearandtea-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Whimsical",
     "status": "Donated",
     "featured": true
@@ -30,7 +30,7 @@
     "file": "pages/readingturtle.html",
     "title": "Reading Turtle",
     "thumbnail": "images/readingturtle-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Whimsical",
     "status": "Available",
     "featured": true
@@ -39,7 +39,7 @@
     "file": "pages/bigweaveboard.html",
     "title": "Big Weave",
     "thumbnail": "images/bigweaveboard-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Cutting Board",
     "status": "Available",
     "featured": false
@@ -48,7 +48,7 @@
     "file": "pages/blackwhiteredboard.html",
     "title": "Black/White and red accent",
     "thumbnail": "images/blackwhiteredboard-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Cutting Board",
     "status": "Available",
     "featured": false
@@ -57,7 +57,7 @@
     "file": "pages/mapleandwalnutaccent.html",
     "title": "White and Black striped board",
     "thumbnail": "images/mapleandwalnutaccent-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "category": "Cutting Board",
     "status": "Available",
     "featured": false
