@@ -2,7 +2,7 @@
     "file": "pages/newimage.html",
     "title": "{{TITLE}}",
     "thumbnail": "images/newimage-thumb.jpg",
-    "artist": "Ed Korsberg",
+    "pattern_designer": "Ed Korsberg",
     "theme": "{{THEME}}",
     "type": "{{TYPE}}",
     "featured": false
