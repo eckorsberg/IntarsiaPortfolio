@@ -130,3 +130,14 @@ h1{
     min-width: 0;
   }
 }
+
+/* To change the background color of the toggle button to draw more attention */
+#featuredToggle #toggleView {
+  background: #f4d89b; /* warm gold */
+  border-color: #bd914a;
+  color: #222;
+}
+
+#featuredToggle #toggleView:hover {
+  background: #edc878;
+}
