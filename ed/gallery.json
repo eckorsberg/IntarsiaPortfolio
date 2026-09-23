@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/dolphinelectricgift.html",
+    "title": "Dolphin electric",
+    "thumbnail": "images/dolphinelectricgift-thumb.png",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Whimsical",
+    "status": "Donated",
+    "featured": true
+  },
+  {
     "file": "pages/dolphingift.html",
     "title": "Dolphin Family Restaurant",
     "thumbnail": "images/dolphingift-thumb.jpg",
