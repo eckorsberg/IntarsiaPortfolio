@@ -76,6 +76,12 @@
     "thumbnail": "./images/claudiobeermug-thumb.jpg",
     "video": "./animation/claudiobikeanimation.mp4",
     "detailPage": "./pages/claudiobeermug.html"
+  },
+  {
+    "title": "Dolphin electric",
+    "thumbnail": "./images/dolphinelectricgift-thumb.png",
+    "video": "./animation/dolphinelectricanimate.mp4",
+    "detailPage": "./pages/dolphinelectricgift.html"
   }  
   
 ]
