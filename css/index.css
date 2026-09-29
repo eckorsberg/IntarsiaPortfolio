@@ -141,3 +141,9 @@ h1{
 #featuredToggle #toggleView:hover {
   background: #edc878;
 }
+
+/* Underline the Showing... label on both portfolio pages. */
+#featuredToggle #viewLabel {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
