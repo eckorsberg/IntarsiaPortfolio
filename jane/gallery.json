@@ -1,5 +1,29 @@
 [
   {
+    "file": "pages/scrapquilt.html",
+    "title": "Scrap Quilt",
+    "thumbnail": "images/scrapquilt-thumb.jpeg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
+    "file": "pages/monarchonfoliage.html",
+    "title": "Monarch On Foliage",
+    "thumbnail": "images/monarchonfoliage-thumb.jpeg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
+    "file": "pages/babysquares.html",
+    "title": "Baby Squares",
+    "thumbnail": "images/babysquares-thumb.jpeg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
     "file": "pages/debquilt2026.html",
     "title": "Crackers 2026",
     "thumbnail": "images/debquilt2026-thumb.jpg",
