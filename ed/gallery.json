@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/babyfawn.html",
+    "title": "Baby Fawn",
+    "thumbnail": "images/babyfawn-thumb.jpg",
+    "pattern_designer": "Ross Erwin",
+    "category": "Whimsical",
+    "status": "Available",
+    "featured": true
+  },
+  {
     "file": "pages/dolphinelectricgift.html",
     "title": "Dolphin electric",
     "thumbnail": "images/dolphinelectricgift-thumb.png",
