@@ -54,10 +54,8 @@ fetch("gallery.json")
     const featuredData = data.filter(item => item.featured === true);
 
     // Determine initial view mode:
-    // - if there are featured items, default to "featured"
-    // - otherwise default to "all"
-    let viewMode = sessionStorage.getItem("viewMode") ||
-      (featuredData.length > 0 ? "featured" : "all");
+    // Default to "all" unless previously changed during this session.
+    let viewMode = sessionStorage.getItem("viewMode") || "all";
 
     // Display total number of pieces (always the full portfolio count)
     if (totalCountElement) {
