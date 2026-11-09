@@ -1,5 +1,13 @@
 [
   {
+    "file": "pages/saltwatertaffy.html",
+    "title": "Salt Water Taffy",
+    "thumbnail": "images/saltwatertaffy-thumb.jpg",
+    "pattern_designer": "Jane Korsberg",
+    "featured": true,
+    "category": ""
+  },
+  {
     "file": "pages/scrapquilt.html",
     "title": "Scrap Quilt",
     "thumbnail": "images/scrapquilt-thumb.jpeg",
