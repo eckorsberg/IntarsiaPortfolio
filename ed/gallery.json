@@ -1,5 +1,14 @@
 [
   {
+    "file": "pages/chaosboards.html",
+    "title": "Chaos cutting boards",
+    "thumbnail": "images/chaosboards-thumb.jpg",
+    "pattern_designer": "Ed Korsberg",
+    "category": "Cutting Board",
+    "status": "Available",
+    "featured": true
+  },
+  {
     "file": "pages/babyfawn.html",
     "title": "Baby Fawn",
     "thumbnail": "images/babyfawn-thumb.jpg",
